@@ -1,7 +1,7 @@
 # PERGAT: Pretrained Embeddings of Graph Neural Networks for miRNA-Cancer Association Predictions
 
 This repository contains the code for our paper,  
-**"PERGAT: Pretrained Embeddings of Graph Neural Networks for miRNA-Cancer Association Prediction,"**  
+**"[PERGAT: Pretrained Embeddings of Graph Neural Networks for miRNA-Cancer Association Prediction](https://ieeexplore.ieee.org/document/10822135),"**  
 published at the **IEEE International Conference on Bioinformatics & Biomedicine (BIBM) 2024**,  
 held from **December 3-6, 2024, in Lisbon, Portugal**.
 
