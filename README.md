@@ -43,29 +43,10 @@ python main.py --in-feats 256 --out-feats 256 --num-heads 8 --num-layers 2 --lr 
 If you find this project useful for your research, please cite it using the following BibTeX entry:
 
 ```bibtex
-@inproceedings{DBLP:conf/bibm/LiSM24,
-  author       = {Sa Li and
-                  Jonah Shader and
-                  Tianle Ma},
-  editor       = {Mario Cannataro and
-                  Huiru Jane Zheng and
-                  Lin Gao and
-                  Jianlin Cheng and
-                  Jo{\~{a}}o Lu{\'{\i}}s de Miranda and
-                  Ester Zumpano and
-                  Xiaohua Hu and
-                  Young{-}Rae Cho and
-                  Taesung Park},
-  title        = {{PERGAT:} Pretrained Embeddings of Graph Neural Networks for miRNA-Cancer
-                  Association Prediction},
-  booktitle    = {{IEEE} International Conference on Bioinformatics and Biomedicine,
-                  {BIBM} 2024, Lisbon, Portugal, December 3-6, 2024},
-  pages        = {5776--5785},
-  publisher    = {{IEEE}},
-  year         = {2024},
-  url          = {https://doi.org/10.1109/BIBM62325.2024.10822135},
-  doi          = {10.1109/BIBM62325.2024.10822135},
-  timestamp    = {Tue, 04 Feb 2025 10:04:57 +0100},
-  biburl       = {https://dblp.org/rec/conf/bibm/LiSM24.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
+\bibitem{DBLP:conf/bibm/LiSM24}
+Sa Li, Jonah Shader, and Tianle Ma.  
+\newblock {PERGAT:} Pretrained Embeddings of Graph Neural Networks for miRNA-Cancer Association Prediction.  
+\newblock In *Proceedings of the IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2024*,  
+\newblock pages 5776--5785, Lisbon, Portugal, December 3-6, 2024.  
+\newblock IEEE.  
+\newblock DOI: \href{https://doi.org/10.1109/BIBM62325.2024.10822135}{10.1109/BIBM62325.2024.10822135}.
