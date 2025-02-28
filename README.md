@@ -31,7 +31,6 @@ The different dataset and KG used in this project are located in data directory.
 4. Install DGL:
    - `conda install -c dglteam dgl`
 
-5. To train the model, run the following command:
 
 ## get embedding
 gcn_embedding % python gcn_embedding.py --in_feats 256 --out_feats 256 --num_layers 2 --num_heads 2 --batch_size 1 --lr 0.0001 --num_epochs 105
