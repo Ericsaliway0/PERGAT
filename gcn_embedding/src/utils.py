@@ -97,6 +97,7 @@ def create_network(path_miRNA_csv, kge):
 
 
 def save_to_disk(graph, save_dir):
+    print('save_dir=======================================', save_dir)
     assert os.path.isdir(save_dir), 'Directory does not exist!'
     save_path = os.path.join(save_dir, graph.kge + '.pkl')
     pickle.dump(graph.graph_nx, open(save_path, 'wb'))
@@ -108,7 +109,7 @@ def save_miRNA_to_csv(graph, save_dir):
     csv_path = os.path.join(save_dir, 'miRNA_nodes.csv')
     df.to_csv(csv_path, index=False)
 
-def create_graphs_50(save=True, data_dir='gcn/data/emb'):
+def create_graphs_50(save=True, data_dir='data/emb'):
     num_graphs = 20
     graphs = {}
 
@@ -118,7 +119,7 @@ def create_graphs_50(save=True, data_dir='gcn/data/emb'):
 
     for i in range(1, num_graphs + 1):
         # Construct the filename for each part
-        file_path = os.path.join('gcn/data/split_mirna_files_50', f'mirna_p_value_results_part_{i}.csv')
+        file_path = os.path.join('data/split_mirna_files_50', f'mirna_p_value_results_part_{i}.csv')
 
         # Create a network graph from the CSV file
         graph = create_network(file_path, str(i))  # Use index as the name
@@ -132,7 +133,7 @@ def create_graphs_50(save=True, data_dir='gcn/data/emb'):
     
     return graphs
 
-def create_graphs_(save=True, data_dir='gcn/data/emb'):
+def create_graphs_(save=True, data_dir='data/emb'):
     num_graphs = 20
     graphs = {}
 
@@ -142,7 +143,7 @@ def create_graphs_(save=True, data_dir='gcn/data/emb'):
 
     for i in range(1, num_graphs + 1):
         # Construct the filename for each part
-        file_path = os.path.join('gcn/data/split_mirna_files', f'mirna_p_value_results_part_{i}.csv')
+        file_path = os.path.join('data/split_mirna_files', f'mirna_p_value_results_part_{i}.csv')
         emb_name = f'emb_{i}'
 
         # Create a network graph from the CSV file
@@ -155,13 +156,13 @@ def create_graphs_(save=True, data_dir='gcn/data/emb'):
     
     return graphs
 
-def x_create_graphs(save=True, data_dir='gcn/data/emb'):
+def x_create_graphs(save=True, data_dir='data/emb'):
     num_graphs = 20
     graphs = {}
 
     for i in range(1, num_graphs + 1):
         # Construct the filename for each part
-        file_path = os.path.join('gcn/data/split_mirna_files', f'mirna_p_value_results_part_{i}.csv')
+        file_path = os.path.join('data/split_mirna_files', f'mirna_p_value_results_part_{i}.csv')
         emb_name = f'emb_{i}'
 
         # Create a network graph from the CSV file
@@ -178,9 +179,9 @@ def x_create_graphs(save=True, data_dir='gcn/data/emb'):
     
     return graphs
 
-def create_graphs(save=True, data_dir='gcn/data/emb'):
-    graph_train = create_network('gat/data/mirna_p_value_results_dbDEMC_train.csv', 'emb_train')
-    graph_test = create_network('gat/data/mirna_p_value_results_dbDEMC_test.csv', 'emb_test')
+def create_graphs(save=True, data_dir='data/emb'):
+    graph_train = create_network('data/mirna_p_value_results_dbDEMC_train.csv', 'emb_train')
+    graph_test = create_network('data/mirna_p_value_results_dbDEMC_test.csv', 'emb_test')
 
     print('creating graph=======================\n')
     if save:
@@ -190,7 +191,7 @@ def create_graphs(save=True, data_dir='gcn/data/emb'):
 
     return graph_train, graph_test
 
-def create_embeddings_gcn(load_model=True, save=True, data_dir='gcn/data/emb', hyperparams=None, plot=True):
+def create_embeddings_gcn(load_model=True, save=True, data_dir='data/emb', hyperparams=None, plot=True):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     data = Dataset(data_dir)
     emb_dir = os.path.abspath(os.path.join(data_dir, 'embeddings'))
@@ -236,7 +237,7 @@ def create_embeddings_gcn(load_model=True, save=True, data_dir='gcn/data/emb', h
 
     return embedding_dict
 
-def create_embeddings(load_model=True, save=True, data_dir='gcn/data/emb', hyperparams=None, plot=True):
+def create_embeddings(load_model=True, save=True, data_dir='data/emb', hyperparams=None, plot=True):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     data = Dataset(data_dir)
     emb_dir = os.path.abspath(os.path.join(data_dir, 'embeddings'))

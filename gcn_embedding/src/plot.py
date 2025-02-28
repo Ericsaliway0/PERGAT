@@ -134,7 +134,7 @@ def disease_plot_cosine_similarity_matrix_for_clusters_with_values(embeddings, m
 
 
 ##def calculate_cluster_labels(net, dataloader, device, num_clusters=15):
-def calculate_cluster_labels(net, dataloader, device, num_clusters=5):
+def calculate_cluster_labels(net, dataloader, device, num_clusters=3):
     miRNA_embeddings_list = []
     disease_embeddings_list = []
     miRNA_names_list = []
@@ -286,7 +286,7 @@ def create_heatmap(embedding_list, node_list, save_path):
     plt.savefig(save_path)
     plt.close()
 
-def calculate_cluster_labels_miRNA(net, dataloader, device, num_clusters=5):
+def calculate_cluster_labels_miRNA(net, dataloader, device, num_clusters=3):
     all_embeddings = []
     all_names = []
     
@@ -332,7 +332,7 @@ def calculate_cluster_labels_miRNA(net, dataloader, device, num_clusters=5):
     
     return all_embeddings, cluster_labels, all_names
 
-def calculate_cluster_labels_disease(net, dataloader, device, num_clusters=5):
+def calculate_cluster_labels_disease(net, dataloader, device, num_clusters=3):
     all_embeddings = []
     all_names = []
     
