@@ -1,9 +1,10 @@
 # PERGAT: Pretrained Embeddings of Graph Neural Networks for miRNA-Cancer Association Predictions
 
-This repository contains the code for our paper,  
+This repository contains the source code for our paper 
 **"[PERGAT: Pretrained Embeddings of Graph Neural Networks for miRNA-Cancer Association Prediction](https://ieeexplore.ieee.org/document/10822135),"**  
-published at the **IEEE International Conference on Bioinformatics & Biomedicine (BIBM) 2024**,  
-held from **December 3-6, 2024, in Lisbon, Portugal**.
+published in the Proceedings of the **IEEE International Conference on Bioinformatics & Biomedicine (BIBM) 2024**,  
+held **December 3–6, 2024, in Lisbon, Portugal**.
+
 
 
 ![Alt text](images/_miRNA_disease_prediction.png)
@@ -40,13 +41,21 @@ python main.py --in-feats 256 --out-feats 256 --num-heads 8 --num-layers 2 --lr 
 
 ## Citation
 
-If you find this project useful for your research, please cite it using the following BibTeX entry:
+<h2>Citation</h2>
 
-```bibtex
-\bibitem{DBLP:conf/bibm/LiSM24}
-Sa Li, Jonah Shader, and Tianle Ma.  
-\newblock {PERGAT:} Pretrained Embeddings of Graph Neural Networks for miRNA-Cancer Association Prediction.  
-\newblock In *Proceedings of the IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2024*,  
-\newblock pages 5776--5785, Lisbon, Portugal, December 3-6, 2024.  
-\newblock IEEE.  
-\newblock DOI: \href{https://doi.org/10.1109/BIBM62325.2024.10822135}{10.1109/BIBM62325.2024.10822135}.
+<p>
+If you find this project useful for your research, please cite it using the following BibTeX entry:
+</p>
+
+<pre><code>@inproceedings{DBLP:conf/bibm/LiSM24,
+  author    = {Sa Li and Jonah Shader and Tianle Ma},
+  title     = {{PERGAT:} Pretrained Embeddings of Graph Neural Networks for miRNA-Cancer Association Prediction},
+  booktitle = {Proceedings of the IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages     = {5776--5785},
+  year      = {2024},
+  address   = {Lisbon, Portugal},
+  publisher = {IEEE},
+  doi       = {10.1109/BIBM62325.2024.10822135},
+  url       = {https://ieeexplore.ieee.org/document/10822135}
+}
+</code></pre>
