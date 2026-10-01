@@ -1,0 +1,201 @@
+source,destination,score
+hsa-mir-509,Polycystic Ovary Syndrome,0.5689043402671814
+hsa-mir-509,Pulmonary Arterial Hypertension,0.5671033263206482
+hsa-mir-2861,myeloproliferative disorder,0.5494680404663086
+hsa-mir-370c,squamous carcinoma,0.5395249128341675
+hsa-mir-5694,Pulmonary Arterial Hypertension,0.5275666117668152
+hsa-mir-2861,recurrent ovarian cancer,0.5250080227851868
+hsa-mir-2861,gastric cancer (stomach cancer),0.5189184546470642
+hsa-mir-2861,Prostatic Neoplasms,0.5101669430732727
+hsa-mir-2861,Melanoma,0.502820611000061
+hsa-mir-2861,adrenocortical carcinoma,0.4852331876754761
+hsa-mir-4477b,Polycystic Ovary Syndrome,0.4735286235809326
+hsa-mir-370c,Colorectal Neoplasms,0.4669341444969177
+hsa-mir-370c,coronary artery disease,0.46300095319747925
+hsa-mir-2861,Squamous Intraepithelial Lesions,0.45820045471191406
+hsa-mir-370c,ovarian cancer (OC),0.4538964033126831
+hsa-mir-2861,Hodgkin's lymphoma,0.44552433490753174
+hsa-mir-370c,Hepatitis B,0.3928613066673279
+hsa-mir-6766,pancreatic cancer,0.3815106749534607
+hsa-mir-370c,Viremia,0.3739047646522522
+hsa-mir-6077,squamous carcinoma,0.3457907438278198
+hsa-mir-2861,osteosarcoma,0.3388633131980896
+hsa-miR-6758-3p,Intracranial Thrombosis,0.31920427083969116
+hsa-miR-548ao-5p,Intracranial Thrombosis,0.31920379400253296
+hsa-miR-5688,Intracranial Thrombosis,0.3192025423049927
+hsa-miR-5093,Intracranial Thrombosis,0.3192019462585449
+hsa-miR-6869-3p,Intracranial Thrombosis,0.3192005753517151
+hsa-mir-687,squamous carcinoma,0.3150852918624878
+hsa-mir-365b,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.30951833724975586
+hsa-mir-291,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.30951768159866333
+hsa-mir-2909,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.30951744318008423
+hsa-mir-292,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.309516966342926
+hsa-mir-3201,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.3095158338546753
+hsa-mir-6865,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.308269202709198
+hsa-mir-2861,myocardial injury,0.29569536447525024
+hsa-mir-2861,Inflammation,0.29477250576019287
+hsa-mir-687,myeloproliferative disorder,0.28655076026916504
+hsa-mir-3130-1,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.28161942958831787
+hsa-miR-6803-3p,Glioblastoma,0.27529048919677734
+hsa-miR-5191,Glioblastoma,0.27528971433639526
+hsa-miR-566,Glioblastoma,0.2752889394760132
+hsa-miR-6771-3p,Head and neck cancer,0.2665337920188904
+hsa-miR-624-5p,Head and neck cancer,0.26653313636779785
+hsa-mir-451,Polycystic Ovary Syndrome,0.2619054317474365
+hsa-miR-550a-5p,Intracranial Thrombosis,0.2615128755569458
+hsa-miR-548ao-3p,Intracranial Thrombosis,0.26147472858428955
+hsa-miR-7161-3p,Intracranial Thrombosis,0.2614525556564331
+hsa-mir-2128,Polycystic Ovary Syndrome,0.2613376975059509
+hsa-mir-34a,Polycystic Ovary Syndrome,0.2613374590873718
+hsa-mir-381,Polycystic Ovary Syndrome,0.2613369822502136
+hsa-mir-548at,Polycystic Ovary Syndrome,0.2613368034362793
+hsa-mir-202,Polycystic Ovary Syndrome,0.2613368034362793
+hsa-mir-623,Polycystic Ovary Syndrome,0.2613368034362793
+hsa-mir-372,Polycystic Ovary Syndrome,0.26133668422698975
+hsa-miR-453,Polycystic Ovary Syndrome,0.26133662462234497
+hsa-mir-3118,Polycystic Ovary Syndrome,0.26133644580841064
+hsa-mir-5188,Polycystic Ovary Syndrome,0.2613363265991211
+hsa-mir-642a,Polycystic Ovary Syndrome,0.26133596897125244
+hsa-mir-6891,Polycystic Ovary Syndrome,0.2613358497619629
+hsa-mir-7107,Polycystic Ovary Syndrome,0.2613358497619629
+hsa-mir-3181,Polycystic Ovary Syndrome,0.2613356113433838
+hsa-mir-2213,Polycystic Ovary Syndrome,0.261335551738739
+hsa-mir-4488,Polycystic Ovary Syndrome,0.26133543252944946
+hsa-mir-4782,Polycystic Ovary Syndrome,0.26133543252944946
+hsa-mir-346,Polycystic Ovary Syndrome,0.26133543252944946
+hsa-mir-74a,Polycystic Ovary Syndrome,0.2613353133201599
+hsa-mir-514-1,Polycystic Ovary Syndrome,0.2613353133201599
+hsa-mir-23b,Polycystic Ovary Syndrome,0.2613353133201599
+hsa-mir-6831,Polycystic Ovary Syndrome,0.2613353133201599
+hsa-mir-205b,Polycystic Ovary Syndrome,0.26133525371551514
+hsa-mir-6979,Polycystic Ovary Syndrome,0.26133525371551514
+hsa-mir-374a,Polycystic Ovary Syndrome,0.26133525371551514
+hsa-mir-4482,Polycystic Ovary Syndrome,0.26133525371551514
+hsa-mir-6838,Polycystic Ovary Syndrome,0.2613351345062256
+hsa-mir-473,Polycystic Ovary Syndrome,0.2613351345062256
+hsa-mir-6085,Polycystic Ovary Syndrome,0.2613348960876465
+hsa-mir-2052,Polycystic Ovary Syndrome,0.2613348960876465
+hsa-mir-3164,Polycystic Ovary Syndrome,0.2613348364830017
+hsa-mir-4454,Polycystic Ovary Syndrome,0.2613348364830017
+hsa-mir-4705,Polycystic Ovary Syndrome,0.26133477687835693
+hsa-mir-44352,Polycystic Ovary Syndrome,0.26133477687835693
+hsa-mir-4784,Polycystic Ovary Syndrome,0.26133453845977783
+hsa-mir-4490,Polycystic Ovary Syndrome,0.26133453845977783
+hsa-mir-731,Polycystic Ovary Syndrome,0.2613344192504883
+hsa-mir-5493,Polycystic Ovary Syndrome,0.2613343596458435
+hsa-mir-7013,Polycystic Ovary Syndrome,0.2613343596458435
+hsa-mir-208a,Polycystic Ovary Syndrome,0.2613343596458435
+hsa-mir-34b,Polycystic Ovary Syndrome,0.26133424043655396
+hsa-mir-750-1,Polycystic Ovary Syndrome,0.26133424043655396
+hsa-mir-4689,Polycystic Ovary Syndrome,0.2613341808319092
+hsa-mir-2119,Polycystic Ovary Syndrome,0.2613341808319092
+hsa-mir-29a-1,Polycystic Ovary Syndrome,0.2613341808319092
+hsa-miR-106b,Polycystic Ovary Syndrome,0.2613341808319092
+hsa-mir-549a,Polycystic Ovary Syndrome,0.2613341212272644
+hsa-mir-431,Polycystic Ovary Syndrome,0.2613341212272644
+hsa-mir-510,Polycystic Ovary Syndrome,0.2613338828086853
+hsa-mir-2765,Polycystic Ovary Syndrome,0.2613338828086853
+hsa-mir-75,Polycystic Ovary Syndrome,0.2613338232040405
+hsa-mir-758,Polycystic Ovary Syndrome,0.261333703994751
+hsa-mir-3473b,Polycystic Ovary Syndrome,0.26133280992507935
+hsa-mir-4793,Polycystic Ovary Syndrome,0.26133280992507935
+hsa-mir-676,Polycystic Ovary Syndrome,0.26133280992507935
+hsa-mir-4292,Polycystic Ovary Syndrome,0.2613319158554077
+hsa-mir-5587,Pulmonary Arterial Hypertension,0.2587178945541382
+hsa-mir-520a,Pulmonary Arterial Hypertension,0.25871741771698
+hsa-mir-34a,Pulmonary Arterial Hypertension,0.25871723890304565
+hsa-mir-5189,Pulmonary Arterial Hypertension,0.25871700048446655
+hsa-mir-372,Pulmonary Arterial Hypertension,0.25871652364730835
+hsa-mir-6506,Pulmonary Arterial Hypertension,0.25871628522872925
+hsa-mir-26a-1,Pulmonary Arterial Hypertension,0.25871628522872925
+hsa-mir-4792,Pulmonary Arterial Hypertension,0.2587161660194397
+hsa-mir-5188,Pulmonary Arterial Hypertension,0.2587161064147949
+hsa-mir-467f,Pulmonary Arterial Hypertension,0.2587159276008606
+hsa-mir-466d,Pulmonary Arterial Hypertension,0.25871580839157104
+hsa-mir-297,Pulmonary Arterial Hypertension,0.25871580839157104
+hsa-mir-2118,Pulmonary Arterial Hypertension,0.25871580839157104
+hsa-mir-294,Pulmonary Arterial Hypertension,0.25871580839157104
+hsa-mir-2909,Pulmonary Arterial Hypertension,0.25871574878692627
+hsa-mir-513b,Pulmonary Arterial Hypertension,0.2587156295776367
+hsa-mir-4a,Pulmonary Arterial Hypertension,0.2587156295776367
+hsa-mir-514a,Pulmonary Arterial Hypertension,0.2587156295776367
+hsa-mir-667,Pulmonary Arterial Hypertension,0.25871556997299194
+hsa-mir-3181,Pulmonary Arterial Hypertension,0.2587153911590576
+hsa-mir-4782,Pulmonary Arterial Hypertension,0.25871533155441284
+hsa-mir-3174,Pulmonary Arterial Hypertension,0.25871533155441284
+hsa-mir-219a,Pulmonary Arterial Hypertension,0.25871527194976807
+hsa-mir-74a,Pulmonary Arterial Hypertension,0.2587151527404785
+hsa-mir-6831,Pulmonary Arterial Hypertension,0.2587151527404785
+hsa-mir-3175,Pulmonary Arterial Hypertension,0.2587151527404785
+hsa-mir-7239,Pulmonary Arterial Hypertension,0.2587151527404785
+hsa-mir-224,Pulmonary Arterial Hypertension,0.2587151527404785
+hsa-mir-205b,Pulmonary Arterial Hypertension,0.25871509313583374
+hsa-mir-4435,Pulmonary Arterial Hypertension,0.25871509313583374
+hsa-mir-3667,Pulmonary Arterial Hypertension,0.2587149143218994
+hsa-mir-2052,Pulmonary Arterial Hypertension,0.2587147355079651
+hsa-mir-520d,Pulmonary Arterial Hypertension,0.25871461629867554
+hsa-mir-548p,Pulmonary Arterial Hypertension,0.25871437788009644
+hsa-mir-548s,Pulmonary Arterial Hypertension,0.25871437788009644
+hsa-mir-609,Pulmonary Arterial Hypertension,0.25871437788009644
+hsa-mir-467a,Pulmonary Arterial Hypertension,0.2587142586708069
+hsa-mir-208a,Pulmonary Arterial Hypertension,0.2587141990661621
+hsa-miR-4524*,Pulmonary Arterial Hypertension,0.2587141990661621
+hsa-mir-6126,Pulmonary Arterial Hypertension,0.2587141990661621
+hsa-mir-592,Pulmonary Arterial Hypertension,0.2587140202522278
+hsa-mir-3201,Pulmonary Arterial Hypertension,0.2587140202522278
+hsa-mir-2119,Pulmonary Arterial Hypertension,0.2587140202522278
+hsa-mir-219a-1,Pulmonary Arterial Hypertension,0.258713960647583
+hsa-mir-431,Pulmonary Arterial Hypertension,0.25871390104293823
+hsa-mir-75,Pulmonary Arterial Hypertension,0.25871366262435913
+hsa-mir-744,Pulmonary Arterial Hypertension,0.25871366262435913
+hsa-mir-6075,Pulmonary Arterial Hypertension,0.25871366262435913
+hsa-mir-517a,Pulmonary Arterial Hypertension,0.2587135434150696
+hsa-mir-577,Pulmonary Arterial Hypertension,0.2587135434150696
+hsa-mir-3125,Pulmonary Arterial Hypertension,0.2587133049964905
+hsa-mir-489,Pulmonary Arterial Hypertension,0.2587131857872009
+hsa-mir-741,Pulmonary Arterial Hypertension,0.2587130069732666
+hsa-mir-4778,Pulmonary Arterial Hypertension,0.2587130069732666
+hsa-mir-7116,Pulmonary Arterial Hypertension,0.2587129473686218
+hsa-mir-520e,Pulmonary Arterial Hypertension,0.2587129473686218
+hsa-mir-4813,Pulmonary Arterial Hypertension,0.2587124705314636
+hsa-mir-5196,Pulmonary Arterial Hypertension,0.2587122321128845
+hsa-mir-590,Pulmonary Arterial Hypertension,0.2587122321128845
+hsa-mir-373,squamous carcinoma,0.2573809027671814
+hsa-mir-34a,squamous carcinoma,0.2573806643486023
+hsa-mir-381,squamous carcinoma,0.2573801279067993
+hsa-mir-548at,squamous carcinoma,0.25738000869750977
+hsa-mir-376a,squamous carcinoma,0.25737982988357544
+hsa-mir-3118,squamous carcinoma,0.2573797106742859
+hsa-mir-4268,squamous carcinoma,0.25737953186035156
+hsa-mir-3928,squamous carcinoma,0.25737953186035156
+hsa-mir-627,squamous carcinoma,0.25737935304641724
+hsa-miR-451a,squamous carcinoma,0.25737935304641724
+hsa-mir-24,squamous carcinoma,0.25737935304641724
+hsa-mir-291,squamous carcinoma,0.25737935304641724
+hsa-mir-4758,squamous carcinoma,0.2573791742324829
+hsa-mir-2118,squamous carcinoma,0.2573791742324829
+hsa-miR-4632,squamous carcinoma,0.25737905502319336
+hsa-mir-3181,squamous carcinoma,0.25737887620925903
+hsa-mir-636,squamous carcinoma,0.2573786973953247
+hsa-mir-3909,squamous carcinoma,0.2573786973953247
+hsa-mir-447a,squamous carcinoma,0.2573786973953247
+hsa-mir-4435,squamous carcinoma,0.2573784589767456
+hsa-mir-496a,squamous carcinoma,0.2573784589767456
+hsa-mir-548t,squamous carcinoma,0.25737839937210083
+hsa-mir-4469,squamous carcinoma,0.25737839937210083
+hsa-mir-2114,squamous carcinoma,0.2573782801628113
+hsa-mir-4536,squamous carcinoma,0.2573782801628113
+hsa-mir-5703,squamous carcinoma,0.25737816095352173
+hsa-mir-4784,squamous carcinoma,0.2573777437210083
+hsa-mir-4768,squamous carcinoma,0.2573777437210083
+hsa-miR-4524*,squamous carcinoma,0.2573775053024292
+hsa-mir-486-2,squamous carcinoma,0.25737738609313965
+hsa-mir-584j,squamous carcinoma,0.25737738609313965
+hsa-mir-3680,squamous carcinoma,0.25737738609313965
+hsa-mir-2119,squamous carcinoma,0.25737738609313965
+hsa-mir-6715b,squamous carcinoma,0.2573772668838501
+hsa-mir-431,squamous carcinoma,0.2573772668838501
+hsa-mir-367,squamous carcinoma,0.2573772668838501
+hsa-mir-493,squamous carcinoma,0.2573772668838501
+hsa-mir-2008,squamous carcinoma,0.25737708806991577
+hsa-mir-378e,squamous carcinoma,0.25737708806991577

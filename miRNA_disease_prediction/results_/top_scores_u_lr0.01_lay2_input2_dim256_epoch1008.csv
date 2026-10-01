@@ -1,0 +1,201 @@
+source,destination,score
+hsa-mir-2861,Prostatic Neoplasms,0.2779044508934021
+hsa-mir-2861,Melanoma,0.25954365730285645
+hsa-mir-370c,pancreatic cancer,0.2550029754638672
+hsa-mir-509,pancreatic cancer,0.24972113966941833
+hsa-mir-2861,squamous carcinoma,0.16533660888671875
+hsa-mir-2861,Parkinson Disease,0.16288936138153076
+hsa-miR-6754-3p,Biliary Tract Neoplasms,0.16077330708503723
+hsa-miR-548au-3p,Biliary Tract Neoplasms,0.16077323257923126
+hsa-miR-4645-3p,Biliary Tract Neoplasms,0.16077041625976562
+hsa-miR-5739,Biliary Tract Neoplasms,0.16076621413230896
+hsa-mir-370c,coronary artery disease,0.1563711315393448
+hsa-mir-2861,Neuroblastoma,0.14295297861099243
+hsa-mir-2861,Sciatic Neuropathy,0.1404181569814682
+hsa-mir-658,pancreatic cancer,0.13633471727371216
+hsa-mir-4446,pancreatic cancer,0.13633255660533905
+hsa-mir-539,pancreatic cancer,0.13633255660533905
+hsa-mir-6071,pancreatic cancer,0.13633251190185547
+hsa-mir-744,pancreatic cancer,0.13633212447166443
+hsa-mir-585,pancreatic cancer,0.13633182644844055
+hsa-mir-672,pancreatic cancer,0.13633182644844055
+hsa-mir-382,pancreatic cancer,0.13633182644844055
+hsa-mir-4666,pancreatic cancer,0.1363316774368286
+hsa-mir-489,pancreatic cancer,0.13633152842521667
+hsa-mir-549a,pancreatic cancer,0.13633142411708832
+hsa-mir-2765,pancreatic cancer,0.13633142411708832
+hsa-mir-34b,pancreatic cancer,0.13633117079734802
+hsa-mir-548s,pancreatic cancer,0.13633117079734802
+hsa-mir-4783,pancreatic cancer,0.13633108139038086
+hsa-mir-548v,pancreatic cancer,0.13633090257644653
+hsa-mir-679,pancreatic cancer,0.13633090257644653
+hsa-mir-4718,pancreatic cancer,0.13633055984973907
+hsa-mir-218,pancreatic cancer,0.13633055984973907
+hsa-mir-4769,pancreatic cancer,0.136330246925354
+hsa-mir-5703,pancreatic cancer,0.136330246925354
+hsa-mir-6127,pancreatic cancer,0.136330246925354
+hsa-mir-6125,pancreatic cancer,0.136330246925354
+hsa-mir-3174,pancreatic cancer,0.13632987439632416
+hsa-mir-4784,pancreatic cancer,0.13632987439632416
+hsa-mir-292,pancreatic cancer,0.13632962107658386
+hsa-miR-454,pancreatic cancer,0.13632962107658386
+hsa-miR-4520a-5p,pancreatic cancer,0.13632948696613312
+hsa-mir-4490,pancreatic cancer,0.13632948696613312
+hsa-mir-575,pancreatic cancer,0.13632948696613312
+hsa-mir-6840,pancreatic cancer,0.13632948696613312
+hsa-mir-34c,pancreatic cancer,0.13632948696613312
+hsa-mir-576,pancreatic cancer,0.13632948696613312
+hsa-mir-535,pancreatic cancer,0.13632948696613312
+hsa-mir-4684,pancreatic cancer,0.13632923364639282
+hsa-mir-4772,pancreatic cancer,0.13632923364639282
+hsa-mir-6724,pancreatic cancer,0.13632923364639282
+hsa-mir-7239,pancreatic cancer,0.13632914423942566
+hsa-mir-2054,pancreatic cancer,0.13632914423942566
+hsa-mir-4782,pancreatic cancer,0.13632914423942566
+hsa-mir-2114,pancreatic cancer,0.1363290250301361
+hsa-mir-516,pancreatic cancer,0.13632872700691223
+hsa-mir-3181,pancreatic cancer,0.13632869720458984
+hsa-mir-4498,pancreatic cancer,0.1363285630941391
+hsa-mir-612,pancreatic cancer,0.1363285630941391
+hsa-mir-2909,pancreatic cancer,0.1363285630941391
+hsa-mir-365b,pancreatic cancer,0.1363285630941391
+hsa-mir-581,pancreatic cancer,0.1363285630941391
+hsa-mir-513,pancreatic cancer,0.13632819056510925
+hsa-mir-4795,pancreatic cancer,0.13632819056510925
+hsa-mir-263b,pancreatic cancer,0.13632778823375702
+hsa-mir-74a,pancreatic cancer,0.13632778823375702
+hsa-mir-2053,pancreatic cancer,0.13632778823375702
+hsa-mir-518e,pancreatic cancer,0.13632738590240479
+hsa-mir-2128,pancreatic cancer,0.1363273561000824
+hsa-mir-4646,pancreatic cancer,0.1363273561000824
+hsa-mir-520a,pancreatic cancer,0.1363247036933899
+hsa-mir-345,rhabdomyosarcoma,0.13448388874530792
+hsa-mir-3201,rhabdomyosarcoma,0.13448259234428406
+hsa-mir-548n,rhabdomyosarcoma,0.134482279419899
+hsa-mir-3174,rhabdomyosarcoma,0.13448122143745422
+hsa-mir-2213,rhabdomyosarcoma,0.1344810426235199
+hsa-mir-7239,rhabdomyosarcoma,0.13448026776313782
+hsa-mir-5099,rhabdomyosarcoma,0.13447904586791992
+hsa-mir-372,rhabdomyosarcoma,0.13447901606559753
+hsa-mir-2904,rhabdomyosarcoma,0.13447749614715576
+hsa-mir-2861,Colorectal Neoplasms,0.13201609253883362
+hsa-mir-347,Prostatic Neoplasms,0.12936216592788696
+hsa-mir-3201,Prostatic Neoplasms,0.12936079502105713
+hsa-mir-6831,Prostatic Neoplasms,0.12935978174209595
+hsa-mir-616,Prostatic Neoplasms,0.1293596625328064
+hsa-mir-3174,Prostatic Neoplasms,0.12935930490493774
+hsa-mir-6840,Prostatic Neoplasms,0.12935873866081238
+hsa-mir-4490,Prostatic Neoplasms,0.12935873866081238
+hsa-mir-535,Prostatic Neoplasms,0.12935873866081238
+hsa-mir-4498,Prostatic Neoplasms,0.12935777008533478
+hsa-mir-24,Prostatic Neoplasms,0.12935757637023926
+hsa-mir-3909,Prostatic Neoplasms,0.12935718894004822
+hsa-mir-2128,Prostatic Neoplasms,0.12935660779476166
+hsa-mir-4496,Prostatic Neoplasms,0.12935656309127808
+hsa-mir-378b,Prostatic Neoplasms,0.12935656309127808
+hsa-mir-520a,Prostatic Neoplasms,0.12935391068458557
+hsa-mir-4693,squamous carcinoma,0.1291012316942215
+hsa-mir-5088,Dermatitis,0.1278698444366455
+hsa-mir-4268,Dermatitis,0.12786731123924255
+hsa-mir-381,Dermatitis,0.12786638736724854
+hsa-mir-3680,Coronary Aneurysm,0.12711985409259796
+hsa-mir-3925,Crohn Disease,0.12596872448921204
+hsa-miR-454,Crohn Disease,0.1259683519601822
+hsa-miR-451a,Crohn Disease,0.1259678304195404
+hsa-mir-202,Crohn Disease,0.1259647160768509
+hsa-mir-370c,Polycystic Ovary Syndrome,0.12527109682559967
+hsa-mir-2861,recurrent ovarian cancer,0.12415865063667297
+hsa-mir-523,Melanoma,0.12221057713031769
+hsa-mir-370c,Pulmonary Arterial Hypertension,0.12198604643344879
+hsa-mir-5694,Polycystic Ovary Syndrome,0.12013708055019379
+hsa-mir-512,Prostatic Neoplasms,0.11879552900791168
+hsa-mir-451,pancreatic cancer,0.11621800065040588
+hsa-mir-347,Porcine Reproductive and Respiratory Syndrome,0.11494211852550507
+hsa-mir-370c,myeloproliferative disorder,0.11480745673179626
+hsa-mir-370c,Persistent Neck-Pain Disability,0.11349870264530182
+hsa-mir-4757,pancreatic cancer,0.11235298216342926
+hsa-mir-6838,nemaline myopathy (NM),0.11130423843860626
+hsa-mir-4292,Melanoma,0.11100195348262787
+hsa-mir-347,Melanoma,0.11100149154663086
+hsa-mir-4290,Melanoma,0.11100149154663086
+hsa-mir-5096,Melanoma,0.11100141704082489
+hsa-mir-6071,Melanoma,0.1110011488199234
+hsa-mir-3125,Melanoma,0.11100100725889206
+hsa-mir-2765,Melanoma,0.11100029945373535
+hsa-mir-548n,Melanoma,0.1109996810555458
+hsa-mir-548t,Melanoma,0.11099913716316223
+hsa-miR-4524*,Melanoma,0.11099831014871597
+hsa-mir-4450,Melanoma,0.11099831014871597
+hsa-mir-7239,Melanoma,0.11099797487258911
+hsa-mir-2278,Melanoma,0.11099772155284882
+hsa-mir-4792,Melanoma,0.1109975278377533
+hsa-mir-6720,Melanoma,0.11099734157323837
+hsa-mir-3118,Melanoma,0.11099731922149658
+hsa-mir-372,Melanoma,0.1109963059425354
+hsa-mir-4496,Melanoma,0.11099623143672943
+hsa-mir-5590,Melanoma,0.11099610477685928
+hsa-mir-345,Ischemia,0.1090526133775711
+hsa-mir-3201,Ischemia,0.10905150324106216
+hsa-mir-3118,Ischemia,0.10904829204082489
+hsa-mir-4432,cholangiocarcinoma,0.10675477236509323
+hsa-miR-10a-5p,brain cancer,0.10557349026203156
+hsa-mir-3174,brain cancer,0.10557258874177933
+hsa-mir-588,pancreatic cancer,0.10298976302146912
+hsa-mir-38,pancreatic cancer,0.10292690992355347
+hsa-mir-603,pancreatic cancer,0.1017167791724205
+hsa-mir-548m,pancreatic cancer,0.10066422820091248
+hsa-mir-3168,rhabdomyosarcoma,0.09989592432975769
+hsa-mir-378h,Lung Neoplasms,0.09863033890724182
+hsa-mir-4758,Lung Neoplasms,0.09862977266311646
+hsa-mir-27,pancreatic cancer,0.09843021631240845
+hsa-mir-74b,pancreatic cancer,0.09739075601100922
+hsa-mir-344,Prostatic Neoplasms,0.09732955694198608
+hsa-mir-548x,pancreatic cancer,0.09626761078834534
+hsa-miR-5681a,Biliary Tract Neoplasms,0.09371570497751236
+hsa-miR-518e-5p,Biliary Tract Neoplasms,0.09350747615098953
+hsa-mir-213,Dermatitis,0.09333361685276031
+hsa-miR-520a-5p,Biliary Tract Neoplasms,0.09331274032592773
+hsa-mir-4271,Prostatic Neoplasms,0.09252932667732239
+hsa-mir-370c,gastric cancer (stomach cancer),0.09187678247690201
+hsa-mir-587,Prostatic Neoplasms,0.09042099863290787
+hsa-mir-2861,Squamous Intraepithelial Lesions,0.08982263505458832
+hsa-miR-450,congenital heart disease,0.08919133245944977
+hsa-mir-4689,congenital heart disease,0.08919133245944977
+hsa-mir-596,congenital heart disease,0.08918669074773788
+hsa-miR-4533,pancreatic cancer,0.0871877521276474
+hsa-mir-5694,gastric cancer (stomach cancer),0.08674264699220657
+hsa-mir-466,Prostatic Neoplasms,0.08661215752363205
+hsa-mir-3130-1,Crohn Disease,0.0846245214343071
+hsa-mir-370c,Hepatitis B,0.08199208974838257
+hsa-mir-577,Cowden Syndrome,0.08110068738460541
+hsa-mir-3909,Cowden Syndrome,0.08109655976295471
+hsa-mir-345,Hodgkin's lymphoma,0.07984999567270279
+hsa-mir-3201,Hodgkin's lymphoma,0.07984882593154907
+hsa-mir-2213,Hodgkin's lymphoma,0.07984697073698044
+hsa-mir-548q,Hodgkin's lymphoma,0.07984644919633865
+hsa-mir-2114,Hodgkin's lymphoma,0.07984612882137299
+hsa-mir-3118,Hodgkin's lymphoma,0.07984567433595657
+hsa-mir-2113,Hodgkin's lymphoma,0.07984548062086105
+hsa-mir-370c,thalassemia,0.07900325953960419
+hsa-mir-370c,Nasal Polyps,0.07822860777378082
+hsa-miR-4520a-5p,Myopia and High,0.07529564946889877
+hsa-mir-513a,pancreatic cancer,0.07161468267440796
+hsa-mir-497b,pancreatic cancer,0.0697227269411087
+hsa-mir-296,pancreatic cancer,0.0697210356593132
+hsa-mir-4428,Prostatic Neoplasms,0.06946994364261627
+hsa-mir-586,pancreatic cancer,0.0693054348230362
+hsa-mir-5695,pancreatic cancer,0.06925135850906372
+hsa-mir-6133,pancreatic cancer,0.06924998760223389
+hsa-mir-718,pancreatic cancer,0.06896817684173584
+hsa-mir-4697,pancreatic cancer,0.06895709782838821
+hsa-mir-250,pancreatic cancer,0.06895650178194046
+hsa-mir-3133,pancreatic cancer,0.06894822418689728
+hsa-mir-4669,pancreatic cancer,0.06893661618232727
+hsa-mir-374b,pancreatic cancer,0.06892620027065277
+hsa-mir-7113,pancreatic cancer,0.06892607361078262
+hsa-mir-4442,pancreatic cancer,0.06892277300357819
+hsa-mir-548o,pancreatic cancer,0.06891600787639618
+hsa-mir-4298,pancreatic cancer,0.06891375035047531
+hsa-mir-6087,pancreatic cancer,0.06891269981861115
+hsa-mir-4770,pancreatic cancer,0.06890574097633362
+hsa-mir-62,pancreatic cancer,0.06890019029378891

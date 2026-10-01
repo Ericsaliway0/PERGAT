@@ -1,0 +1,201 @@
+source,destination,score
+Atrial Premature Complexes,rno-miR-674-3p,0.7713940739631653
+non-alcoholic steatohepatitis,rno-miR-674-3p,0.7713450789451599
+Intracranial Arterial Diseases,mmu-miR-698,0.6507266163825989
+Fibrosarcoma,hsa-miR-103a,0.6446624398231506
+Brain Damage and Chronic,hsa-miR-4452,0.6383676528930664
+Dwarfism,hsa-miR-4452,0.6383653283119202
+High Grade Ovarian Neoplasms,hsa-miR-4452,0.6383607387542725
+Persian Gulf Syndrome,hsa-miR-103a,0.6321039795875549
+Alopecia,hsa-miR-4423-5p,0.6237668395042419
+Fibrosarcoma,mmu-miR-690,0.6230039596557617
+Apparent mineralocorticoid excess,hsa-miR-4512,0.596669614315033
+Chorioamnionitis,hsa-miR-4512,0.5966565012931824
+Asymptomatic Infections,hsa-miR-4512,0.5966348052024841
+Intrahepatic Cholestasis of Pregnancy,hsa-miR-103a,0.5831475257873535
+Varicose Veins,hsa-miR-4481,0.5822524428367615
+Acute Uterine Injury,rno-miR-674-3p,0.582200288772583
+Postoperative Complications,rno-miR-409-5p,0.5819105505943298
+Squamous Intraepithelial Lesions and Cervical,rno-miR-409-5p,0.5818947553634644
+Hypoglycemia and leucine-induced,rno-miR-409-5p,0.5817211866378784
+Respiratory Distress Syndrome and Newborn,rno-miR-409-5p,0.5815606117248535
+Cerebral Infarction and Acute,rno-miR-409-5p,0.5814810991287231
+Papillomavirus Infections,rno-miR-409-5p,0.5814443230628967
+Wiskott-Aldrich Syndrome,hsa-miR-4446-5p,0.5752107501029968
+brachydactyly type D,hsa-miR-4446-5p,0.5750710964202881
+Halal syndrome,hsa-miR-4446-5p,0.5750641822814941
+Inflammatory Osteolysis,hsa-miR-4446-5p,0.5750514268875122
+Sarcoidosis,hsa-miR-4446-5p,0.5750455856323242
+Retinal Dystrophies,hsa-miR-4446-5p,0.5749868154525757
+Mastitis,hsa-miR-4446-5p,0.5749852657318115
+Bacterial Infections,hsa-miR-4446-5p,0.5749504566192627
+Legg-Calve-Perthes Disease,hsa-miR-4446-5p,0.5748393535614014
+Poikiloderma with Neutropenia,hsa-miR-4446-5p,0.5746942162513733
+Early-Stage Malignant Melanoma,hsa-miR-4446-5p,0.5746875405311584
+Obesity and Osteosarcopenic,hsa-miR-4446-5p,0.574651300907135
+Sarcopenia,hsa-miR-4446-5p,0.5746493339538574
+Hypothermia,hsa-miR-4446-5p,0.5721302032470703
+Finnish lethal neonatal metabolic syndrome,hsa-mir-8084,0.5686198472976685
+Chorioamnionitis,hsa-mir-8084,0.5684359073638916
+Hypopharyngeal Neoplasms,mmu-miR-712-3p,0.5601359009742737
+fibrolamellar carcinoma,hsa-miR-4455,0.5572651028633118
+Esophageal Neoplasms,hsa-miR-4446-5p,0.5566823482513428
+Death and Sudden,hsa-miR-4446-5p,0.5564330816268921
+Alopecia,rno-miR-652,0.5555646419525146
+Costello Syndrome,hsa-miR-4452,0.551145076751709
+Peripheral Blood Leukocytes,hsa-miR-4497,0.5482609272003174
+Platelet Storage Pool Deficiency,hsa-miR-4497,0.5479339361190796
+Salivary Gland Pleomorphic Adenoma,hsa-miR-4497,0.547845184803009
+Wiskott-Aldrich Syndrome,mmu-miR-764-3p,0.5468772649765015
+Hemorrhagic Fever and Ebola,mmu-miR-764-3p,0.5468428134918213
+Periodontal Diseases,mmu-miR-764-3p,0.5467193722724915
+Duane Retraction Syndrome,mmu-miR-764-3p,0.5466217398643494
+Mycobacterium Infections and Nontuberculous,mmu-miR-764-3p,0.5465809106826782
+Blood Coagulation Disorders,hsa-mir-8061,0.5447900891304016
+Carcinoma and Squamous Cell and Cutaneous,hsa-mir-8061,0.5447818040847778
+ovary adenocarcinoma,hsa-mir-8061,0.5447524189949036
+Leptomeningeal Metastasis,hsa-mir-8061,0.5447281002998352
+Leukemia and Promyelocytic and Acute,hsa-mir-8061,0.5447224974632263
+Halal syndrome,hsa-mir-8061,0.544718861579895
+Sarcoma and Kaposi,hsa-mir-8061,0.5447185635566711
+Peripheral Blood Leukocytes,hsa-mir-8061,0.5447114109992981
+Chronic Disease,hsa-mir-8061,0.5447068214416504
+Inflammatory Osteolysis,hsa-mir-8061,0.5447061657905579
+Pleomorphic Sarcoma and Undifferentiated,hsa-mir-8061,0.544694721698761
+Dwarfism,hsa-mir-8061,0.5446935296058655
+Fibrosarcoma,hsa-mir-8061,0.5446819067001343
+Palatal Neoplasms,hsa-mir-8061,0.5446814298629761
+Aspergillosis and Allergic Bronchopulmonary,hsa-mir-8061,0.5446752309799194
+Infarction,hsa-mir-8061,0.5446746945381165
+Oral Ulcer,hsa-mir-8061,0.5446702837944031
+esophageal carcinoma,hsa-mir-8061,0.5446364283561707
+Cardiac Complexes and Premature,hsa-mir-8061,0.5446005463600159
+Encephalomyelitis and Western Equine,hsa-mir-8061,0.5445990562438965
+Alopecia,hsa-mir-8061,0.5445927381515503
+Mandibulofacial Dysostosis,hsa-mir-8061,0.5445729494094849
+Legg-Calve-Perthes Disease,hsa-mir-8061,0.5444939732551575
+Sarcoma and Synovial,hsa-mir-8061,0.5444632768630981
+Lymphoma and B-Cell and Diffuse,hsa-mir-8061,0.5443795323371887
+Liver Failure and Acute,hsa-mir-8061,0.544377326965332
+Intestinal Atresia,hsa-mir-8061,0.5443705916404724
+Hepatitis,hsa-mir-8061,0.5443395972251892
+Fibrous Dysplasia of Bone,hsa-mir-8061,0.5443391799926758
+Rectal Diseases,hsa-mir-8061,0.5443046689033508
+Lung Diseases and Interstitial,hsa-mir-8061,0.5442174673080444
+Trophoblastic Tumor and Placental Site,hsa-miR-3653-5p,0.5418030023574829
+Kidney Neoplasms,hsa-miR-4478,0.5417195558547974
+Thyroid Diseases,hsa-miR-4478,0.5417183041572571
+Cytokine Release Syndrome,hsa-miR-4478,0.5416949391365051
+Adenomatous Polyposis Coli,hsa-miR-4478,0.5416274666786194
+Periodontal Diseases,hsa-miR-4478,0.5416002869606018
+Inflammatory Osteolysis,hsa-miR-4478,0.5415987968444824
+Hepacivirus,hsa-miR-4478,0.5415937900543213
+Hypotension,hsa-miR-4478,0.5415787696838379
+Lipodystrophy and Partial and Acquired,hsa-miR-4478,0.5412739515304565
+Liver Failure and Acute,hsa-miR-4478,0.5412700176239014
+Cerebral Small Vessel Diseases,hsa-miR-4478,0.5412659645080566
+Early-Stage Malignant Melanoma,hsa-miR-4478,0.5412349104881287
+Testicular Germ Cell Tumor,hsa-miR-4478,0.5412290692329407
+Coronavirus Infections,hsa-miR-4478,0.5411880612373352
+Amelogenesis Imperfecta,hsa-miR-4478,0.5411600470542908
+Lung Diseases and Interstitial,hsa-miR-4478,0.5411102175712585
+high grade glioma,hsa-mir-8061,0.5407856106758118
+Perinatal Asphyxia,rno-miR-409-5p,0.5296505093574524
+Hashimoto Disease,hsa-miR-4446-5p,0.528914749622345
+Wiskott-Aldrich Syndrome,rno-miR-30b-3p,0.5286929607391357
+Infant Nutrition Disorders,rno-miR-30b-3p,0.5286678075790405
+Kidney Neoplasms,rno-miR-30b-3p,0.5286545157432556
+sporatic amyotrophic lateral sclerosis,rno-miR-30b-3p,0.5286388397216797
+Meningitis and Bacterial,rno-miR-30b-3p,0.5286339521408081
+Altitude Sickness,rno-miR-30b-3p,0.5286177396774292
+Lumbar Disc   Herniation,rno-miR-30b-3p,0.5286124348640442
+Selenium Deficiency,rno-miR-30b-3p,0.5285990238189697
+Reperfusion Injury and Intestinal Ischemia,rno-miR-30b-3p,0.5285826325416565
+rectum adenocarcinoma,rno-miR-30b-3p,0.5285760164260864
+Finnish lethal neonatal metabolic syndrome,rno-miR-30b-3p,0.5285680294036865
+Encephalomyelitis and Eastern Equine,rno-miR-30b-3p,0.5285617113113403
+Post-Cardiac Arrest Syndrome,rno-miR-30b-3p,0.5285521745681763
+Leukemia and Promyelocytic and Acute,rno-miR-30b-3p,0.5285500884056091
+Multiple Sclerosis and Chronic Progressive,rno-miR-30b-3p,0.5285483002662659
+Sarcoma and Kaposi,rno-miR-30b-3p,0.5285462737083435
+AIDS Dementia Complex,rno-miR-30b-3p,0.5285370945930481
+Inflammatory Osteolysis,rno-miR-30b-3p,0.5285336375236511
+Hyperparathyroidism and Primary,rno-miR-30b-3p,0.5285318493843079
+Pancreatitis,rno-miR-30b-3p,0.5285290479660034
+Pleomorphic Sarcoma and Undifferentiated,rno-miR-30b-3p,0.5285223722457886
+Choroidal Melanoma,rno-miR-30b-3p,0.528510570526123
+Bronchiolitis Obliterans,rno-miR-30b-3p,0.5285104513168335
+arteriosclerotic cardiovascular disease,rno-miR-30b-3p,0.528508722782135
+Aspergillosis and Allergic Bronchopulmonary,rno-miR-30b-3p,0.5285028219223022
+Infarction,rno-miR-30b-3p,0.5285022258758545
+Acute Lymphocytic Leukemia and B-Cell,rno-miR-30b-3p,0.5285000205039978
+Glossitis and Benign Migratory,rno-miR-30b-3p,0.528497040271759
+Anemia,rno-miR-30b-3p,0.5284886956214905
+Hypertensive  Disorder Complicating Pregnancy,rno-miR-30b-3p,0.5284866690635681
+Colitis and Ulcerative,rno-miR-30b-3p,0.5284798741340637
+SHORT syndrome,rno-miR-30b-3p,0.5284660458564758
+diarrhea predominant irritable bowel syndrome (IBS-D),rno-miR-30b-3p,0.5284620523452759
+Liver Failure,rno-miR-30b-3p,0.5284613966941833
+Bicuspid Aortic Valve Disease,rno-miR-30b-3p,0.5284488201141357
+Lymphoma and Natural   Killer/T-Cell,rno-miR-30b-3p,0.5284444093704224
+Bacterial Infections,rno-miR-30b-3p,0.5284327268600464
+Helicobacter pylori,rno-miR-30b-3p,0.528412401676178
+FG syndrome,rno-miR-30b-3p,0.5283686518669128
+Ear Diseases,rno-miR-30b-3p,0.5283648371696472
+Legg-Calve-Perthes Disease,rno-miR-30b-3p,0.5283216238021851
+Osteoporosis-pseudoglioma syndrome,rno-miR-30b-3p,0.5283197164535522
+Turner Syndrome,rno-miR-30b-3p,0.5283146500587463
+Acute Pulmonary Embolism,rno-miR-30b-3p,0.5283005237579346
+Calcinosis,rno-miR-30b-3p,0.5282460451126099
+Respiratory Distress Syndrome and Newborn,rno-miR-30b-3p,0.5282450914382935
+Hepatitis and Chronic,rno-miR-30b-3p,0.528228223323822
+Lipodystrophy and Partial and Acquired,rno-miR-30b-3p,0.5282087326049805
+Schopf-Schulz-Passarge Syndrome,rno-miR-30b-3p,0.5282018780708313
+Protein-Losing Enteropathies,rno-miR-30b-3p,0.5281416177749634
+Hyperpigmentation,rno-miR-30b-3p,0.5281215310096741
+Amelogenesis Imperfecta,rno-miR-30b-3p,0.528095006942749
+High Grade Ovarian Neoplasms,hsa-mir-8064,0.5267592668533325
+Metabolic-Associated Fatty Liver Disease,rno-miR-30b-3p,0.5264113545417786
+Death and Sudden,hsa-miR-4478,0.5229803919792175
+Anhedonia,rno-miR-652,0.5221179723739624
+Pelvic Organ Prolapse,hsa-miR-4446-5p,0.5200309753417969
+Chediak-Higashi Syndrome,hsa-miR-130a-1,0.5174496173858643
+Varicose Veins,hsa-miR-4469,0.5169990062713623
+Anhedonia,hsa-mir-8061,0.5111461281776428
+Hemorrhagic Fever and Ebola,hsa-mir-875,0.4982970356941223
+rectum adenocarcinoma,hsa-mir-875,0.4982145428657532
+Gastric Precancerous Lesion,hsa-mir-875,0.49818289279937744
+Hyperparathyroidism and Primary,hsa-mir-875,0.49817055463790894
+Primary Graft Dysfunction,hsa-mir-875,0.4981657862663269
+Adrenocortical Carcinoma,hsa-mir-875,0.49815833568573
+Seizures,hsa-mir-875,0.49813294410705566
+High Grade Ovarian Neoplasms,hsa-mir-875,0.4981251358985901
+Immunoglobulin G4-Related Disease,hsa-mir-875,0.49812114238739014
+Rosacea,hsa-mir-875,0.4981180429458618
+Cervical Cancer and Hpv Infected,hsa-mir-875,0.4980345368385315
+Legg-Calve-Perthes Disease,hsa-mir-875,0.49796032905578613
+Hyperandrogenism,hsa-mir-875,0.49788403511047363
+Respiratory Distress Syndrome and Newborn,hsa-mir-875,0.49788373708724976
+Allograft Rejection and Antibody-Mediated,hsa-mir-875,0.4978722333908081
+Pleuropulmonary blastoma,hsa-mir-875,0.49787014722824097
+Poisoning,hsa-mir-875,0.4978543519973755
+Sinus Thrombosis and Intracranial,hsa-mir-875,0.4978015422821045
+Periodontal Diseases,mmu-miR-687,0.4944617748260498
+Inflammatory Osteolysis,mmu-miR-687,0.49446046352386475
+Mycobacterium Infections and Nontuberculous,mmu-miR-687,0.4943233132362366
+Infertility and Female,rno-miR-499,0.49349337816238403
+Postoperative Complications,mmu-miR-701,0.49266481399536133
+Recurrence,mmu-miR-701,0.4926028847694397
+Palatal Neoplasms,mmu-miR-701,0.4925788640975952
+Werner Syndrome,mmu-miR-697,0.49111801385879517
+Polycythemia Vera,mmu-miR-697,0.4910989999771118
+Enterocolitis and Pseudomembranous,mmu-miR-697,0.4910975694656372
+Bowen-Conradi syndrome,mmu-miR-697,0.4910898804664612
+Acute Coronary Syndrome and Non-St  Elevation,mmu-miR-697,0.49108970165252686
+Cholecystitis,mmu-miR-697,0.49108898639678955
+Parkinsonian Disorders,mmu-miR-697,0.4910876750946045
+Lumbar Disc   Herniation,mmu-miR-697,0.49107909202575684
+Tuberous Sclerosis 1,mmu-miR-697,0.4910787343978882
+Carcinoma and Squamous Cell and Cutaneous,mmu-miR-697,0.49107617139816284
+uterine corpus endometrial carcinoma,mmu-miR-697,0.49107253551483154
+Thrombocythemia and Essential,mmu-miR-697,0.49107104539871216

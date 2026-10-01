@@ -1,0 +1,25 @@
+Fold 1
+Fold 1 | Epoch 0 | Loss: 0.049713343381881714
+Test AUC: 0.8316 ± 0.0045 | Test F1: 0.6766 ± 0.0063 | Test FocalLoss: 0.1594 ± 0.0021 | Test Accuracy: 0.7399 ± 0.0042 | Test Precision: 0.8943 ± 0.0054 | Test Recall: 0.5442 ± 0.0071 | Test Hits@10: 0.0000 | Test MAP: 0.8112 ± 0.0060
+Fold 2
+Fold 2 | Epoch 0 | Loss: 0.04486706107854843
+Test AUC: 0.7118 ± 0.0058 | Test F1: 0.1985 ± 0.0069 | Test FocalLoss: 0.1498 ± 0.0012 | Test Accuracy: 0.4935 ± 0.0037 | Test Precision: 0.4755 ± 0.0137 | Test Recall: 0.1254 ± 0.0049 | Test Hits@10: 0.0000 | Test MAP: 0.5865 ± 0.0053
+Fold 3
+Fold 3 | Epoch 0 | Loss: 0.04476124048233032
+Test AUC: 0.8657 ± 0.0042 | Test F1: 0.0000 ± 0.0000 | Test FocalLoss: 0.1239 ± 0.0005 | Test Accuracy: 0.5000 ± 0.0000 | Test Precision: 1.0000 ± 0.0000 | Test Recall: 0.0000 ± 0.0000 | Test Hits@10: 0.4000 | Test MAP: 0.7404 ± 0.0066
+Fold 4
+Fold 4 | Epoch 0 | Loss: 0.04616676643490791
+Test AUC: 0.4736 ± 0.0060 | Test F1: 0.0000 ± 0.0000 | Test FocalLoss: 0.1780 ± 0.0002 | Test Accuracy: 0.5000 ± 0.0000 | Test Precision: 1.0000 ± 0.0000 | Test Recall: 0.0000 ± 0.0000 | Test Hits@10: 0.0000 | Test MAP: 0.4501 ± 0.0034
+Fold 5
+Fold 5 | Epoch 0 | Loss: 0.04576314240694046
+Test AUC: 0.9502 ± 0.0024 | Test F1: 0.9145 ± 0.0024 | Test FocalLoss: 0.1710 ± 0.0045 | Test Accuracy: 0.9074 ± 0.0028 | Test Precision: 0.8491 ± 0.0042 | Test Recall: 0.9909 ± 0.0014 | Test Hits@10: 0.3000 | Test MAP: 0.9191 ± 0.0049
+             miRNA            disease  ...        destination     score
+0     hsa-miR-4519       brain cancer  ...       brain cancer  1.567802
+1     hsa-miR-4519  pancreatic cancer  ...  pancreatic cancer  1.592690
+2     hsa-miR-4525  pancreatic cancer  ...  pancreatic cancer  2.402868
+3      hsa-miR-453  pancreatic cancer  ...  pancreatic cancer  1.592710
+4     hsa-miR-4540  pancreatic cancer  ...  pancreatic cancer  2.402868
+5  hsa-miR-518a-3p      breast cancer  ...      breast cancer  0.880692
+6      hsa-miR-584      breast cancer  ...      breast cancer  0.880714
+
+[7 rows x 5 columns]

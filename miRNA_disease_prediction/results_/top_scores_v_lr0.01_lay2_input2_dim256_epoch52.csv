@@ -1,0 +1,45 @@
+source,destination,score
+Gastric And Colon Cancer,mmu-miR-676-3p,0.3965710997581482
+Gastric And Colon Cancer,hsa-miR-4492,0.3914605379104614
+Cancer-Associated Cachexia,hsa-mir-873,0.38687801361083984
+Gastric Precancerous Lesion,hsa-mir-873,0.38684484362602234
+Cervical Cancer and Hpv Infected,hsa-mir-873,0.3867482542991638
+Quadruple Negative Breast Cancer,hsa-mir-873,0.3865601718425751
+Cancer-Associated Cachexia,hsa-miR-4444,0.37251877784729004
+Cervical Cancer and Hpv Infected,hsa-miR-4444,0.3723888695240021
+Quadruple Negative Breast Cancer,hsa-miR-4456,0.3626119792461395
+Cervical Cancer and Hpv Infected,mmu-miR-743a,0.36259445548057556
+Cancer-Associated Cachexia,hsa-mir-8080,0.3618152439594269
+Gastric   Cancer,hsa-miR-4443,0.36134272813796997
+Cancer-Associated Cachexia,hsa-miR-4459,0.3590329885482788
+Gastric Precancerous Lesion,hsa-miR-4459,0.35899969935417175
+Gastric   Cancer,mmu-miR-700-5p,0.35391372442245483
+Gastric Precancerous Lesion,mmu-miR-708,0.3536083400249481
+Cervical Cancer and Hpv Infected,mmu-miR-708,0.3535114824771881
+Gastric And Colon Cancer,hsa-miR-4494,0.34792664647102356
+Gastric   Cancer,hsa-miR-4494,0.3479250967502594
+Quadruple Negative Breast Cancer,hsa-miR-4494,0.34769153594970703
+Gastric And Colon Cancer,hsa-miR-4439,0.3444027304649353
+Gastric   Cancer,hsa-miR-4482,0.3441295921802521
+Cancer-Associated Cachexia,rno-miR-30b-3p,0.310791939496994
+Thyroid cancer and medullary,mmu-miR-676-3p,0.2883263826370239
+Gastric Cancer and Early,hsa-miR-4492,0.28397810459136963
+Cancer-Associated Cachexia,mmu-miR-697,0.28176242113113403
+Gastric Cancer and Early,hsa-mir-802,0.27928614616394043
+Cancer-Associated Cachexia,hsa-mir-7844,0.272725373506546
+Gastric Precancerous Lesion,hsa-mir-7844,0.2726919651031494
+Gastric And Colon Cancer,hsa-mir-7844,0.2726423144340515
+Gastric   Cancer,hsa-mir-7844,0.27264082431793213
+Gastric And Colon Cancer,hsa-miR-4511,0.2673717737197876
+Cervical Cancer and Hpv Infected,hsa-miR-4511,0.26732492446899414
+Gastric Cancer and Early,hsa-miR-450a-5p,0.26588860154151917
+Thyroid cancer and medullary,hsa-miR-450a-5p,0.26512646675109863
+Gastric Precancerous Lesion,hsa-mir-8074,0.25929024815559387
+Gastric Cancer and Early,hsa-miR-4443,0.2538619041442871
+Gastric Cancer and Early,mmu-miR-764-3p,0.251729279756546
+Gastric Cancer and Early,mmu-miR-708,0.2460760772228241
+Thyroid cancer and medullary,mmu-miR-700-5p,0.24567055702209473
+Gastric And Colon Cancer,rno-miR-27a,0.24200674891471863
+Gastric Cancer and Early,hsa-miR-4494,0.24044418334960938
+Gastric Cancer and Early,rno-miR-369-3p,0.1471199244260788
+Gastric Cancer and Early,rno-miR-27a,0.1345243602991104

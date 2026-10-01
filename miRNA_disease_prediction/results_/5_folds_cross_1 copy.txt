@@ -1,0 +1,30 @@
+Fold 1
+Fold 1 | Epoch 0 | Loss: 0.04043646156787872
+Fold 1 | Epoch 5 | Loss: 0.01647239550948143
+Test AUC: 0.9591 ± 0.0023 | Test F1: 0.9270 ± 0.0023 | Test FocalLoss: 0.0896 ± 0.0032 | Test Accuracy: 0.9225 ± 0.0026 | Test Precision: 0.8757 ± 0.0038 | Test Recall: 0.9848 ± 0.0018 | Test Hits@10: 0.5000 | Test MAP: 0.9225 ± 0.0053
+Fold 2
+Fold 2 | Epoch 0 | Loss: 0.04276616498827934
+Fold 2 | Epoch 5 | Loss: 0.025961915031075478
+Test AUC: 0.9414 ± 0.0028 | Test F1: 0.5853 ± 0.0069 | Test FocalLoss: 0.0958 ± 0.0027 | Test Accuracy: 0.6980 ± 0.0039 | Test Precision: 0.9340 ± 0.0052 | Test Recall: 0.4261 ± 0.0072 | Test Hits@10: 0.0000 | Test MAP: 0.8973 ± 0.0060
+Fold 3
+Fold 3 | Epoch 0 | Loss: 0.05097925662994385
+Fold 3 | Epoch 5 | Loss: 0.0354967825114727
+Test AUC: 0.9468 ± 0.0027 | Test F1: 0.9322 ± 0.0024 | Test FocalLoss: 0.0820 ± 0.0023 | Test Accuracy: 0.9287 ± 0.0025 | Test Precision: 0.8887 ± 0.0037 | Test Recall: 0.9801 ± 0.0021 | Test Hits@10: 0.7000 | Test MAP: 0.9075 ± 0.0052
+Fold 4
+Fold 4 | Epoch 0 | Loss: 0.04538595303893089
+Fold 4 | Epoch 5 | Loss: 0.018813641741871834
+Test AUC: 0.9601 ± 0.0021 | Test F1: 0.9144 ± 0.0030 | Test FocalLoss: 0.0618 ± 0.0019 | Test Accuracy: 0.9149 ± 0.0028 | Test Precision: 0.9203 ± 0.0037 | Test Recall: 0.9085 ± 0.0041 | Test Hits@10: 0.6000 | Test MAP: 0.9356 ± 0.0047
+Fold 5
+Fold 5 | Epoch 0 | Loss: 0.04339003190398216
+Fold 5 | Epoch 5 | Loss: 0.027436887845396996
+Test AUC: 0.9031 ± 0.0034 | Test F1: 0.0000 ± 0.0000 | Test FocalLoss: 0.1945 ± 0.0014 | Test Accuracy: 0.5000 ± 0.0000 | Test Precision: 1.0000 ± 0.0000 | Test Recall: 0.0000 ± 0.0000 | Test Hits@10: 0.9000 | Test MAP: 0.8456 ± 0.0062
+             miRNA            disease  ...        destination     score
+0     hsa-miR-4519       brain cancer  ...       brain cancer -0.773864
+1     hsa-miR-4519  pancreatic cancer  ...  pancreatic cancer -0.773083
+2     hsa-miR-4525  pancreatic cancer  ...  pancreatic cancer -0.523214
+3      hsa-miR-453  pancreatic cancer  ...  pancreatic cancer -0.773059
+4     hsa-miR-4540  pancreatic cancer  ...  pancreatic cancer -0.523208
+5  hsa-miR-518a-3p      breast cancer  ...      breast cancer  0.100173
+6      hsa-miR-584      breast cancer  ...      breast cancer  0.100214
+
+[7 rows x 5 columns]

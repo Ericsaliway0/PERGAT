@@ -1,0 +1,59 @@
+miRNA,disease,source,destination,score
+hsa-miR-4519,brain cancer,hsa-miR-4519,brain cancer,0.5187827348709110
+hsa-miR-4519,brain cancer,hsa-miR-4519,brain cancer,0.4369979500770570
+hsa-miR-10a-5p,brain cancer,hsa-miR-10a-5p,brain cancer,0.4369974136352540
+hsa-miR-10a-5p,brain cancer,hsa-miR-10a-5p,brain cancer,-0.4269261956214910
+hsa-miR-4519,brain cancer,hsa-miR-4519,brain cancer,-0.4269264936447140
+hsa-miR-10a-5p,brain cancer,hsa-miR-10a-5p,brain cancer,-0.1576195508241650
+hsa-miR-4519,brain cancer,hsa-miR-4519,brain cancer,-0.1576194167137150
+hsa-miR-6776-3p,breast cancer,hsa-miR-6776-3p,breast cancer,0.5853767395019530
+hsa-miR-506-3p,breast cancer,hsa-miR-506-3p,breast cancer,0.2771613001823430
+hsa-miR-518a-3p,breast cancer,hsa-miR-518a-3p,breast cancer,0.277137815952301
+hsa-miR-4762-3p,breast cancer,hsa-miR-4762-3p,breast cancer,-0.0577906370162963
+hsa-miR-584,breast cancer,hsa-miR-584,breast cancer,-0.1210974603891370
+hsa-miR-6776-3p,breast cancer,hsa-miR-6776-3p,breast cancer,-0.1384087651968000
+hsa-miR-504-3p,breast cancer,hsa-miR-504-3p,breast cancer,-0.1384125500917430
+hsa-miR-518a-3p,breast cancer,hsa-miR-518a-3p,breast cancer,-0.2383863627910610
+hsa-miR-504-3p,breast cancer,hsa-miR-504-3p,breast cancer,-0.4478216767311100
+hsa-miR-451a,breast cancer,hsa-miR-451a,breast cancer,0.1805209368467330
+hsa-miR-4762-3p,breast cancer,hsa-miR-4762-3p,breast cancer,0.1805226653814320
+hsa-miR-584,breast cancer,hsa-miR-584,breast cancer,-0.0787624567747116
+hsa-miR-6776-3p,breast cancer,hsa-miR-6776-3p,breast cancer,0.1805126965045930
+hsa-miR-518a-3p,breast cancer,hsa-miR-518a-3p,breast cancer,-0.4381747245788570
+hsa-miR-584,breast cancer,hsa-miR-584,breast cancer,-0.4381788372993470
+hsa-miR-451a,breast cancer,hsa-miR-451a,breast cancer,-0.1629381775856020
+hsa-miR-506-3p,breast cancer,hsa-miR-506-3p,breast cancer,-0.2285458594560620
+hsa-miR-518a-3p,breast cancer,hsa-miR-518a-3p,breast cancer,-0.2285441160202030
+hsa-miR-584,breast cancer,hsa-miR-584,breast cancer,-0.2285468727350240
+hsa-miR-451a,breast cancer,hsa-miR-451a,breast cancer,0.2952401041984560
+hsa-miR-451a,breast cancer,hsa-miR-451a,breast cancer,-0.2496856302022930
+hsa-miR-506-3p,breast cancer,hsa-miR-506-3p,breast cancer,-0.2559875249862670
+hsa-miR-6776-3p,breast cancer,hsa-miR-6776-3p,breast cancer,-0.2496799826622010
+hsa-miR-451a,breast cancer,hsa-miR-451a,breast cancer,0.6009311676025390
+hsa-miR-4762-3p,breast cancer,hsa-miR-4762-3p,breast cancer,-0.2477026879787450
+hsa-miR-6776-3p,breast cancer,hsa-miR-6776-3p,breast cancer,-0.2477200925350190
+hsa-miR-4540,pancreatic cancer,hsa-miR-4540,pancreatic cancer,0.8781554698944090
+hsa-miR-451a,pancreatic cancer,hsa-miR-451a,pancreatic cancer,0.8600435256958010
+hsa-miR-453,pancreatic cancer,hsa-miR-453,pancreatic cancer,0.8600431680679320
+hsa-miR-4540,pancreatic cancer,hsa-miR-4540,pancreatic cancer,0.5337135791778560
+hsa-miR-4525,pancreatic cancer,hsa-miR-4525,pancreatic cancer,0.5337131023406980
+hsa-miR-454,pancreatic cancer,hsa-miR-454,pancreatic cancer,0.5269225835800170
+hsa-miR-454,pancreatic cancer,hsa-miR-454,pancreatic cancer,0.5189662575721740
+hsa-miR-4533,pancreatic cancer,hsa-miR-4533,pancreatic cancer,0.478356659412384
+hsa-miR-453,pancreatic cancer,hsa-miR-453,pancreatic cancer,0.474919319152832
+hsa-miR-451a,pancreatic cancer,hsa-miR-451a,pancreatic cancer,0.4749159216880800
+hsa-miR-4519,pancreatic cancer,hsa-miR-4519,pancreatic cancer,0.1202857196331020
+hsa-miR-451a,pancreatic cancer,hsa-miR-451a,pancreatic cancer,0.1202834248542790
+hsa-miR-4533,pancreatic cancer,hsa-miR-4533,pancreatic cancer,0.0463020950555801
+hsa-miR-451a,pancreatic cancer,hsa-miR-451a,pancreatic cancer,-0.4225147068500520
+hsa-miR-451a,pancreatic cancer,hsa-miR-451a,pancreatic cancer,0.5384160280227660
+hsa-miR-4533,pancreatic cancer,hsa-miR-4533,pancreatic cancer,0.5296303033828740
+hsa-miR-4540,pancreatic cancer,hsa-miR-4540,pancreatic cancer,0.5293577909469600
+hsa-miR-4540,pancreatic cancer,hsa-miR-4540,pancreatic cancer,0.3073258996009830
+hsa-miR-4525,pancreatic cancer,hsa-miR-4525,pancreatic cancer,0.5444580912590030
+hsa-miR-4533,pancreatic cancer,hsa-miR-4533,pancreatic cancer,0.5458855628967290
+hsa-miR-4540,pancreatic cancer,hsa-miR-4540,pancreatic cancer,-0.1960448920726780
+hsa-mir-219,Thyroid Cancer and Papillary,hsa-mir-219,Thyroid Cancer and Papillary,0.9246474504470820
+hsa-mir-219,Thyroid Cancer and Papillary,hsa-mir-219,Thyroid Cancer and Papillary,0.0864449739456176
+hsa-mir-219,Thyroid Cancer and Papillary,hsa-mir-219,Thyroid Cancer and Papillary,0.168635681271553
+hsa-mir-219,Thyroid Cancer and Papillary,hsa-mir-219,Thyroid Cancer and Papillary,0.5622912645339970

@@ -1,0 +1,25 @@
+Fold 1
+Fold 1 | Epoch 0 | Loss: 0.04597099870443344
+Test AUC: 0.9454 ± 0.0028 | Test F1: 0.8691 ± 0.0026 | Test FocalLoss: 0.4780 ± 0.0122 |Test Accuracy: 0.8494 ± 0.0033 | Test Precision: 0.7686 ± 0.0040 | Test Recall: 0.9997 ± 0.0002 | Test Hits@10: 0.3000 | Test MAP: 0.8946 ± 0.0060
+Fold 2
+Fold 2 | Epoch 0 | Loss: 0.041109658777713776
+Test AUC: 0.9500 ± 0.0024 | Test F1: 0.9151 ± 0.0025 | Test FocalLoss: 0.1604 ± 0.0044 |Test Accuracy: 0.9080 ± 0.0028 | Test Precision: 0.8498 ± 0.0040 | Test Recall: 0.9913 ± 0.0014 | Test Hits@10: 0.8000 | Test MAP: 0.9150 ± 0.0051
+Fold 3
+Fold 3 | Epoch 0 | Loss: 0.04361435025930405
+Test AUC: 0.8596 ± 0.0042 | Test F1: 0.6890 ± 0.0058 | Test FocalLoss: 0.1257 ± 0.0026 |Test Accuracy: 0.7383 ± 0.0042 | Test Precision: 0.8489 ± 0.0057 | Test Recall: 0.5798 ± 0.0073 | Test Hits@10: 0.5000 | Test MAP: 0.7609 ± 0.0063
+Fold 4
+Fold 4 | Epoch 0 | Loss: 0.050626661628484726
+Test AUC: 0.4852 ± 0.0063 | Test F1: 0.3923 ± 0.0076 | Test FocalLoss: 0.3130 ± 0.0029 |Test Accuracy: 0.5582 ± 0.0044 | Test Precision: 0.6281 ± 0.0094 | Test Recall: 0.2852 ± 0.0062 | Test Hits@10: 0.8000 | Test MAP: 0.5848 ± 0.0057
+Fold 5
+Fold 5 | Epoch 0 | Loss: 0.045817043632268906
+Test AUC: 0.9316 ± 0.0031 | Test F1: 0.8782 ± 0.0026 | Test FocalLoss: 0.2920 ± 0.0078 |Test Accuracy: 0.8627 ± 0.0031 | Test Precision: 0.7893 ± 0.0038 | Test Recall: 0.9896 ± 0.0015 | Test Hits@10: 0.0000 | Test MAP: 0.8418 ± 0.0063
+             miRNA            disease  ...        destination     score
+0     hsa-miR-4519       brain cancer  ...       brain cancer  3.344211
+1     hsa-miR-4519  pancreatic cancer  ...  pancreatic cancer  3.367129
+2     hsa-miR-4525  pancreatic cancer  ...  pancreatic cancer  3.298469
+3      hsa-miR-453  pancreatic cancer  ...  pancreatic cancer  3.367125
+4     hsa-miR-4540  pancreatic cancer  ...  pancreatic cancer  3.298472
+5  hsa-miR-518a-3p      breast cancer  ...      breast cancer -0.169881
+6      hsa-miR-584      breast cancer  ...      breast cancer -0.169864
+
+[7 rows x 5 columns]

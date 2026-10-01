@@ -1,0 +1,201 @@
+source,destination,score
+Amebiasis,hsa-miR-423-5p_2,-0.2728438377380371
+Amebiasis,hsa-miR-4289,-0.2743838429450989
+Amebiasis,EBV-miR-BART15,-0.27439233660697937
+Amebiasis,hsa-miR-142,-0.2743939161300659
+Periodontitis and Diabetic,hsa-miR-153-1,-0.2783670425415039
+Reperfusion Injury and Testicular Ischemia,hsa-miR-1251-3p,-0.27900558710098267
+Classical Swine Fever,hsa-miR-1251-3p,-0.2796458601951599
+Brugada Syndrome,hsa-miR-3144-3p,-0.28015363216400146
+Multiple Mitochondrial Dysfunctions Syndrome,hsa-miR-3191-5p,-0.28066927194595337
+Spinal Cord Compression,hsa-miR-4293,-0.2807740867137909
+Radiation-Induced Oral Mucositis,hsa-miR-3938,-0.2808169722557068
+Rhabdoid Tumor and Kidney,hsa-miR-3647-5p,-0.2808195948600769
+Inflammation and Chronic,hsa-miR-128b,-0.28122633695602417
+Reperfusion Injury and Testicular Ischemia,hsa-miR-3680-5p,-0.28124284744262695
+Extramedullary Multiple Myeloma,hsa-miR-320d,-0.2812443971633911
+Renal Artery Obstruction,hsa-miR-34,-0.2812504768371582
+Splenic Neoplasms,hsa-miR-212-5p,-0.2813059091567993
+Equine Infectious Anemia,hsa-miR-421,-0.28152504563331604
+Brugada Syndrome,hsa-miR-3656,-0.28160643577575684
+Brugada Syndrome,hsa-miR-214*,-0.28161269426345825
+Short Qt Syndrome,hsa-miR-3713,-0.2819206118583679
+Splenic Neoplasms,hsa-miR-343,-0.28192806243896484
+Diminished  Ovarian Reserve,hsa-miR-3922-5p,-0.2819693684577942
+Asthma and Chronic,hsa-miR-339,-0.2821102738380432
+Dilated Cardiomyopathy ,hsa-mir-885,-0.2822968363761902
+Reperfusion Injury and Testicular Ischemia,hcmv-miR-UL36,-0.2824081778526306
+Granulomatous Disease and Chronic,hcmv-miR-UL36,-0.2824110686779022
+Nevi and Melanomas,hsa-miR-1915,-0.2827710807323456
+Diminished  Ovarian Reserve,hsa-miR-2276,-0.2827903628349304
+Tricuspid Valve Insufficiency,hsa-miR-3120-5p,-0.28305715322494507
+Autoimmune Diseases of the Nervous System,hsa-miR-3120-5p,-0.2830575108528137
+Myeloma Bone Disease,hsa-miR-4323,-0.2831141948699951
+Gliosis,hsa-miR-22,-0.28319841623306274
+Inflammation and Chronic,hsa-miR-3926,-0.2833753526210785
+Granulomatous Disease and Chronic,hsa-miR-3926,-0.28337597846984863
+Pasteurella Multocida Infections,hsa-miR-3119,-0.2834441065788269
+IMAGe syndrome,hsa-miR-3127-3p,-0.28352707624435425
+Susac Syndrome,hsa-miR-1269b,-0.28356999158859253
+Multiple Mitochondrial Dysfunctions Syndrome,hsa-miR-223*,-0.2836962938308716
+Scleral Diseases,hsa-miR-223*,-0.28369688987731934
+Hereditary Autoinflammatory Diseases,EBV-miR-BART4,-0.283748984336853
+Gliosis,hsa-miR-4330,-0.2837681174278259
+thyroid gland Hurthle cell carcinoma,hsa-miR-4330,-0.28377050161361694
+Reperfusion Injury and Testicular Ischemia,hsa-let-7c,-0.28378215432167053
+Nevi and Melanomas,hsa-let-7c,-0.2837861478328705
+Diminished  Ovarian Reserve,hsa-miR-191,-0.2837989628314972
+Angioedemas and Hereditary,hsa-miR-3929,-0.2838336229324341
+Tricuspid Valve Insufficiency,hsa-miR-20b,-0.2840877175331116
+Hemoglobin SC Disease,hsa-miR-3190,-0.28412288427352905
+Pancreatic Beta-Cell Dysfunction,hsa-miR-1185-1-3p,-0.28418105840682983
+Myeloma Bone Disease,hsa-miR-371,-0.28418147563934326
+Nevi and Melanomas,hsa-let-7b_c,-0.28418174386024475
+Neoplasms and Mesothelial,hsa-miR-101-1,-0.28418201208114624
+Periodontitis and Diabetic,hsa-miR-197-3p,-0.28418219089508057
+Chediak-Higashi Syndrome,hsa-miR-380-5p,-0.28418219089508057
+Neutropenia,hsa-miR-19b-2*,-0.28418225049972534
+ Lymph  Node Metastasis,hsa-miR-380-5p,-0.2841827869415283
+Intra-Articular Fractures,hsa-miR-322,-0.2841828465461731
+Tauopathies,hsa-let-7f-1*,-0.28418296575546265
+Neutropenia,hsa-miR-1260a,-0.28418296575546265
+Myeloma Bone Disease,hsa-miR-135-1,-0.2841830551624298
+Reperfusion Injury and Ischemia,hsa-miR-1267,-0.2841833233833313
+Intra-Articular Fractures,hsa-miR-378i,-0.2841833829879761
+Myeloma Bone Disease,hsa-miR-33b*,-0.284183531999588
+Angioedemas and Hereditary,hsa-miR-4419a,-0.2841835618019104
+Intra-Articular Fractures,hsa-miR-1181,-0.28418368101119995
+Reperfusion Injury and Testicular Ischemia,hsa-miR-302a-3p,-0.28418388962745667
+Neutropenia,hsa-miR-301,-0.28418469429016113
+Renal Artery Obstruction,hsa-miR-4318,-0.28418469429016113
+Phyllodes Tumor and Breast,hsa-miR-194-2,-0.2841848134994507
+Hereditary Autoinflammatory Diseases,hsa-miR-1252,-0.28418540954589844
+Polyposis Syndrome and Hereditary Mixed and 1,hsa-miR-1229-5p,-0.28418561816215515
+Heart Failure and Diastolic,hsa-miR-202,-0.28418564796447754
+Dilated Cardiomyopathy ,hsa-miR-18b,-0.2841866612434387
+Hyperphenylalaninemia with primapterinuria,hsa-miR-149-5p,-0.2841896414756775
+Nevi and Melanomas,hsa-miR-1470,-0.2842135429382324
+Tenon Fibroblasts,hsa-miR-2115-3p,-0.28427618741989136
+Reperfusion Injury and Testicular Ischemia,hsa-miR-4433a-5p,-0.28430885076522827
+Amebiasis,hsa-miR-191,-0.2843198776245117
+Angioedemas and Hereditary,hsa-miR-367,-0.2843605875968933
+Cataract and posterior polar and 3,hsa-miR-3196,-0.2843858003616333
+Wound Infection,hcmv-miR-UL36,-0.2844323515892029
+Chediak-Higashi Syndrome,hsa-miR-431-5p,-0.2844770848751068
+Reperfusion Injury and Testicular Ischemia,hsa-miR-3944-3p,-0.28447723388671875
+Granulomatous Disease and Chronic,hsa-miR-3676-5p,-0.28450876474380493
+Dilated Cardiomyopathy ,hsa-miR-383-3p,-0.2845383584499359
+Urinary Calculi,hsa-miR-4460,-0.2845730185508728
+Vitreoretinochoroidopathy,hsa-miR-1255b-5p,-0.28458964824676514
+Phyllodes Tumor and Breast,hsa-miR-1260,-0.28460440039634705
+Parvoviridae Infections,hsa-miR-3180-3p,-0.28460466861724854
+Diminished  Ovarian Reserve,hsa-miR-4323,-0.28460901975631714
+Spinal Dysraphism,hsa-miR-1178-5p,-0.28464049100875854
+Reperfusion Injury and Testicular Ischemia,hsa-let-7b-5p,-0.28470492362976074
+Nevi and Melanomas,hsa-let-7b-5p,-0.2847089171409607
+Spinal Cord Compression,hsa-miR-376b,-0.28477340936660767
+Dysentery and Bacillary,hsa-miR-376b,-0.28477412462234497
+Chronic   Pelvic Pain Syndrome,hsa-miR-216a,-0.2848489284515381
+Myeloma Bone Disease,hsa-miR-371-3p,-0.28489354252815247
+Amebiasis,hsa-miR-17,-0.2849436402320862
+Posterior Segment Ocular Diseases,hsa-miR-374b-3p,-0.2850493788719177
+Renal Artery Obstruction,hsa-miR-374b-3p,-0.2850497364997864
+Ischemic Stroke and Cerebral,hsa-miR-344,-0.28526824712753296
+Renal Artery Obstruction,hsa-miR-3201,-0.2853425145149231
+Heart Failure and Diastolic,hsa-miR-3134,-0.28547582030296326
+Encephalitis and Tick-Borne,hsa-miR-17,-0.28548407554626465
+Autoimmune Diseases of the Nervous System,hsa-miR-1915-5p,-0.2856405973434448
+Fibrosis and Airway,hsa-miR-376c-3p,-0.28564292192459106
+Rhabdoid Tumor and Kidney,hsa-miR-3620,-0.28569352626800537
+Rhabdoid Tumor and Kidney,hsa-miR-371b-3p,-0.28569531440734863
+Pneumoconiosis,hsa-miR-2278,-0.2857404053211212
+Wound Infection,hsa-miR-205*,-0.2858138084411621
+Venous Neointimal Hyperplasia,hsa-miR-1268a,-0.28582918643951416
+Plaque and Amyloid,hsa-miR-1268a,-0.2858302593231201
+Chediak-Higashi Syndrome,hsa-miR-1268a,-0.2858302593231201
+Amebiasis,hsa-miR-3654,-0.2859534025192261
+Intra-Articular Fractures,hsa-miR-3613-3p,-0.2862444221973419
+Diminished  Ovarian Reserve,hsa-miR-4295,-0.286288321018219
+Prekallikrein Deficiency,hsa-miR-34b,-0.2863408327102661
+Brugada Syndrome,hsa-miR-378e,-0.28637704253196716
+Alopecia,hsa-miR-4423-5p,-0.2863943576812744
+Scleral Diseases,hsa-miR-23a-5p,-0.28646594285964966
+Skin Ulcer,hsa-miR-23a-5p,-0.286466509103775
+Angioedemas and Hereditary,hsa-miR-23a-5p,-0.2864680886268616
+Hypocapnia,hsa-miR-3074-3p,-0.28687500953674316
+Neoplasms and Mesothelial,hsa-miR-374a,-0.28692156076431274
+Deglutition Disorders,hsa-miR-376b,-0.2870154082775116
+Tibial Neuropathy,hsa-miR-4295,-0.287034809589386
+Polyposis Syndrome and Hereditary Mixed and 1,hsa-miR-200c-3p,-0.28722813725471497
+Neutropenia,hsa-miR-200c-3p,-0.28722894191741943
+Skin Ulcer,hsa-miR-200c-3p,-0.2872300148010254
+Intra-Articular Fractures,hsa-miR-200c-3p,-0.28723061084747314
+Transmissible Gastroenteritis,hsa-miR-3201,-0.28728431463241577
+Venous Neointimal Hyperplasia,hsa-miR-3189,-0.2873961329460144
+Amebiasis,hsa-miR-1912,-0.2874552607536316
+Wound Infection,hsa-miR-193,-0.28756189346313477
+Wound Infection,hsa-miR-335,-0.28775015473365784
+Hypocapnia,hsa-miR-199b-3p,-0.28779709339141846
+Dilated Cardiomyopathy ,hsa-miR-1231,-0.28783705830574036
+Primary Gastrointestinal Diffuse Large B-Cell Lymphoma ,hsa-miR-1231,-0.28783726692199707
+Tibial Neuropathy,hsa-miR-1915-5p,-0.2878838777542114
+Equine Infectious Anemia,hsa-miR-378j,-0.28804802894592285
+Polyposis Syndrome and Hereditary Mixed and 1,hsa-let-7a-5p,-0.2881770133972168
+Tricuspid Valve Insufficiency,hsa-miR-3681,-0.2881941795349121
+Nevi and Melanomas,hsa-miR-4284,-0.28821349143981934
+Lattice corneal dystrophy type 1,hsa-miR-340*,-0.28822922706604004
+Spinal Cord Compression,hsa-let-7g*,-0.28823113441467285
+Hypocapnia,hsa-miR-3613-3p,-0.28834718465805054
+chronic myeloid leukemia (CML),hsa-miR-17*,-0.2892618775367737
+Radiation-Induced Oral Mucositis,hsa-miR-1231,-0.28932157158851624
+Chediak-Higashi Syndrome,hsa-miR-376a-3p,-0.2894245982170105
+ Lymph  Node Metastasis,hsa-miR-376a-3p,-0.28942519426345825
+Amebiasis,hsa-miR-30d-5p,-0.28943127393722534
+Reperfusion Injury and Testicular Ischemia,hcmv-miR-UL148d,-0.28943729400634766
+Intra-Articular Fractures,hcmv-miR-UL148d,-0.2894400358200073
+Tricuspid Valve Insufficiency,hsa-miR-17-5p,-0.2895188331604004
+Testicular Neoplasms,hsa-miR-135b,-0.28958648443222046
+Reperfusion Injury and Testicular Ischemia,hsa-miR-4475,-0.2896369695663452
+Posterior Segment Ocular Diseases,hsa-miR-4475,-0.28963834047317505
+Human T-Cell Leukemia Virus Type 1 Infections,hsa-miR-4475,-0.28963908553123474
+Reperfusion Injury and Steatotic Liver Ischemia,hsa-miR-17-5p,-0.28969037532806396
+Primary Gastrointestinal Diffuse Large B-Cell Lymphoma ,hsa-miR-1277-5p,-0.28988099098205566
+Equine Infectious Anemia,hsa-miR-1257,-0.28989219665527344
+Intra-Articular Fractures,hsa-miR-1279,-0.2898937463760376
+Visceral Pain,hsa-miR-1247-3p,-0.28996139764785767
+Urinary Calculi,hsa-miR-1247-3p,-0.289961576461792
+Optic atrophy 1 and deafness,hsa-miR-3159,-0.29029417037963867
+Posterior Segment Ocular Diseases,hsa-miR-3159,-0.2902946174144745
+UV-Sensitive Syndrome,hsa-let-7g-5p,-0.29033327102661133
+Neutropenia,hsa-miR-333,-0.2903977334499359
+Ophthalmoplegia and Chronic Progressive External,hsa-miR-333,-0.290399968624115
+Non-Segmental Vitiligo,hsa-miR-155-5p,-0.29061681032180786
+Scleral Diseases,hsa-miR-155-5p,-0.290616899728775
+Apparent mineralocorticoid excess,hsa-miR-302d*,-0.2908029556274414
+Brain Edema,hsa-miR-129-5p,-0.29080650210380554
+Juvenile gout,hsa-miR-378,-0.290847510099411
+Gastric Antral Vascular Ectasia,hsa-miR-3680-3p,-0.29092392325401306
+Venous Neointimal Hyperplasia,hsa-miR-3680-3p,-0.2909244894981384
+Hereditary Autoinflammatory Diseases,hsa-miR-18a*,-0.2909312844276428
+Spinal Cord Compression,hsa-miR-18a*,-0.2909323275089264
+Acute Uterine Injury,hsa-miR-4474-3p,-0.29093843698501587
+Reperfusion Injury and Steatotic Liver Ischemia,hsa-miR-18a*,-0.2911016345024109
+Leukodystrophy and Globoid Cell,hsa-miR-3170,-0.2913857102394104
+Susac Syndrome,hsa-miR-30d*,-0.29143205285072327
+Testicular Neoplasms,hsa-miR-30d*,-0.2914329171180725
+Periodontitis and Diabetic,hsa-miR-1321,-0.2914627492427826
+Human T-Cell Leukemia Virus Type 1 Infections,hsa-miR-380*,-0.29149681329727173
+Immunosuppression Therapy,hsa-miR-4264,-0.2915782332420349
+Myeloma Bone Disease,hsa-miR-350,-0.2915884256362915
+Reperfusion Injury and Testicular Ischemia,hsa-miR-19b,-0.29164451360702515
+Papilloma and Inverted,hsa-miR-199a*,-0.2918558716773987
+Lattice corneal dystrophy type 1,hsa-miR-374a-5p,-0.2922443747520447
+Hereditary Autoinflammatory Diseases,hsa-miR-374a-5p,-0.29224520921707153
+Dilated Cardiomyopathy ,hsa-miR-374a-5p,-0.2922459542751312
+Reperfusion Injury and Testicular Ischemia,hsa-miR-1273e,-0.29282569885253906
+Dilated Cardiomyopathy ,EBV-miR-BHRF1-3,-0.2928282618522644
+Renal Artery Obstruction,hsa-miR-345,-0.2928323745727539
+Lattice corneal dystrophy type 1,hsa-miR-3166,-0.29283350706100464
+Canavan Disease,hsa-miR-3166,-0.29283374547958374
+Reperfusion Injury and Testicular Ischemia,hsa-miR-4270,-0.2928352952003479
+Fluoride Poisoning,hsa-miR-4270,-0.29283738136291504

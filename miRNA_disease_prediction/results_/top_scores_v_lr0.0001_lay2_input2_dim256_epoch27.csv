@@ -1,0 +1,39 @@
+source,destination,score
+Gastric Cancer and Early,hsa-miR-4482,0.5258458256721497
+Thyroid cancer and medullary,mmu-miR-708,0.5256565809249878
+Gastric Cancer and Early,hsa-mir-8069,0.525223433971405
+Thyroid cancer and medullary,hsa-miR-4456,0.5249795913696289
+Gastric Cancer and Early,hsa-miR-4456,0.5247468948364258
+Thyroid cancer and medullary,hsa-miR-450a-5p,0.5245778560638428
+Gastric Cancer and Early,hsa-miR-450a-5p,0.5243452191352844
+Gastric Cancer and Metachronous,mmu-miR-676-3p,0.5236040949821472
+Thyroid cancer and medullary,mmu-miR-676-3p,0.5227673053741455
+Cancer-Associated Cachexia,hsa-miR-4494,0.506511390209198
+Gastric And Colon Cancer,hsa-miR-4437,0.5062883496284485
+Quadruple Negative Breast Cancer,hsa-miR-4494,0.5062849521636963
+Quadruple Negative Breast Cancer,hsa-miR-4439,0.5062671303749084
+Gastric And Colon Cancer,mmu-miR-700-5p,0.5060873031616211
+Gastric And Colon Cancer,hsa-miR-4459,0.5057463645935059
+Gastric   Cancer,hsa-miR-4459,0.5057315826416016
+Cancer-Associated Cachexia,hsa-miR-4444,0.5050762295722961
+Gastric And Colon Cancer,hsa-miR-4444,0.5049985647201538
+Cervical Cancer and Hpv Infected,hsa-miR-4444,0.5049589276313782
+Prostate Cancer ,hsa-miR-4444,0.5048606991767883
+Gastric   Cancer,hsa-mir-873,0.5038030743598938
+Cervical Cancer and Hpv Infected,hsa-mir-873,0.5037782192230225
+Gastric And Colon Cancer,hsa-miR-4492,0.5034468173980713
+Thyroid cancer and medullary,hsa-miR-4511,0.4894005060195923
+colorectal cancer,hsa-miR--196a-2,0.4762629270553589
+Cancer-Associated Cachexia,rno-miR-27a,0.47278836369514465
+Gastric And Colon Cancer,rno-miR-27a,0.4727107286453247
+Cervical Cancer and Hpv Infected,rno-miR-27a,0.4726709723472595
+Her2-Positive Breast Cancer,hsa-miR-4267,0.47163406014442444
+Her2-Positive Breast Cancer,hsa-miR-3124,0.47151097655296326
+Prostate Cancer ,hsa-mir-8074,0.47121772170066833
+Quadruple Negative Breast Cancer,hsa-mir-8074,0.4712067246437073
+Cervical Cancer and Hpv Infected,hsa-mir-7844,0.47005945444107056
+Cancer-Associated Cachexia,hsa-miR-4511,0.4699377119541168
+Gastric   Cancer,hsa-miR-4511,0.4698452651500702
+Quadruple Negative Breast Cancer,hsa-miR-4511,0.4697112441062927
+Quadruple Negative Breast Cancer,mmu-miR-697,0.4677313268184662
+Cervical Cancer and Hpv Infected,hsa-mir-875,0.46594512462615967

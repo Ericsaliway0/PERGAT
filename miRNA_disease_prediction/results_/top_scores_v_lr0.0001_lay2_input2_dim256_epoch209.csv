@@ -1,0 +1,37 @@
+source,destination,score
+Gastric And Colon Cancer,mmu-miR-676-3p,0.6444262266159058
+Cancer-Associated Cachexia,hsa-mir-873,0.6415660381317139
+Gastric   Cancer,hsa-mir-873,0.6415094137191772
+Quadruple Negative Breast Cancer,hsa-miR-4492,0.6408790946006775
+Cancer-Associated Cachexia,hsa-miR-4444,0.6380080580711365
+Gastric   Cancer,hsa-miR-4444,0.6379512548446655
+Gastric And Colon Cancer,hsa-miR-4444,0.6379363536834717
+Cervical Cancer and Hpv Infected,hsa-miR-4443,0.6333837509155273
+Gastric And Colon Cancer,hsa-miR-4456,0.6328449845314026
+Gastric And Colon Cancer,hsa-miR-4459,0.6327458024024963
+Quadruple Negative Breast Cancer,hsa-miR-4456,0.6326524615287781
+Cancer-Associated Cachexia,mmu-miR-708,0.6315290331840515
+Cancer-Associated Cachexia,hsa-miR-4494,0.6292210221290588
+Gastric And Colon Cancer,hsa-miR-4494,0.6291492581367493
+Cancer-Associated Cachexia,hsa-mir-8069,0.6288131475448608
+Cancer-Associated Cachexia,hsa-miR-4437,0.6284403204917908
+Gastric   Cancer,hsa-miR-4439,0.6267011761665344
+Quadruple Negative Breast Cancer,hsa-miR-4439,0.6264936327934265
+Gynecological Cancer,hsa-miR-193b-5p,0.6254412531852722
+Gastric Cancer and Early,hsa-mir-873,0.5950101017951965
+Gastric Cancer and Early,hsa-miR-4444,0.5914520025253296
+Gastric Cancer and Early,hsa-miR-450a-5p,0.590678334236145
+Gastric Cancer and Early,hsa-miR-4443,0.5869279503822327
+Thyroid cancer and medullary,hsa-miR-4459,0.586421012878418
+Thyroid cancer and medullary,mmu-miR-708,0.5851324200630188
+Gastric Cancer and Early,hsa-mir-8069,0.582257091999054
+Gastric Cancer and Early,hsa-miR-4482,0.5811800956726074
+Her2-Positive Breast Cancer,hsa-miR-2392,0.5773391127586365
+Cancer-Associated Cachexia,hsa-miR-4511,0.5758997797966003
+Cancer-Associated Cachexia,hsa-mir-7844,0.5722998380661011
+Gastric   Cancer,hsa-mir-7844,0.5722432136535645
+Her2-Positive Breast Cancer,hsa-let-7a-1,0.5703219175338745
+Gastric   Cancer,rno-miR-27a,0.5613153576850891
+Gastric Cancer and Early,mmu-miR-764-3p,0.5588452219963074
+Gastric Cancer and Early,hsa-miR-4511,0.5293437242507935
+Thyroid cancer and medullary,hsa-mir-8074,0.5212653279304504

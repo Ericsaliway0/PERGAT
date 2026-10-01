@@ -1,0 +1,2 @@
+Test AUC,Test F1 Score,Test Precision,Test Recall,Test Hit,Test mAP
+0.9124 ± 0.0070,0.8423 ± 0.0049,0.7282 ± 0.0075,0.9987 ± 0.0010,0.6000,0.8289 ± 0.0132

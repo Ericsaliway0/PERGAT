@@ -1,0 +1,35 @@
+source,destination,score
+Cervical Cancer and Hpv Infected,hsa-mir-875,0.38033396005630493
+Gastric And Colon Cancer,mmu-miR-697,0.37273573875427246
+Cancer-Associated Cachexia,mmu-miR-697,0.37240898609161377
+Quadruple Negative Breast Cancer,hsa-mir-7844,0.3721773028373718
+Cervical Cancer and Hpv Infected,hsa-mir-7844,0.37139689922332764
+Her2-Positive Breast Cancer,hsa-miR-3934,0.3699728846549988
+Prostate Cancer ,hsa-mir-8074,0.3690486550331116
+Cervical Cancer and Hpv Infected,hsa-mir-8074,0.3683648109436035
+Cancer-Associated Cachexia,hsa-mir-8074,0.367847204208374
+Cervical Cancer and Hpv Infected,rno-miR-27a,0.3677446246147156
+Gastric   Cancer,rno-miR-27a,0.367539644241333
+Her2-Positive Breast Cancer,hsa-let-7a-1,0.36540067195892334
+Gastric And Colon Cancer,hsa-miR-4492,0.3281596899032593
+Quadruple Negative Breast Cancer,hsa-mir-873,0.3242124915122986
+Cancer-Associated Cachexia,hsa-miR-4456,0.3228658437728882
+Gastric Precancerous Lesion,hsa-miR-4444,0.3222201466560364
+Cancer-Associated Cachexia,mmu-miR-743a,0.32118135690689087
+Cancer-Associated Cachexia,hsa-miR-4437,0.32076406478881836
+Gastric   Cancer,hsa-miR-4443,0.32061100006103516
+Quadruple Negative Breast Cancer,hsa-miR-4494,0.32049643993377686
+Gastric Precancerous Lesion,hsa-miR-4459,0.32044875621795654
+Cervical Cancer and Hpv Infected,mmu-miR-700-5p,0.3201656937599182
+Gastric And Colon Cancer,hsa-miR-4494,0.319524347782135
+Gastric   Cancer,hsa-miR-4494,0.31951093673706055
+Cancer-Associated Cachexia,hsa-mir-8069,0.31938958168029785
+Cancer-Associated Cachexia,hsa-miR-4494,0.3191978335380554
+Gastric And Colon Cancer,hsa-miR-4482,0.3183332085609436
+Cancer-Associated Cachexia,hsa-miR-4482,0.3180065155029297
+Gastric Cancer and Early,rno-miR-30b-3p,0.17451244592666626
+Gastric Cancer and Early,hsa-miR-4428,0.17438653111457825
+Gastric Cancer and Early,mmu-miR-697,0.1707625687122345
+Gastric Cancer and Early,mmu-miR-676-3p,0.12487643957138062
+Thyroid cancer and medullary,hsa-miR-4444,0.12040609121322632
+Thyroid cancer and medullary,mmu-miR-708,0.11798861622810364

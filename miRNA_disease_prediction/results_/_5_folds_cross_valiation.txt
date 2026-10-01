@@ -1,0 +1,15 @@
+
+Fold 1 
+Test AUC: 0.9591 ± 0.0039 | Test F1: 0.9147 ± 0.0050 | Test FocalLoss: 0.1542 ± 0.0033 |Test Accuracy: 0.9088 ± 0.0059 | Test Precision: 0.8589 ± 0.0078 | Test Recall: 0.9783 ± 0.0042 | Test MAP: 0.9385 ± 0.0086
+Fold 2
+Test AUC: 0.9588 ± 0.0044 | Test F1: 0.9076 ± 0.0049 | Test FocalLoss: 0.2867 ± 0.0159 |Test Accuracy: 0.8982 ± 0.0059 | Test Precision: 0.8315 ± 0.0083 | Test Recall: 0.9989 ± 0.0010 | Test MAP: 0.9272 ± 0.0106
+Fold 3 
+Test AUC: 0.9537 ± 0.0045 | Test F1: 0.9171 ± 0.0050 | Test FocalLoss: 0.1068 ± 0.0077 |Test Accuracy: 0.9102 ± 0.0057 | Test Precision: 0.8520 ± 0.0079 | Test Recall: 0.9929 ± 0.0024 | Test MAP: 0.9334 ± 0.0073
+Fold 4 
+Test AUC: 0.9526 ± 0.0050 | Test F1: 0.9168 ± 0.0048 | Test FocalLoss: 0.1591 ± 0.0097 |Test Accuracy: 0.9102 ± 0.0058 | Test Precision: 0.8540 ± 0.0082 | Test Recall: 0.9896 ± 0.0028 | Test MAP: 0.9196 ± 0.0102
+Fold 5
+Test AUC: 0.9587 ± 0.0043 | Test F1: 0.9045 ± 0.0047 | Test FocalLoss: 0.2877 ± 0.0163 |Test Accuracy: 0.8949 ± 0.0062 | Test Precision: 0.8288 ± 0.0076 | Test Recall: 0.9953 ± 0.0019 | Test MAP: 0.9311 ± 0.0095
+
+
+          miRNA            disease        source        destination     score
+0  hsa-miR-4525  pancreatic cancer  hsa-miR-4525  pancreatic cancer  0.170981

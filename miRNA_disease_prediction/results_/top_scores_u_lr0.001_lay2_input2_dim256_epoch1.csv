@@ -1,0 +1,201 @@
+source,destination,score
+hsa-mir-370c,Pelizaeus-Merzbacher Disease,-0.2673925757408142
+hsa-mir-195,mmu-miR-709,-0.26824718713760376
+hsa-mir-1976,mmu-miR-709,-0.26825445890426636
+hsa-mir-2213,gallbladder carcinoma,-0.26853883266448975
+hsa-mir-2213,Schimke immunoosseous dysplasia,-0.26877617835998535
+hsa-mir-347,osteosarcoma,-0.27057045698165894
+hsa-mir-24-1,Arnold-Chiari Malformation,-0.2708549499511719
+hsa-mir-512,Neurodegenerative Diseases,-0.2713850736618042
+hsa-mir-4751,Parkinson's disease,-0.2714126408100128
+hsa-mir-3118,larynx cancer,-0.2714170217514038
+hsa-mir-2119,alcoholic liver disease (ALD),-0.27141717076301575
+hsa-mir-345,Nasopharyngitis,-0.27141720056533813
+hsa-mir-2681,Insulinoma,-0.271417498588562
+hsa-mir-2213,Gallbladder Neoplasms,-0.2714179754257202
+hsa-mir-2213,Intervertebral Disc Degeneration,-0.27141880989074707
+hsa-mir-2213,colon cancer,-0.2714200019836426
+hsa-mir-2213,chordoma,-0.27142006158828735
+hsa-mir-7239,thyroid cancer,-0.27142059803009033
+hsa-mir-7239,Alzheimer's disease,-0.27142101526260376
+hsa-mir-6746,Nasopharyngitis,-0.2714214324951172
+hsa-mir-2213,Autism Spectrum Disorde,-0.27142176032066345
+hsa-mir-616,Neurilemmoma,-0.27142271399497986
+hsa-mir-378h,familial temporal lobe epilepsy 3,-0.27142298221588135
+hsa-mir-3125,Adenoma and Islet Cell,-0.27142640948295593
+hsa-mir-2119,Adenoma and Islet Cell,-0.27142709493637085
+hsa-mir-345,Obesity and Maternal,-0.2714301645755768
+hsa-mir-344,Epstein-Barr Virus Infections,-0.27171459794044495
+hsa-mir-345,limb-girdle muscular dystrophies types 2A (LGMD2A),-0.2721627354621887
+hsa-mir-486a,Metabolic Syndrome,-0.27216964960098267
+hsa-mir-3130-1,Mouth Neoplasms,-0.27235788106918335
+hsa-mir-504,neuroblastoma (NB),-0.27288612723350525
+hsa-mir-296,lymphoma,-0.2729794681072235
+hsa-mir-3133,Rhiny,-0.27302736043930054
+hsa-mir-320e,metabolic disease,-0.2733652889728546
+hsa-mir-218,Spinal Cord Injuries,-0.27349913120269775
+hsa-mir-219,Pneumonia,-0.2735217809677124
+hsa-mir-337,mmu-miR-689,-0.27360180020332336
+hsa-mir-296,Lymphoma and B-Cell,-0.2742448151111603
+hsa-mir-219,Neoplasms and Fibrous Tissue,-0.27432990074157715
+hsa-mir-320e,Dwarfism and Pituitary,-0.2743336260318756
+hsa-mir-21b,Pelizaeus-Merzbacher Disease,-0.27440935373306274
+hsa-mir-2114,myoma,-0.27482205629348755
+hsa-mir-42-1,acute lymphoblastic leukemia (ALL),-0.27531808614730835
+hsa-mir-7239,Cardiomegaly,-0.2763558626174927
+hsa-mir-162,rno-miR-674-3p,-0.2765972912311554
+hsa-mir-3201,Colorectal Neoplasms,-0.277540922164917
+hsa-mir-7106,Colorectal Neoplasms,-0.2775420546531677
+hsa-mir-513b,Colorectal Neoplasms,-0.27754223346710205
+hsa-mir-3118,Colorectal Neoplasms,-0.2775430679321289
+hsa-mir-345,Granulomatous Mastitis,-0.27760589122772217
+hsa-mir-4689,Granulomatous Mastitis,-0.2776080369949341
+hsa-mir-2119,Neurogenic Inflammation,-0.2778141498565674
+hsa-mir-26a-1,mmu-miR-717,-0.27793487906455994
+hsa-mir-4772,mmu-miR-760,-0.27793970704078674
+hsa-mir-682,rno-miR-500,-0.27794167399406433
+hsa-mir-3121,head and neck squamous cell carcinoma (HNSCC),-0.27808886766433716
+hsa-mir-2861,osteosarcoma,-0.2782425284385681
+hsa-mir-4751,hypertension,-0.2784842848777771
+hsa-mir-548s,hypertension,-0.2784843444824219
+hsa-mir-218,hypertension,-0.2784852385520935
+hsa-mir-3174,hypertension,-0.2784857749938965
+hsa-mir-1976,mmu-miR-763,-0.27894866466522217
+hsa-mir-242,Neuroblastoma,-0.27897441387176514
+hsa-mir-731,Neuroblastoma,-0.2789747714996338
+hsa-mir-2182,Neuroblastoma,-0.27897506952285767
+hsa-mir-4490,Neuroblastoma,-0.27897608280181885
+hsa-mir-2213,Neuroblastoma,-0.2789763808250427
+hsa-mir-24,Neuroblastoma,-0.2789767384529114
+hsa-mir-4538,Neuroblastoma,-0.27897730469703674
+hsa-mir-2118,Neuroblastoma,-0.2789774537086487
+hsa-mir-291,Neuroblastoma,-0.27897748351097107
+hsa-mir-346,Neuroblastoma,-0.27897757291793823
+hsa-mir-6746,Neuroblastoma,-0.278977632522583
+hsa-mir-2904,Neuroblastoma,-0.27897828817367554
+hsa-mir-202,Neuroblastoma,-0.2789786458015442
+hsa-mir-3130-1,Schimke immunoosseous dysplasia,-0.2790273427963257
+hsa-mir-6075,Heart Failure and Chronic,-0.2791737914085388
+hsa-mir-291,sarcoma,-0.27925726771354675
+hsa-mir-74a,anxiety disorder,-0.279263436794281
+hsa-mir-4530,anxiety disorder,-0.27926909923553467
+hsa-mir-378h,sarcoma,-0.2792697548866272
+hsa-mir-4751,Mouth Neoplasms,-0.27946528792381287
+hsa-mir-558,Autoimmune Lymphoproliferative Syndrome,-0.27955496311187744
+hsa-mir-382,Autoimmune Lymphoproliferative Syndrome,-0.2795562744140625
+hsa-mir-378h,Autoimmune Lymphoproliferative Syndrome,-0.27955710887908936
+hsa-mir-292,Autoimmune Lymphoproliferative Syndrome,-0.27955764532089233
+hsa-mir-2213,Autoimmune Lymphoproliferative Syndrome,-0.27955806255340576
+hsa-mir-3181,Autoimmune Lymphoproliferative Syndrome,-0.2795587182044983
+hsa-mir-27,Multiple Myeloma,-0.27957653999328613
+hsa-mir-7240,Glucose-Galactose Malabsorption,-0.27995678782463074
+hsa-mir-4758,Cytomegalovirus Infections,-0.28006601333618164
+hsa-mir-574,Cytomegalovirus Infections,-0.28006649017333984
+hsa-mir-376c,mmu-miR-713,-0.2805447578430176
+hsa-mir-320c,mmu-miR-713,-0.2805454730987549
+hsa-mir-2114,Rhiny,-0.2806354761123657
+hsa-mir-2110,osteosarcoma,-0.28118157386779785
+hsa-mir-3121,Spinocerebellar ataxia 1,-0.281765341758728
+hsa-mir-4758,Thrombocytopenia,-0.28179365396499634
+hsa-mir-3907,Uterine Cervical Neoplasms,-0.2818947434425354
+hsa-mir-3118,Central Nervous System and Non-Infectious,-0.281916081905365
+hsa-mir-24,Epilepsy and Temporal Lobe,-0.28210318088531494
+hsa-mir-367,Non-AIDS-related Kaposi sarcoma,-0.28255265951156616
+hsa-mir-6851,Non-AIDS-related Kaposi sarcoma,-0.28255367279052734
+hsa-mir-218,Non-AIDS-related Kaposi sarcoma,-0.2825542688369751
+hsa-mir-26a-1,Non-AIDS-related Kaposi sarcoma,-0.28255438804626465
+hsa-mir-4784,Non-AIDS-related Kaposi sarcoma,-0.2825546860694885
+hsa-mir-2114,Non-AIDS-related Kaposi sarcoma,-0.2825547754764557
+hsa-mir-2213,Non-AIDS-related Kaposi sarcoma,-0.28255516290664673
+hsa-mir-2909,Non-AIDS-related Kaposi sarcoma,-0.2825557589530945
+hsa-mir-291,Macular Edema,-0.2825581133365631
+hsa-mir-195,Glioblastoma,-0.28291648626327515
+hsa-mir-345,Hyperostosis and Diffuse Idiopathic Skeletal,-0.28298425674438477
+hsa-mir-378e,Hyperostosis and Diffuse Idiopathic Skeletal,-0.28298458456993103
+hsa-mir-731,Medulloblastoma,-0.2840249538421631
+hsa-mir-3201,Medulloblastoma,-0.2840249538421631
+hsa-mir-24,rno-miR-30e*,-0.2840942144393921
+hsa-mir-2213,Silicotuberculosis,-0.28409481048583984
+hsa-mir-4496,rno-miR-30e*,-0.28409528732299805
+hsa-mir-2861,Alcoholism,-0.2840985357761383
+hsa-mir-29a-1,Lymphoma and B-Cell,-0.2842361330986023
+hsa-mir-74a,Sjogren's Syndrome,-0.2842879891395569
+hsa-mir-6828,neurodegeneration,-0.2842909097671509
+hsa-mir-382,Viremia,-0.2853553891181946
+hsa-mir-292,Viremia,-0.285356730222702
+hsa-mir-2213,Viremia,-0.285357266664505
+hsa-mir-3681,Cataract and Age-Related Nuclear,-0.2856730818748474
+hsa-mir-4775,Coronary Occlusion,-0.2861984372138977
+hsa-mir-2904,Myocardial Reperfusion Injury,-0.286413311958313
+hsa-mir-3121,Diabetes Mellitus and Type 1,-0.2864532470703125
+hsa-mir-550b,Lip Neoplasms,-0.28653621673583984
+hsa-mir-4782,ankylosing spondylitis 1,-0.2865787148475647
+hsa-mir-29b-2,Leprosy,-0.2868233323097229
+hsa-mir-296,Spherocytosis and Type 1,-0.2868235111236572
+hsa-mir-2213,Mucocutaneous Lymph Node Syndrome,-0.2871043086051941
+hsa-mir-3168,congenital heart disease,-0.28759220242500305
+hsa-mir-3168,Colorectal Neoplasms,-0.2876889109611511
+hsa-mir-3130-1,Neurogenic Inflammation,-0.2880668044090271
+hsa-mir-4262,Colorectal Neoplasms,-0.2881488800048828
+hsa-mir-276a,Colorectal Neoplasms,-0.2881537973880768
+hsa-mir-3916,Colorectal Neoplasms,-0.28815412521362305
+hsa-mir-429,Colorectal Neoplasms,-0.2881545126438141
+hsa-mir-3130-1,Vascular Diseases,-0.28830376267433167
+hsa-mir-337,Neurogenic Inflammation,-0.2884276509284973
+hsa-mir-513a,Breast Neoplasms,-0.28854963183403015
+hsa-mir-39,mmu-miR-708*,-0.28863948583602905
+hsa-mir-4664,mmu-miR-708*,-0.28863996267318726
+hsa-mir-4271,hypertension,-0.28866690397262573
+hsa-mir-27,hypertension,-0.2886829972267151
+hsa-mir-4756,Gastritis,-0.2889418303966522
+hsa-mir-3680,Gastritis,-0.2889425754547119
+hsa-mir-2213,Gastritis,-0.2889440953731537
+hsa-mir-2904,Gastritis,-0.28894591331481934
+hsa-mir-4791,Neuroblastoma,-0.2891885042190552
+hsa-mir-219a,Mental Disorders,-0.2893819212913513
+hsa-mir-548n,Liver Cirrhosis,-0.2895243167877197
+hsa-mir-2008,oral squamous cell carcinoma,-0.2896420657634735
+hsa-mir-2213,oral squamous cell carcinoma,-0.28964295983314514
+hsa-mir-3118,oral squamous cell carcinoma,-0.2896435260772705
+hsa-mir-3913,Osteoarthritis,-0.28965485095977783
+hsa-mir-3171,hypertension,-0.28969091176986694
+hsa-mir-346,Kidney Transplantation,-0.2897365093231201
+hsa-mir-27,Autoimmune Lymphoproliferative Syndrome,-0.2897549271583557
+hsa-mir-607,Cleft Palate,-0.29000452160835266
+hsa-mir-3174,mmu-miR-683,-0.290291965007782
+hsa-mir-4758,Cerebrovascular Disorders,-0.2906172275543213
+hsa-mir-3,Neuroblastoma,-0.2910012900829315
+hsa-mir-548o,Neuroblastoma,-0.2910020351409912
+hsa-mir-320e,Neuroblastoma,-0.2910059094429016
+hsa-mir-219,Neuroblastoma,-0.2910107374191284
+hsa-mir-4463,Cytomegalovirus Infections,-0.2916053831577301
+hsa-mir-505,Autoimmune Lymphoproliferative Syndrome,-0.2919619679450989
+hsa-mir-3125,Cardiomyopathies,-0.29204854369163513
+hsa-mir-758,Hypersensitivity,-0.29227742552757263
+hsa-mir-4493,Autoimmune Lymphoproliferative Syndrome,-0.2924575209617615
+hsa-mir-29c,leukemia,-0.2928854823112488
+hsa-mir-370c,Viremia,-0.29307883977890015
+hsa-mir-1234,mmu-miR-764-3p,-0.29309356212615967
+hsa-mir-1199,mmu-miR-764-3p,-0.29309454560279846
+hsa-mir-1913,mmu-miR-764-3p,-0.29309478402137756
+hsa-mir-3174,Bulimia Nervosa,-0.2934304177761078
+hsa-mir-2904,Bulimia Nervosa,-0.2934326231479645
+hsa-mir-2008,Hepatitis C,-0.293714702129364
+hsa-mir-219,Cytomegalovirus Infections,-0.29393357038497925
+hsa-mir-2213,mmu-miR-696,-0.2941056489944458
+hsa-mir-195,rno-miR-874,-0.2941284775733948
+hsa-mir-3912,Cervial Cancer,-0.29414278268814087
+hsa-mir-382,Hcmv-miR-UL22A,-0.294146865606308
+hsa-mir-2765,stomach carcinoma,-0.29452893137931824
+hsa-mir-1118,rno-miR-27a,-0.2947186827659607
+hsa-mir-129-2,rno-miR-27a,-0.2947188913822174
+hsa-mir-1298,rno-miR-27a,-0.2947193384170532
+hsa-mir-1278,rno-miR-27a,-0.2947196066379547
+hsa-mir-147a,rno-miR-27a,-0.29471972584724426
+hsa-mir-1273,rno-miR-27a,-0.294719934463501
+hsa-mir-137,rno-miR-27a,-0.2947201728820801
+hsa-mir-181c,rno-miR-27a,-0.29472023248672485
+hsa-mir-198,rno-miR-27a,-0.29472029209136963
+hsa-mir-188,rno-miR-27a,-0.2947203516960144
+hsa-mir-149,rno-miR-27a,-0.2947204113006592
+hsa-mir-130,rno-miR-27a,-0.2947204113006592

@@ -1,0 +1,152 @@
+source,destination,score
+hsa-mir-1187,Asthma-Chronic Obstructive Pulmonary Disease Overlap Syndrome,-0.3716088533401489
+hsa-mir-10a,Reperfusion Injury and Pulmonary Ischemia,-0.3717396855354309
+hsa-mir-520c,"Urticaria,cancer",-0.3717542886734009
+hsa-mir-12119,"Lupus Erythematosus and Systemic,cancer",-0.37176448106765747
+hsa-mir-3976,"Heart Septal Defects and Ventricular,cancer",-0.3717794418334961
+hsa-mir-669c,"Biliary Atresia,cancer",-0.3718108534812927
+hsa-mir-5194,"Instent Restenosis,cancer",-0.371820330619812
+hsa-mir-6325,Reflex Sympathetic Dystrophy,-0.37182074785232544
+hsa-mir-6782,"Acute Coronary Syndrome,cancer",-0.3718263506889343
+hsa-mir-34a,"Kidney Diseases,cancer",-0.37186479568481445
+hsa-mir-81,"Heart Failure and Ischemic,cancer",-0.3718724250793457
+hsa-mir-551,"isolated cleft palate,cancer",-0.371878981590271
+kshv-miR-k12-4,Myocardial Fibrosis,-0.3718802332878113
+hsa-mir-23-2,"Myotonic Disorders,cancer",-0.37188655138015747
+hsa-mir-101b,Pneumoconiosis,-0.37189781665802
+hsa-mir-1-2,"Hypothyroidism,cancer",-0.3718981146812439
+hsa-mir-1525,"Precancerous Conditions,cancer",-0.3719099164009094
+hsa-mir-1247,Hemorrhagic Fever and Ebola,-0.37191009521484375
+hsa-mir-162,"Mycosis Fungoides,cancer",-0.37191712856292725
+hsa-mir-216b,"Mixed Connective Tissue Disease,cancer",-0.37192028760910034
+hsa-mir-767,Anemia and sideroblastic spinocerebellar ataxia,-0.37192386388778687
+hsa-mir-19a-2,"Dmd-Associated Dilated Cardiomyopathy,cancer",-0.37192851305007935
+hsa-mir-463,"Arthritis and Rheumatoid,cancer",-0.371929407119751
+hsa-mir-6828,"Lichen Planus and Oral,cancer",-0.37193888425827026
+hsa-mir-4328,"Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,cancer",-0.3719462752342224
+hsa-mir-4673,Gerstmann-Straussler-Scheinker Disease,-0.37194889783859253
+hsa-mir-535,Arthritis and Juvenile,-0.37195396423339844
+hsa-mir-483,"Mucocutaneous Lymph Node Syndrome,cancer",-0.37195926904678345
+EBV-miR-BART3,"Renal Insufficiency and Chronic,cancer",-0.3719634413719177
+hsa-mir-7109,Stress Disorders and Traumatic,-0.3719731569290161
+hsa-mir-1909,"Sexual Dysfunctions and Psychological,cancer",-0.3719741106033325
+hsa-mir-517b,"Hypertrophy and Left Ventricular,cancer",-0.37197989225387573
+hsa-mir-548ag,Laryngopharyngeal Neoplasms,-0.3719859719276428
+hsa-mir-705,"Multiple Sclerosis and Relapsing-Remitting,cancer",-0.3719865679740906
+hsa-mir-5007,Pain and Inflammatory,-0.3719879984855652
+hsa-mir-5128,"Hypoxia-Ischemia and Brain,cancer",-0.3719902038574219
+hsa-mir-3158,Skin Aging,-0.3719923496246338
+hsa-mir-3473,"Ventricular Premature Complexes,cancer",-0.3720000982284546
+hsa-mir-8074,bladder carcinoma,-0.3720014691352844
+hsa-mir-4689,"Choriocarcinoma,cancer",-0.37200355529785156
+hsa-mir-876,"Cleft Palate and Non-Syndromic,cancer",-0.3720095157623291
+hsa-mir-408,"Cholangitis and Biliary and Primary,cancer",-0.3720095753669739
+hsa-mir-5590,"Radiation-Induced Oral Mucositis,cancer",-0.3720096945762634
+hsa-mir-160a,Ischemic And   Traumatic Injuries,-0.37202197313308716
+hsa-mir-21b,Muscular Dystrophies and Limb-Girdle,-0.3720289468765259
+hsa-mir-548l,Nager acrofacial dysostosis,-0.3720291256904602
+hsa-mir-4492,"Colitis,cancer",-0.3720357418060303
+hsa-let-7a-2,"Macular Edema,cancer",-0.3720410466194153
+hsa-mir-1295a,"Body Integrity Identity Disorder,cancer",-0.3720429539680481
+hsa-mir-702,"Human Herpesvirus 6 encephalitis,cancer",-0.37204480171203613
+hsa-mir-138-2,Distal arthrogryposis type 2B,-0.3720541000366211
+hsa-mir-4292,"Infertility,cancer",-0.3720586895942688
+hsa-mir-6740,Peripheral Arterial Disease,-0.37205958366394043
+hsa-mir-1268a,Cholelithiasis,-0.3720645308494568
+hsa-mir-482bd,Carotid Artery Injuries,-0.37207114696502686
+hsa-mir-4316,Blood Platelet Disorders,-0.37207210063934326
+EBV-mir-BART2,Allograft Rejection and Antibody-Mediated,-0.3720775246620178
+hsa-mir-4725,"Adenomatous Polyposis Coli,cancer",-0.3720778822898865
+hsa-mir-124b,Diabetic Wound,-0.37208092212677
+hsa-mir-1269,Cystoid Macular Edema and Diabetic,-0.3720896244049072
+hsa-mir-5694,"Carcinoma and Basal Cell,cancer",-0.372100830078125
+hsa-mir-4787,Lactate Dehydrogenase Deficiency,-0.37210410833358765
+hsa-mir-703,Dementia,-0.3721045255661011
+hsa-mir-7g,acute myocardial infarction,-0.37211334705352783
+hsa-mir-4485,"Bronchiolitis Obliterans Syndrome,cancer",-0.37211960554122925
+hsa-mir-741,"Leukemia and Promyelocytic and Acute,cancer",-0.37213242053985596
+hsa-mir-4440,Cardiac Complexes and Premature,-0.3721444010734558
+hsa-mir-4433b,"Lupus Nephritis,cancer",-0.37216562032699585
+hsa-mir-1274,Liposarcoma and Myxoid,-0.3721660375595093
+hsa-mir-223a,fragile X-associated tremor/ataxia syndrome,-0.37217992544174194
+hsa-mir-7219,"Thyroid Neoplasms,cancer",-0.3721802830696106
+hsa-mir-6728,Cardiac Dysfunction,-0.37219691276550293
+hsa-mir-466a,"Thrombosis,cancer",-0.3722115755081177
+hsa-mir-712,"Prostatic Neoplasms,cancer",-0.37221187353134155
+hsa-mir-6746,"Rhinitis and Allergic,cancer",-0.37221527099609375
+hsa-mir-4718,"Cachexia,cancer",-0.37224817276000977
+hsa-mir-26a-1,"Fibrosis and Renal,cancer",-0.3722589612007141
+hsa-mir-740,Out-of-Hospital Cardiac Arrest,-0.372259259223938
+hsa-mir-4659a,"Primary Myelofibrosis,cancer",-0.3722614049911499
+hsa-mir-548x,"Mitochondrial Diseases,cancer",-0.37226730585098267
+hsa-let-7f-2,"Hemangioma,cancer",-0.37227320671081543
+hsa-mir-4999,Implantation Failure,-0.3722769021987915
+hsa-mir-4303,"Tetralogy of Fallot,cancer",-0.37228208780288696
+hsa-mir-3529,"Carcinoma and Ovarian Epithelial,cancer",-0.37228280305862427
+hsa-mir-467c,Tricuspid Valve Insufficiency,-0.37228327989578247
+hsa-mir-291b,Staphylococcal Scalded Skin Syndrome,-0.3722849488258362
+hsa-mir-252,"Visceral Pain,cancer",-0.37228941917419434
+hsa-mir-4667,"Keloid,cancer",-0.3722965121269226
+hsa-mir-201,Osteochondrodysplasias,-0.37230002880096436
+hsa-mir-750,Chronic Disease,-0.3723028302192688
+hsa-mir-518e,"Nasopharyngeal Neoplasms,cancer",-0.3723032474517822
+hsa-mir-294,"Heart Arrest,cancer",-0.3723236322402954
+hsa-mir-159a,Parasitic Diseases,-0.37232428789138794
+hsa-mir-872,Inflammatory Breast Neoplasms,-0.37234896421432495
+hsa-mir-5627,"Chronic Periodontitis,cancer",-0.37235283851623535
+hsa-mir-7684,"Retinitis,cancer",-0.3723571300506592
+hsa-mir-6827,"Abortion and Spontaneous,cancer",-0.37236863374710083
+hsa-mir-350,"Endocrine System Diseases,cancer",-0.37237370014190674
+hsa-mir-4536,Adenoma and Islet Cell,-0.37243735790252686
+hsa-mir-548at,Multicystic renal dysplasia and bilateral,-0.37244313955307007
+hsa-mir-4710,"Pneumonia and Mycoplasma,cancer",-0.3724544644355774
+hsa-mir-1468,"Large Artery  Atherosclerosis,cancer",-0.37246501445770264
+hsa-mir-371b,"Intestinal Diseases,cancer",-0.3724803924560547
+hsa-mir-365-2,"Leishmaniasis,cancer",-0.3726349472999573
+hsa-mir-1324,Urinary Calculi,-0.3727251887321472
+hsa-mir-6770,Death and Sudden,-0.37273967266082764
+hsa-mir-153-2,"Papillomavirus Infections,cancer",-0.3727492690086365
+hsa-mir-6836,"Thrombocytopenia,cancer",-0.37276363372802734
+hsa-mir-129a,"Bone Neoplasms,cancer",-0.37276649475097656
+hsa-mir-892c,"Leukemia and Prolymphocytic and T-Cell,cancer",-0.37276679277420044
+hsa-mir-4663,Gastrinoma,-0.3727681636810303
+hsa-mir-4759,"Schizophrenia,cancer",-0.3727852702140808
+hsa-mir-169,obsolete Helicobacter pylori infectious disease,-0.37278974056243896
+hsa-mir-8881,"Viral Myocarditis,cancer",-0.37283164262771606
+hsa-mir-646,"Venous Thromboembolism,cancer",-0.37283962965011597
+hsa-mir-39,"AIDS Dementia Complex,cancer",-0.37284934520721436
+hsa-mir-74b,Deficiency Diseases,-0.3728547692298889
+hsa-mir-22a,"Amyotrophic Lateral Sclerosis,cancer",-0.3728671669960022
+hsa-mir-3131,"Anxiety Disorders,cancer",-0.3728676438331604
+hsa-mir-378h,"Carcinoma and Pancreatic Ductal,cancer",-0.37288135290145874
+hsa-mir-3666,"Venous Thrombosis,cancer",-0.37291884422302246
+hsa-mir-551b,"Azoospermia,cancer",-0.37292176485061646
+hsa-mir-4274,"Atherosclerosis,cancer",-0.3729327917098999
+hsa-mir-10b,"Tooth and Impacted,cancer",-0.37294667959213257
+hsa-mir-584j,Deltaretrovirus Infections,-0.3729480504989624
+mdv1-miR-M9,"Leukemia and Acute,cancer",-0.37295013666152954
+EBV-mir-BART8,Acute Coronary Syndrome and Non-St  Elevation,-0.3729601502418518
+hsa-mir-2,"Coronary Stenosis,cancer",-0.37296462059020996
+hsa-mir-7670,Pediatric Enteritis,-0.3729746341705322
+hsa-mir-4260,Chlamydia Infections,-0.3729757070541382
+hsa-mir-1343,"Myocardial Infarction and Acute,cancer",-0.3729766011238098
+hsa-mir-487,Nonsyndromic sensorineural hearing loss,-0.3729850649833679
+hsa-mir-1268,"Opitz GBBB Syndrome and X-Linked,cancer",-0.37299174070358276
+hsa-mir-164,Alopecia Areata,-0.372994065284729
+hsa-mir-7113,Susac Syndrome,-0.37299448251724243
+hsa-mir-155-1,Starvation,-0.3729947805404663
+hsa-mir-20,"Hepatoblastoma,cancer",-0.3730115294456482
+hsa-mir-5003,Pituitary ACTH Hypersecretion,-0.3730318546295166
+hsa-mir-8,"Aneuploidy,cancer",-0.37306320667266846
+kshv-miR-k12-2,"Peri-Implantitis,cancer",-0.3730909824371338
+hsa-mir-4450,"Genetic Diseases and Inborn,cancer",-0.373108446598053
+hsa-mir-7167,Arrest of spermatogenesis,-0.3731474280357361
+hsa-mir-2182,Papillon-Lefevre Disease,-0.3731810450553894
+hsa-mir-9840,"Heart Failure,cancer",-0.37322133779525757
+hsa-mir-4533,Digestive System Diseases,-0.37326306104660034
+mdv1-miR-M2,"Psoriasis,cancer",-0.3733059763908386
+hsa-mir-205b,Leishmaniasis and Visceral,-0.3733271360397339
+hsa-mir-4649,"Uterine Diseases,cancer",-0.37341660261154175
+hsa-mir-411b,"Cholestasis,cancer",-0.37341904640197754
+hsa-mir-450,Lewy Body Disease,-0.37400203943252563
+hsa-mir-251,"Osteoarthritis and Knee,cancer",-0.37494784593582153

@@ -1,0 +1,6 @@
+miRNA,disease,source,destination,score
+hsa-miR-4519,pancreatic cancer,hsa-miR-4519,pancreatic cancer,0.2892699539661407
+hsa-miR-453,pancreatic cancer,hsa-miR-453,pancreatic cancer,0.2892714738845825
+hsa-miR-4540,pancreatic cancer,hsa-miR-4540,pancreatic cancer,0.2954311370849609
+hsa-miR-506-3p,breast cancer,hsa-miR-506-3p,breast cancer,0.0543228834867477
+hsa-miR-518a-3p,breast cancer,hsa-miR-518a-3p,breast cancer,0.0543253868818283

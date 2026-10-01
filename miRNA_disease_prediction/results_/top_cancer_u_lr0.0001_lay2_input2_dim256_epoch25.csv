@@ -1,0 +1,6 @@
+miRNA,disease,source,destination,score
+hsa-miR-10a-5p,brain cancer,hsa-miR-10a-5p,brain cancer,0.0014504939317703
+hsa-miR-454,pancreatic cancer,hsa-miR-454,pancreatic cancer,0.0051650702953338
+hsa-miR-4540,pancreatic cancer,hsa-miR-4540,pancreatic cancer,0.0327764749526977
+hsa-miR-584,breast cancer,hsa-miR-584,breast cancer,0.0008177757263183
+hsa-mir-219,Thyroid Cancer and Papillary,hsa-mir-219,Thyroid Cancer and Papillary,0.0224825590848922

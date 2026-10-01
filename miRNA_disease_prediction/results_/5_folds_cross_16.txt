@@ -1,0 +1,45 @@
+Fold 1
+Fold 1 | Epoch 0 | Loss: 0.04775959998369217
+Fold 1 | Epoch 5 | Loss: 0.024307401850819588
+Fold 1 | Epoch 10 | Loss: 0.0161319300532341
+Fold 1 | Epoch 15 | Loss: 0.014339401386678219
+Fold 1 | Epoch 20 | Loss: 0.013122574426233768
+Test AUC: 0.9711 ± 0.0017 | Test F1: 0.9367 ± 0.0022 | Test FocalLoss: 0.0560 ± 0.0014 | Test Accuracy: 0.9338 ± 0.0026 | Test Precision: 0.8986 ± 0.0038 | Test Recall: 0.9781 ± 0.0021 | Test Hits@10: 0.6000 | Test MAP: 0.9542 ± 0.0038
+Fold 2
+Fold 2 | Epoch 0 | Loss: 0.042274340987205505
+Fold 2 | Epoch 5 | Loss: 0.030024992302060127
+Fold 2 | Epoch 10 | Loss: 0.021006733179092407
+Fold 2 | Epoch 15 | Loss: 0.016086449846625328
+Fold 2 | Epoch 20 | Loss: 0.011563069187104702
+Test AUC: 0.9717 ± 0.0017 | Test F1: 0.9324 ± 0.0026 | Test FocalLoss: 0.0507 ± 0.0011 | Test Accuracy: 0.9322 ± 0.0026 | Test Precision: 0.9293 ± 0.0034 | Test Recall: 0.9354 ± 0.0038 | Test Hits@10: 1.0000 | Test MAP: 0.9538 ± 0.0038
+Fold 3
+Fold 3 | Epoch 0 | Loss: 0.04171769320964813
+Fold 3 | Epoch 5 | Loss: 0.02055194601416588
+Fold 3 | Epoch 10 | Loss: 0.015801893547177315
+Fold 3 | Epoch 15 | Loss: 0.014029953628778458
+Fold 3 | Epoch 20 | Loss: 0.01294572465121746
+Test AUC: 0.9669 ± 0.0020 | Test F1: 0.9380 ± 0.0023 | Test FocalLoss: 0.0576 ± 0.0013 | Test Accuracy: 0.9352 ± 0.0025 | Test Precision: 0.8994 ± 0.0036 | Test Recall: 0.9800 ± 0.0021 | Test Hits@10: 0.8000 | Test MAP: 0.9442 ± 0.0043
+Fold 4
+Fold 4 | Epoch 0 | Loss: 0.04445645958185196
+Fold 4 | Epoch 5 | Loss: 0.03617222234606743
+Fold 4 | Epoch 10 | Loss: 0.028685955330729485
+Fold 4 | Epoch 15 | Loss: 0.023693431168794632
+Fold 4 | Epoch 20 | Loss: 0.02029789611697197
+Test AUC: 0.9566 ± 0.0022 | Test F1: 0.9299 ± 0.0023 | Test FocalLoss: 0.0864 ± 0.0017 | Test Accuracy: 0.9267 ± 0.0026 | Test Precision: 0.8908 ± 0.0038 | Test Recall: 0.9726 ± 0.0024 | Test Hits@10: 0.0000 | Test MAP: 0.9267 ± 0.0047
+Fold 5
+Fold 5 | Epoch 0 | Loss: 0.058351289480924606
+Fold 5 | Epoch 5 | Loss: 0.030700508505105972
+Fold 5 | Epoch 10 | Loss: 0.020561600103974342
+Fold 5 | Epoch 15 | Loss: 0.013210496865212917
+Fold 5 | Epoch 20 | Loss: 0.010625227354466915
+Test AUC: 0.9545 ± 0.0022 | Test F1: 0.9397 ± 0.0023 | Test FocalLoss: 0.0594 ± 0.0012 | Test Accuracy: 0.9379 ± 0.0024 | Test Precision: 0.9130 ± 0.0036 | Test Recall: 0.9681 ± 0.0025 | Test Hits@10: 1.0000 | Test MAP: 0.9209 ± 0.0055
+             miRNA            disease  ...        destination     score
+0     hsa-miR-4519       brain cancer  ...       brain cancer  0.455662
+1     hsa-miR-4519  pancreatic cancer  ...  pancreatic cancer  0.508735
+2     hsa-miR-4525  pancreatic cancer  ...  pancreatic cancer  0.505772
+3      hsa-miR-453  pancreatic cancer  ...  pancreatic cancer  0.508750
+4     hsa-miR-4540  pancreatic cancer  ...  pancreatic cancer  0.505781
+5  hsa-miR-518a-3p      breast cancer  ...      breast cancer  0.775710
+6      hsa-miR-584      breast cancer  ...      breast cancer  0.775551
+
+[7 rows x 5 columns]

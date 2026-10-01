@@ -1,0 +1,217 @@
+source,destination,score
+hsa-miR-6774-5p,Head and neck cancer,0.039765700697898865
+hsa-miR-6767-5p,Head and neck cancer,0.03975358605384827
+hsa-miR-761,Head and neck cancer,0.038798242807388306
+hsa-miR-4520b-3p,Head and neck cancer,0.03868766129016876
+hsa-mir-4271,adrenocortical cancer,0.014772921800613403
+hsa-miR-6771-3p,Head and neck cancer,0.011188939213752747
+hsa-miR-548a,Head and neck cancer,0.011183410882949829
+hsa-mir-548o,ovarian cancer,0.0012491047382354736
+hsa-mir-291b,ovarian cancer,0.0012477785348892212
+hsa-mir-218,adrenocortical cancer,-0.012762203812599182
+hsa-mir-74a,adrenocortical cancer,-0.012765258550643921
+hsa-mir-276a,ovarian cancer (OC),-0.020799070596694946
+hsa-mir-5095,ovarian cancer (OC),-0.020801186561584473
+hsa-mir-291b,ovarian cancer (OC),-0.020802170038223267
+hsa-mir-410,ovarian cancer (OC),-0.020802751183509827
+hsa-mir-29b-2,ovarian cancer (OC),-0.02097994089126587
+hsa-mir-344,ovarian cancer (OC),-0.021980181336402893
+hsa-mir-276a,gastric cancer (stomach cancer),-0.02328573167324066
+hsa-mir-3121,gastric cancer (stomach cancer),-0.023639008402824402
+hsa-mir-74b,gastric cancer (stomach cancer),-0.024239495396614075
+hsa-mir-27,gastric cancer (stomach cancer),-0.0242730975151062
+hsa-mir-2861,ovarian cancer (OC),-0.03330549597740173
+hsa-mir-4669,pancreatic cancer,-0.040674224495887756
+hsa-mir-762,pancreatic cancer,-0.04067423939704895
+hsa-mir-3133,pancreatic cancer,-0.04067458212375641
+hsa-mir-545,pancreatic cancer,-0.0406745970249176
+hsa-mir-430,pancreatic cancer,-0.04067504405975342
+hsa-mir-6732,pancreatic cancer,-0.04067523777484894
+hsa-mir-7113,pancreatic cancer,-0.040675386786460876
+hsa-mir-548o,pancreatic cancer,-0.040675416588783264
+hsa-mir-355,pancreatic cancer,-0.04067543148994446
+hsa-mir-6827,pancreatic cancer,-0.040675461292266846
+hsa-mir-3074,pancreatic cancer,-0.04067547619342804
+hsa-mir-320e,pancreatic cancer,-0.04067552089691162
+hsa-mir-378f,pancreatic cancer,-0.040675610303878784
+hsa-mir-5095,pancreatic cancer,-0.04067574441432953
+hsa-mir-6509,pancreatic cancer,-0.0406758189201355
+hsa-mir-4770,pancreatic cancer,-0.04067641496658325
+hsa-mir-4535,pancreatic cancer,-0.04067648947238922
+hsa-mir-62,pancreatic cancer,-0.04067695140838623
+hsa-mir-320c,pancreatic cancer,-0.040677160024642944
+hsa-mir-610,pancreatic cancer,-0.04067717492580414
+hsa-mir-548ah,pancreatic cancer,-0.040677353739738464
+hsa-mir-5021,pancreatic cancer,-0.040677428245544434
+hsa-mir-3473f,pancreatic cancer,-0.04067760705947876
+hsa-mir-6090,pancreatic cancer,-0.04067769646644592
+hsa-mir-412,pancreatic cancer,-0.04067780077457428
+hsa-mir-4885,pancreatic cancer,-0.04067790508270264
+hsa-mir-278,pancreatic cancer,-0.040678009390830994
+hsa-mir-4501,pancreatic cancer,-0.040678128600120544
+hsa-mir-214,pancreatic cancer,-0.040678203105926514
+hsa-mir-607,pancreatic cancer,-0.04067912697792053
+hsa-mir-4697,pancreatic cancer,-0.04068124294281006
+hsa-mir-2110,pancreatic cancer,-0.040686190128326416
+hsa-mir-7641,pancreatic cancer,-0.04068824648857117
+hsa-mir-497b,pancreatic cancer,-0.0407010018825531
+hsa-mir-42,pancreatic cancer,-0.040704354643821716
+hsa-mir-296,pancreatic cancer,-0.04070831835269928
+hsa-mir-504,pancreatic cancer,-0.04073783755302429
+hsa-mir-29b-2,pancreatic cancer,-0.04085452854633331
+hsa-mir-750,pancreatic cancer,-0.04138302803039551
+hsa-mir-4329,pancreatic cancer,-0.04143689572811127
+hsa-mir-548x,pancreatic cancer,-0.041583821177482605
+hsa-mir-4791,pancreatic cancer,-0.041625380516052246
+hsa-mir-4695,pancreatic cancer,-0.04162703454494476
+hsa-mir-4271,pancreatic cancer,-0.04169856011867523
+hsa-mir-4724,pancreatic cancer,-0.04169866442680359
+hsa-mir-603,pancreatic cancer,-0.041771382093429565
+hsa-mir-213,pancreatic cancer,-0.041771531105041504
+hsa-mir-3168,pancreatic cancer,-0.04177303612232208
+hsa-mir-205c,pancreatic cancer,-0.04177515208721161
+hsa-mir-3913,pancreatic cancer,-0.04180951416492462
+hsa-mir-588,pancreatic cancer,-0.0418124794960022
+hsa-mir-344,pancreatic cancer,-0.041854724287986755
+hsa-mir-5702,pancreatic cancer,-0.041948363184928894
+hsa-mir-6865,pancreatic cancer,-0.04226462543010712
+hsa-mir-42-1,recurrent ovarian cancer,-0.04667350649833679
+hsa-mir-203b,recurrent ovarian cancer,-0.04667559266090393
+hsa-mir-4057,recurrent ovarian cancer,-0.046677932143211365
+hsa-mir-564,recurrent ovarian cancer,-0.046678051352500916
+hsa-mir-3130-1,recurrent ovarian cancer,-0.04754343628883362
+hsa-mir-4271,recurrent ovarian cancer,-0.04770047962665558
+hsa-mir-3168,recurrent ovarian cancer,-0.04777500033378601
+hsa-mir-344,recurrent ovarian cancer,-0.047856688499450684
+hsa-mir-205a,ovarian cancer (OC),-0.048859089612960815
+hsa-mir-3174,ovarian cancer (OC),-0.04886183142662048
+hsa-mir-4758,ovarian cancer (OC),-0.0488630086183548
+hsa-mir-291,ovarian cancer (OC),-0.048864856362342834
+hsa-mir-372,ovarian cancer (OC),-0.04886755347251892
+hsa-mir-4479,ovarian cancer (OC),-0.048873379826545715
+hsa-mir-29c,gastric cancer (stomach cancer),-0.05134299397468567
+hsa-mir-489,gastric cancer (stomach cancer),-0.05134381353855133
+hsa-mir-2119,gastric cancer (stomach cancer),-0.051344484090805054
+hsa-mir-601,gastric cancer (stomach cancer),-0.051347166299819946
+hsa-mir-394,gastric cancer (stomach cancer),-0.0513475239276886
+hsa-mir-3174,gastric cancer (stomach cancer),-0.05134850740432739
+hsa-mir-548k,gastric cancer (stomach cancer),-0.0513494610786438
+hsa-mir-4758,gastric cancer (stomach cancer),-0.0513496994972229
+hsa-mir-576,gastric cancer (stomach cancer),-0.051349952816963196
+hsa-mir-2213,gastric cancer (stomach cancer),-0.051350563764572144
+hsa-mir-7240,gastric cancer (stomach cancer),-0.05135229229927063
+hsa-mir-548at,gastric cancer (stomach cancer),-0.05135329067707062
+hsa-mir-202,gastric cancer (stomach cancer),-0.0513540655374527
+hsa-mir-548y,gastric cancer (stomach cancer),-0.05135561525821686
+hsa-mir-679,testicular cancer,-0.06593848764896393
+hsa-mir-5196,pancreatic cancer,-0.06872549653053284
+hsa-mir-595,pancreatic cancer,-0.0687255784869194
+hsa-mir-5100,pancreatic cancer,-0.06872669607400894
+hsa-mir-4292,pancreatic cancer,-0.06872730702161789
+hsa-mir-658,pancreatic cancer,-0.068727508187294
+hsa-mir-676,pancreatic cancer,-0.06872816383838654
+hsa-mir-4793,pancreatic cancer,-0.06872891634702682
+hsa-mir-741,pancreatic cancer,-0.06872923672199249
+hsa-mir-6852,pancreatic cancer,-0.06872966885566711
+hsa-mir-345,pancreatic cancer,-0.06873071193695068
+hsa-mir-206,pancreatic cancer,-0.06873076409101486
+hsa-mir-758,pancreatic cancer,-0.06873095035552979
+hsa-mir-6851,pancreatic cancer,-0.06873095035552979
+hsa-mir-585,pancreatic cancer,-0.0687311515212059
+hsa-mir-549a,pancreatic cancer,-0.06873151659965515
+hsa-mir-682,pancreatic cancer,-0.06873156130313873
+hsa-mir-489,pancreatic cancer,-0.06873171776533127
+hsa-mir-3977,pancreatic cancer,-0.06873209029436111
+hsa-mir-670,pancreatic cancer,-0.06873223185539246
+hsa-mir-4768,pancreatic cancer,-0.06873272359371185
+hsa-mir-548n,pancreatic cancer,-0.068732850253582
+hsa-mir-488,pancreatic cancer,-0.06873293966054916
+hsa-mir-731,pancreatic cancer,-0.06873302906751633
+hsa-mir-29a-1,pancreatic cancer,-0.06873312592506409
+hsa-mir-4480,pancreatic cancer,-0.06873319298028946
+hsa-mir-548s,pancreatic cancer,-0.06873340904712677
+hsa-mir-5680,pancreatic cancer,-0.0687335953116417
+hsa-mir-493,pancreatic cancer,-0.06873395293951035
+hsa-mir-218,pancreatic cancer,-0.0687340497970581
+hsa-mir-6125,pancreatic cancer,-0.06873416900634766
+hsa-mir-712,pancreatic cancer,-0.06873420625925064
+hsa-mir-467a,pancreatic cancer,-0.06873463839292526
+hsa-mir-4769,pancreatic cancer,-0.06873473525047302
+hsa-mir-609,pancreatic cancer,-0.06873482465744019
+hsa-mir-499b,pancreatic cancer,-0.06873511523008347
+hsa-mir-2114,pancreatic cancer,-0.06873523443937302
+hsa-mir-548t,pancreatic cancer,-0.06873523443937302
+hsa-mir-679,pancreatic cancer,-0.0687352642416954
+hsa-mir-46a,pancreatic cancer,-0.06873544305562973
+hsa-mir-535,pancreatic cancer,-0.06873555481433868
+hsa-mir-218a,pancreatic cancer,-0.06873577833175659
+hsa-mir-292,pancreatic cancer,-0.06873590499162674
+hsa-mir-569,pancreatic cancer,-0.06873590499162674
+hsa-mir-2117,pancreatic cancer,-0.06873603910207748
+hsa-mir-3174,pancreatic cancer,-0.06873640418052673
+hsa-mir-514-2,pancreatic cancer,-0.06873659044504166
+hsa-mir-294,pancreatic cancer,-0.0687369555234909
+hsa-mir-43,pancreatic cancer,-0.06873704493045807
+hsa-mir-3159,pancreatic cancer,-0.06873784959316254
+hsa-mir-576,pancreatic cancer,-0.06873785704374313
+hsa-mir-4716,pancreatic cancer,-0.06873802095651627
+hsa-mir-575,pancreatic cancer,-0.06873804330825806
+hsa-mir-467f,pancreatic cancer,-0.06873820722103119
+hsa-mir-5590,pancreatic cancer,-0.0687384083867073
+hsa-mir-2213,pancreatic cancer,-0.06873845309019089
+hsa-mir-297,pancreatic cancer,-0.06873854994773865
+hsa-mir-3181,pancreatic cancer,-0.06873861700296402
+hsa-mir-3912,pancreatic cancer,-0.06873861700296402
+hsa-mir-26a-1,pancreatic cancer,-0.06873898208141327
+hsa-mir-4430,pancreatic cancer,-0.06873898953199387
+hsa-mir-291,pancreatic cancer,-0.06873942166566849
+hsa-mir-2053,pancreatic cancer,-0.06873995810747147
+hsa-mir-513,pancreatic cancer,-0.06874023377895355
+hsa-mir-3118,pancreatic cancer,-0.06874044239521027
+hsa-mir-548c,pancreatic cancer,-0.06874057650566101
+hsa-mir-612,pancreatic cancer,-0.0687408372759819
+hsa-mir-514a,pancreatic cancer,-0.06874124705791473
+hsa-mir-365b,pancreatic cancer,-0.06874161958694458
+hsa-mir-381,pancreatic cancer,-0.06874207407236099
+hsa-mir-596,pancreatic cancer,-0.06874207407236099
+hsa-mir-372,pancreatic cancer,-0.06874211132526398
+hsa-mir-4646,pancreatic cancer,-0.06874232739210129
+hsa-mir-2904,pancreatic cancer,-0.06874256581068039
+hsa-mir-520a,pancreatic cancer,-0.06874522566795349
+hsa-mir-4793,recurrent ovarian cancer,-0.07473085075616837
+hsa-mir-345,recurrent ovarian cancer,-0.07473266869783401
+hsa-mir-4751,recurrent ovarian cancer,-0.0747363418340683
+hsa-mir-2114,recurrent ovarian cancer,-0.07473719120025635
+hsa-mir-292,recurrent ovarian cancer,-0.07473785430192947
+hsa-mir-3150a,recurrent ovarian cancer,-0.07473815977573395
+hsa-mir-3174,recurrent ovarian cancer,-0.07473836094141006
+hsa-mir-4782,recurrent ovarian cancer,-0.07473979890346527
+hsa-mir-2213,recurrent ovarian cancer,-0.07474041730165482
+hsa-mir-26a-1,recurrent ovarian cancer,-0.074740931391716
+hsa-miR-453,recurrent ovarian cancer,-0.07474164664745331
+hsa-mir-3133,skin cancer,-0.07609552890062332
+hsa-mir-718,skin cancer,-0.07609638571739197
+hsa-mir-337,skin cancer,-0.07609812915325165
+hsa-mir-6072,skin cancer,-0.07609855383634567
+hsa-mir-4271,skin cancer,-0.07711950689554214
+hsa-mir-3470b,brain cancer,-0.08278564363718033
+hsa-mir-345,skin cancer,-0.10415167361497879
+hsa-mir-3125,skin cancer,-0.10415226221084595
+hsa-mir-210,skin cancer,-0.10415233671665192
+hsa-mir-205b,skin cancer,-0.1041560024023056
+hsa-mir-2909,skin cancer,-0.10415924340486526
+hsa-mir-2213,skin cancer,-0.1041594073176384
+hsa-mir-3181,skin cancer,-0.10415957868099213
+hsa-mir-291,skin cancer,-0.1041603833436966
+hsa-mir-6746,skin cancer,-0.10416340082883835
+hsa-mir-2904,skin cancer,-0.1041635274887085
+hsa-mir-291,brain cancer,-0.11084775626659393
+hsa-miR-105-2,brain cancer,-0.11084872484207153
+hsa-mir-345,head and neck cancer,-0.12360386550426483
+hsa-mir-219,kidney cancer,-0.24133703112602234
+hsa-mir-365,gastric cancer,-0.24141240119934082
+hsa-mir-65,uterus cancer,-0.31862133741378784
+hsa-mir-2909,hereditary diffuse gastric cancer,-0.3376154899597168
+hsa-miR-518a-3p,breast cancer,-0.337904155254364
+hsa-miR-6776-3p,breast cancer,-0.34447038173675537
+hsa-mir-7239,thyroid cancer,-0.35067784786224365

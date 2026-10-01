@@ -1,0 +1,201 @@
+source,destination,score
+hsa-miR-4666b,Glioblastoma,0.14141173660755157
+hsa-miR-5088-5p,Glioblastoma,0.13528451323509216
+hsa-miR-6774-3p,Intracranial Thrombosis,0.12604856491088867
+hsa-miR-496,Intracranial Thrombosis,0.12604811787605286
+hsa-miR-516-5p,Intracranial Thrombosis,0.12604796886444092
+hsa-miR-5688,Intracranial Thrombosis,0.1260470747947693
+hsa-miR-6888-5p,Intracranial Thrombosis,0.12604689598083496
+hsa-miR-5691,Intracranial Thrombosis,0.12604661285877228
+hsa-miR-8088,Intracranial Thrombosis,0.1260450780391693
+hsa-miR-6869-3p,Intracranial Thrombosis,0.1260448545217514
+hsa-miR-6068,Glioblastoma,0.1249203234910965
+hsa-miR-550a-5p,Glioblastoma,0.12491471320390701
+hsa-miR-515-5p,Intracranial Thrombosis,0.11021760106086731
+hsa-miR-548ao-3p,Intracranial Thrombosis,0.109539695084095
+hsa-miR-7161-3p,Intracranial Thrombosis,0.10953444242477417
+hsa-mir-2110,Carcinosarcoma,0.10642465949058533
+hsa-miR-4707-5p,Biliary Tract Neoplasms,0.09751944243907928
+hsa-miR-5739,Biliary Tract Neoplasms,0.09751923382282257
+hsa-miR-4645-3p,Biliary Tract Neoplasms,0.09751597046852112
+hsa-miR-6754-3p,Biliary Tract Neoplasms,0.09751132875680923
+hsa-mir-38,Neurogenic Inflammation,0.08938170224428177
+hsa-mir-3130-1,Epilepsy,0.08221381902694702
+hsa-mir-523,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.08127310127019882
+hsa-miR-5681a,Biliary Tract Neoplasms,0.08114057779312134
+hsa-miR-499b-3p,Biliary Tract Neoplasms,0.08101996779441833
+hsa-miR-517a,Biliary Tract Neoplasms,0.08101347088813782
+hsa-miR-520a-5p,Biliary Tract Neoplasms,0.08100654929876328
+hsa-mir-2765,stomach carcinoma,0.07296748459339142
+hsa-mir-2213,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.07242169976234436
+hsa-mir-291,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.07242158055305481
+hsa-mir-2909,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.07242108881473541
+hsa-mir-3909,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.0724204033613205
+hsa-mir-296,Myopia and High,0.07122045755386353
+hsa-mir-3168,Spinal Cord Injuries,0.07089429348707199
+hsa-mir-551,developmental and epileptic encephalopathy,0.0694098025560379
+hsa-mir-2861,Coproporphyria and Hereditary,0.06481698900461197
+hsa-miR-4533,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.061924852430820465
+hsa-mir-3130-1,developmental and epileptic encephalopathy,0.06146510690450668
+hsa-mir-574,Pulmonary Fibrosis,0.0608869306743145
+hsa-mir-2861,squamous carcinoma,0.057685352861881256
+hsa-mir-2110,stomach carcinoma,0.05655878782272339
+hsa-mir-276a,stomach carcinoma,0.056483056396245956
+hsa-mir-607,Nevoid Basal Cell Carcinoma Syndrome 1@En,0.055879462510347366
+hsa-mir-2213,Fanconi Anemia,0.05242919921875
+hsa-mir-2110,non-alcoholic fatty liver disease (NAFLD),0.051230594515800476
+hsa-mir-219,vascular disease,0.05090760067105293
+hsa-mir-5694,Pulmonary Arterial Hypertension,0.05072740465402603
+hsa-mir-4477b,Polycystic Ovary Syndrome,0.0496731698513031
+hsa-mir-4496,leukemia,0.04947288706898689
+hsa-miR-451a,leukemia,0.04947201907634735
+hsa-mir-758,Hypersensitivity,0.04782465100288391
+hsa-mir-370c,squamous carcinoma,0.047471772879362106
+hsa-mir-3121,Liver Cirrhosis,0.04570465907454491
+hsa-mir-6753,Coronary Occlusion,0.04511167109012604
+hsa-mir-24-1,diffuse large B-cell lymphoma (DLBCL),0.04451828449964523
+hsa-miR-6771-3p,Head and neck cancer,0.04433104023337364
+hsa-miR-4530,Head and neck cancer,0.04432984068989754
+hsa-mir-2861,Medulloblastoma,0.043592486530542374
+hsa-mir-376c,Liver Cirrhosis,0.04204169288277626
+hsa-mir-548at,cholesteatoma,0.0416279062628746
+hsa-mir-521,cholesteatoma,0.041625700891017914
+hsa-mir-4787,cholesteatoma,0.041625700891017914
+hsa-mir-741,cholesteatoma,0.04162297397851944
+hsa-mir-6739,Kidney Transplantation,0.03841620683670044
+hsa-miR-4520b-3p,Head and neck cancer,0.038213685154914856
+hsa-mir-6747,Fanconi Anemia,0.035915084183216095
+hsa-mir-27,cholesteatoma,0.034804534167051315
+hsa-mir-6077,Polycystic Ovary Syndrome,0.033189885318279266
+hsa-mir-3470b,leukemia,0.032959260046482086
+hsa-mir-676,Prostatic Hyperplasia,0.032695792615413666
+hsa-mir-509,myeloproliferative disorder,0.03182204067707062
+hsa-mir-296,diffuse large B-cell lymphoma (DLBCL),0.03017074428498745
+hsa-mir-7160,Cocaine-Related Disorders,0.03013199009001255
+hsa-mir-520e,cardiomyopathy,0.029477683827280998
+hsa-mir-3201,cardiomyopathy,0.029477611184120178
+hsa-mir-1306,Head and neck cancer,0.027833614498376846
+hsa-mir-3130-1,Breast Neoplasms,0.026446985080838203
+hsa-mir-4271,Prostatic Hyperplasia,0.026230989024043083
+hsa-mir-3909,facioscapulohumeral muscular dystrophy (FSHD),0.02562486007809639
+hsa-mir-2119,facioscapulohumeral muscular dystrophy (FSHD),0.025623343884944916
+hsa-mir-3125,facioscapulohumeral muscular dystrophy (FSHD),0.025622447952628136
+hsa-mir-3074,cholesteatoma,0.025121478363871574
+hsa-mir-23c,cholesteatoma,0.025119833648204803
+hsa-mir-344,cardiomyopathy,0.024582313373684883
+hsa-mir-7239,Acute Kidney Injury,0.024141797795891762
+hsa-mir-3171,Kidney Transplantation,0.023808827623724937
+hsa-mir-512,Persistent Neck-Pain Disability,0.02238011360168457
+hsa-mir-3174,thalassemia,0.020952444523572922
+hsa-mir-4454,thalassemia,0.020951461046934128
+hsa-miR-4520a-5p,thalassemia,0.020951148122549057
+hsa-mir-548o,Cervial Cancer,0.020606450736522675
+hsa-mir-2904,Persistent Neck-Pain Disability,0.02032337337732315
+hsa-miR-453,Persistent Neck-Pain Disability,0.020322799682617188
+hsa-mir-4751,Persistent Neck-Pain Disability,0.02032126858830452
+hsa-mir-378e,Persistent Neck-Pain Disability,0.020318929105997086
+hsa-mir-512,Polycystic Ovary Syndrome,0.020244669169187546
+hsa-mir-721,Polycystic Ovary Syndrome,0.018189657479524612
+hsa-mir-4334,Polycystic Ovary Syndrome,0.01818891242146492
+hsa-mir-5189,Polycystic Ovary Syndrome,0.01818857714533806
+hsa-mir-566,Polycystic Ovary Syndrome,0.018188346177339554
+hsa-mir-381,Polycystic Ovary Syndrome,0.01818801462650299
+hsa-mir-2904,Polycystic Ovary Syndrome,0.018187858164310455
+hsa-mir-5007,Polycystic Ovary Syndrome,0.018187396228313446
+hsa-mir-6840,Polycystic Ovary Syndrome,0.018187396228313446
+hsa-miR-453,Polycystic Ovary Syndrome,0.018187321722507477
+hsa-mir-2053,Polycystic Ovary Syndrome,0.018186990171670914
+hsa-mir-575,Polycystic Ovary Syndrome,0.0181867778301239
+hsa-mir-6838,Polycystic Ovary Syndrome,0.01818675920367241
+hsa-mir-2113,Polycystic Ovary Syndrome,0.018186602741479874
+hsa-mir-7107,Polycystic Ovary Syndrome,0.018186528235673904
+hsa-mir-3912,Polycystic Ovary Syndrome,0.018186457455158234
+hsa-mir-3667,Polycystic Ovary Syndrome,0.01818644255399704
+hsa-mir-26a-2,Polycystic Ovary Syndrome,0.01818637177348137
+hsa-mir-6831,Polycystic Ovary Syndrome,0.018186241388320923
+hsa-mir-4435,Polycystic Ovary Syndrome,0.018186241388320923
+hsa-mir-2909,Polycystic Ovary Syndrome,0.01818622648715973
+hsa-mir-4782,Polycystic Ovary Syndrome,0.018186140805482864
+hsa-miR-454,Polycystic Ovary Syndrome,0.01818590983748436
+hsa-mir-548f-1,Polycystic Ovary Syndrome,0.0181858092546463
+hsa-mir-4751,Polycystic Ovary Syndrome,0.018185753375291824
+hsa-mir-294,Polycystic Ovary Syndrome,0.018185734748840332
+hsa-mir-4716,Polycystic Ovary Syndrome,0.018185578286647797
+hsa-mir-679,Polycystic Ovary Syndrome,0.018185578286647797
+hsa-mir-43,Polycystic Ovary Syndrome,0.018185578286647797
+hsa-mir-71,Polycystic Ovary Syndrome,0.018185578286647797
+hsa-mir-2115,Polycystic Ovary Syndrome,0.018185243010520935
+hsa-mir-4454,Polycystic Ovary Syndrome,0.018185187131166458
+hsa-mir-374a,Polycystic Ovary Syndrome,0.018185116350650787
+hsa-mir-74a,Polycystic Ovary Syndrome,0.018184855580329895
+hsa-miR-4520a-5p,Polycystic Ovary Syndrome,0.018184855580329895
+hsa-mir-2114,Polycystic Ovary Syndrome,0.018184799700975418
+hsa-mir-34b,Polycystic Ovary Syndrome,0.018184799700975418
+hsa-mir-3680,Polycystic Ovary Syndrome,0.018184784799814224
+hsa-mir-6085,Polycystic Ovary Syndrome,0.01818455383181572
+hsa-mir-3150a,Polycystic Ovary Syndrome,0.01818455383181572
+hsa-mir-750-1,Polycystic Ovary Syndrome,0.018184468150138855
+hsa-mir-2052,Polycystic Ovary Syndrome,0.018184293061494827
+hsa-mir-675,Polycystic Ovary Syndrome,0.018184218555688858
+hsa-mir-425,Polycystic Ovary Syndrome,0.01818416267633438
+hsa-miR-4519,Polycystic Ovary Syndrome,0.018183987587690353
+hsa-mir-7013,Polycystic Ovary Syndrome,0.018183987587690353
+hsa-mir-345,Polycystic Ovary Syndrome,0.018183931708335876
+hsa-mir-6768,Polycystic Ovary Syndrome,0.01818390190601349
+hsa-mir-520e,Polycystic Ovary Syndrome,0.018183588981628418
+hsa-mir-6882,Polycystic Ovary Syndrome,0.018183588981628418
+hsa-mir-4756,Polycystic Ovary Syndrome,0.01818351447582245
+hsa-mir-577,Polycystic Ovary Syndrome,0.018182847648859024
+hsa-mir-585,Polycystic Ovary Syndrome,0.018182720988988876
+hsa-mir-210,Polycystic Ovary Syndrome,0.01818263530731201
+hsa-mir-7116,Polycystic Ovary Syndrome,0.018182072788476944
+hsa-mir-2861,Inflammation,0.01780417561531067
+hsa-mir-687,squamous carcinoma,0.01762307435274124
+hsa-mir-370c,ovarian cancer (OC),0.01696036010980606
+hsa-mir-4496,mesothelioma,0.016381345689296722
+hsa-mir-576,mesothelioma,0.016380909830331802
+hsa-mir-514-2,mesothelioma,0.016380678862333298
+hsa-mir-4532,mesothelioma,0.01637975499033928
+hsa-mir-2114,mesothelioma,0.0163789801299572
+hsa-mir-3680,mesothelioma,0.016378920525312424
+hsa-miR-4519,mesothelioma,0.016378138214349747
+hsa-mir-549a,mesothelioma,0.016377069056034088
+hsa-mir-6851,mesothelioma,0.016376696527004242
+hsa-mir-758,mesothelioma,0.016376234591007233
+hsa-mir-4793,mesothelioma,0.016376033425331116
+hsa-mir-4292,mesothelioma,0.01637476682662964
+hsa-mir-4757,Polycystic Ovary Syndrome,0.0159166119992733
+hsa-mir-451,mesothelioma,0.015368625521659851
+hsa-mir-29b-2,cardiomyopathy,0.01485786959528923
+hsa-mir-512,Pulmonary Arterial Hypertension,0.014384739100933075
+hsa-mir-554a,mesothelioma,0.014078963547945023
+hsa-mir-476a,Urethral Stricture,0.013871535658836365
+hsa-mir-30,Polycystic Ovary Syndrome,0.013665638864040375
+hsa-mir-4500,Endometritis,0.013577766716480255
+hsa-mir-6245,Pulmonary Arterial Hypertension,0.013572189956903458
+hsa-mir-27,Persistent Neck-Pain Disability,0.013499714434146881
+hsa-mir-711,mesothelioma,0.01319202408194542
+hsa-mir-26,cardiomyopathy,0.013000920414924622
+hsa-mir-3913,Polycystic Ovary Syndrome,0.012858178466558456
+hsa-mir-603,Polycystic Ovary Syndrome,0.012444660067558289
+hsa-mir-4479,Pulmonary Arterial Hypertension,0.012330248951911926
+hsa-mir-2128,Pulmonary Arterial Hypertension,0.012329097837209702
+hsa-mir-24,Pulmonary Arterial Hypertension,0.0123283751308918
+hsa-mir-380,Pulmonary Arterial Hypertension,0.0123283751308918
+hsa-mir-2681,Pulmonary Arterial Hypertension,0.012328144162893295
+hsa-mir-2904,Pulmonary Arterial Hypertension,0.012327942997217178
+hsa-mir-27b,Pulmonary Arterial Hypertension,0.01232791319489479
+hsa-mir-548at,Pulmonary Arterial Hypertension,0.012327652424573898
+hsa-mir-4647,Pulmonary Arterial Hypertension,0.012327566742897034
+hsa-miR-453,Pulmonary Arterial Hypertension,0.012327421456575394
+hsa-mir-5701,Pulmonary Arterial Hypertension,0.012327421456575394
+hsa-mir-4496,Pulmonary Arterial Hypertension,0.012327335774898529
+hsa-mir-513b,Pulmonary Arterial Hypertension,0.012327160686254501
+hsa-mir-4758,Pulmonary Arterial Hypertension,0.012327045202255249
+hsa-mir-5099,Pulmonary Arterial Hypertension,0.012326989322900772
+hsa-mir-297,Pulmonary Arterial Hypertension,0.012326791882514954
+hsa-mir-7107,Pulmonary Arterial Hypertension,0.012326616793870926
+hsa-mir-6848,Pulmonary Arterial Hypertension,0.012326616793870926
+hsa-mir-476a,Pulmonary Arterial Hypertension,0.01232655718922615
+hsa-mir-4775,Pulmonary Arterial Hypertension,0.012326531112194061
+hsa-miR-451a,Pulmonary Arterial Hypertension,0.012326501309871674

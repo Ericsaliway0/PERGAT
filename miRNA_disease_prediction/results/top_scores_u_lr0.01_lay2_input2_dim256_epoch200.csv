@@ -1,0 +1,10 @@
+source,destination,score
+hsa-mir-4303,endometrial cancer,0.7475084066390991
+hsa-mir-2285n,endometrial cancer,0.7417119145393372
+hsa-mir-337,colorectal cancer,0.7409869432449341
+hsa-mir-40,endometrial cancer,0.688250720500946
+hsa-mir-61,endometrial cancer,0.6882479190826416
+hsa-mir-4254,endometrial cancer,0.6882470846176147
+hsa-mir-4462,uterus cancer,0.6882187128067017
+hsa-mir-501,Quadruple Negative Breast Cancer,0.6882134675979614
+hsa-mir-61,lung cancer,-9.796966552734375
