@@ -37,6 +37,11 @@ The different dataset and KG used in this project are located in data directory.
 gcn_embedding % python gcn_embedding.py --in_feats 256 --out_feats 256 --num_layers 2 --num_heads 2 --batch_size 1 --lr 0.0001 --num_epochs 105
 
 ## prediction
+
+Download the data from the built graph using the link below and place it in the `data` directory before training:
+   - [Download](hhttps://drive.google.com/drive/folders/18K7bDAtG2ctXZlMBBiApl8slcJ7_s3ci?usp=drive_link)
+
+
 python main.py --in-feats 256 --out-feats 256 --num-heads 8 --num-layers 2 --lr 0.001 --input-size 2 --hidden-size 16 --feat-drop 0.5 --attn-drop 0.5 --epochs 1000    
 
 ## Citation
