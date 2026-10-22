@@ -9,7 +9,7 @@ This repository contains code for the paper **[“PERGAT: Pretrained Embeddings 
 The repository contains separate workflows for generating node embeddings and predicting miRNA-disease links:
 
 - `gcn_embedding/` contains the GCN embedding-generation code.
-- `mirna_disease_prediction/` contains a GAT link-prediction script and its graph data.
+- `link_prediction_gat_before_ipynb/` contains a GAT link-prediction script and its graph data.
 
 Run the commands below from the `PERGAT/` directory unless a step says otherwise.
 
@@ -40,7 +40,7 @@ The embedding-generation script reads the dbDEMC train and test CSV files from `
 
 ```bash
 cd gcn_embedding && python gcn_embedding.py \
-  --in_feats 256 \
+  --in_feats 2 \
   --out_feats 256 \
   --num_layers 2 \
   --num_heads 2 \
@@ -53,24 +53,24 @@ By default, the script saves the generated embeddings to `gcn_embedding/data/emb
 
 ## Predict miRNA-disease associations
 
-Download the prepared graph data and place `miRNA_disease_network.json` in `mirna_disease_prediction/data/`:
+Download the data and place in `link_prediction/data/`:
 
-- [Download the prepared graph data](https://drive.google.com/drive/folders/18K7bDAtG2ctXZlMBBiApl8slcJ7_s3ci?usp=drive_link)
+- [Download data](https://drive.google.com/drive/folders/1pOUfwxnpu-0GFdcxJ8UZ_9xT-sNBEzb9?usp=drive_link)
 
-Run the GAT prediction script from the `PERGAT/` directory:
+Run the prediction from the `PERGAT/link_prediction` directory:
 
 ```bash
-python mirna_disease_prediction/main.py \
+python main.py \
   --in-feats 256 \
   --out-feats 256 \
-  --num-heads 8 \
+  --num-heads 4 \
   --num-layers 2 \
   --lr 0.001 \
   --input-size 2 \
   --hidden-size 16 \
   --feat-drop 0.5 \
   --attn-drop 0.5 \
-  --epochs 1000
+  --epochs 200
 ```
 
 ## Citation
