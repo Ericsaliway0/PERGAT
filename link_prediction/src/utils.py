@@ -1,445 +1,263 @@
+"""
+Drop-in replacement for the metrics / plotting helpers (same public names and signatures).
+
+Conventions
+-----------
+* Scores may be torch tensors or numpy arrays.
+* SCORES_ARE_LOGITS = True  -> scores are raw logits (the model is trained with a logit-based focal loss):
+  a sigmoid is applied before any thresholded metric, so the 0.5 threshold really is p = 0.5.
+  Rank metrics (AUC, AP, Hits@K, P@K) are unaffected.
+* "+/-" returned by *_with_symmetrical_confidence is the HALF-WIDTH of a 95% percentile bootstrap interval over test pairs.
+"""
 import os
-from matplotlib import pyplot as plt
+
+import matplotlib.pyplot as plt
 import numpy as np
-import torch
-import torch.nn.functional as F
-from sklearn.metrics import roc_auc_score, f1_score, precision_score, recall_score, accuracy_score
-from sklearn.utils import resample
+from sklearn.metrics import (accuracy_score, auc, average_precision_score, f1_score, precision_recall_curve,
+                             precision_score, recall_score, roc_auc_score, roc_curve)
 
-from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import roc_curve, auc, precision_recall_curve, average_precision_score
-
-
-import scipy.sparse as sp
-from torch.optim.lr_scheduler import StepLR
-import itertools
+SCORES_ARE_LOGITS = False       # train_link_prediction_v3 passes sigmoid probabilities. Set True if you pass raw logits.
+THRESHOLD = 0.5      # modules read this at call time: set utils.THRESHOLD = <val-tuned threshold> before the thresholded metrics
+BOOTSTRAP_SEED = 0
 
 
-def plot_roc_curves(fold_results, save_path):
-    plt.figure(figsize=(10, 8))
+def _np(x):
+    if hasattr(x, "detach"):
+        x = x.detach().cpu().numpy()
+    return np.asarray(x, dtype=np.float64).reshape(-1)
 
-    # Define the mean FPR values for interpolation
-    mean_fpr = np.linspace(0, 1, 100)
-    mean_tpr = np.zeros_like(mean_fpr)
 
-    for i, (true_labels, predicted_scores) in enumerate(fold_results):
-        fpr, tpr, _ = roc_curve(true_labels, predicted_scores)
-        roc_auc = auc(fpr, tpr)
+def _sigmoid(x):
+    return 1.0 / (1.0 + np.exp(-np.clip(x, -50, 50)))
 
-        # Interpolate the TPR values at the common FPR values
-        tpr_interp = np.interp(mean_fpr, fpr, tpr)
-        mean_tpr += tpr_interp
 
-        plt.plot(fpr, tpr, lw=2, alpha=0.3, label=f'ROC fold {i + 1} (AUC = {roc_auc:.4f})')
+def _probs(x):
+    x = _np(x)
+    return _sigmoid(x) if SCORES_ARE_LOGITS else x
 
-    # Average the TPR values across folds
-    mean_tpr /= len(fold_results)
-    mean_auc = auc(mean_fpr, mean_tpr)
 
-    plt.plot([0, 1], [0, 1], linestyle='--', lw=2, color='r', alpha=0.8)
-    plt.plot(mean_fpr, mean_tpr, color='b', label=f'Mean ROC (AUC = {mean_auc:.4f})', lw=2, alpha=0.8)
+def _labels(pos, neg):
+    return np.r_[np.ones(len(pos)), np.zeros(len(neg))].astype(int)
 
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('Receiver Operating Characteristic (ROC)')
-    plt.legend(loc="lower right")
-    plt.savefig(save_path)
-    plt.close()
 
-def plot_pr_curves(fold_results, save_path):
-    plt.figure(figsize=(10, 8))
+# --------------------------------------------------------------------------- point metrics (numpy)
+def _auc(pos, neg):
+    return roc_auc_score(_labels(pos, neg), np.r_[_np(pos), _np(neg)])
 
-    # Define the mean Recall values for interpolation
-    mean_recall = np.linspace(0, 1, 100)
-    mean_precision = np.zeros_like(mean_recall)
 
-    for i, (true_labels, predicted_scores) in enumerate(fold_results):
-        precision, recall, _ = precision_recall_curve(true_labels, predicted_scores)
-        pr_auc = average_precision_score(true_labels, predicted_scores)
+def _ap(pos, neg):                               # sklearn AP: tie-safe (the hand-written loop was optimistic on ties)
+    return average_precision_score(_labels(pos, neg), np.r_[_np(pos), _np(neg)])
 
-        # Interpolate the Precision values at the common Recall values
-        precision_interp = np.interp(mean_recall, recall[::-1], precision[::-1])
-        mean_precision += precision_interp
 
-        plt.plot(recall, precision, lw=2, alpha=0.3, label=f'PR fold {i+1} (AUC = {pr_auc:.4f})')
+def _thr(fn, pos, neg, threshold=None):
+    thr = THRESHOLD if threshold is None else threshold
+    y = _labels(pos, neg)
+    p = np.r_[_probs(pos), _probs(neg)]
+    return fn(y, (p >= thr).astype(int))
 
-    # Average the Precision values across folds
-    mean_precision /= len(fold_results)
-    mean_auc = auc(mean_recall, mean_precision)
-
-    plt.plot([0, 1], [1, 0], linestyle='--', lw=2, color='r', alpha=0.8)
-    plt.plot(mean_recall, mean_precision, color='b', label=f'Mean PR (AUC = {mean_auc:.4f})', lw=2, alpha=0.8)
-
-    plt.xlabel('Recall')
-    plt.ylabel('Precision')
-    plt.title('Precision-Recall (PR) Curve')
-    plt.legend(loc='lower left')
-    plt.savefig(save_path)
-    plt.close()
-
-def plot_precision_recall_curves(fold_results, save_path):
-    plt.figure(figsize=(10, 8))
-
-    all_recall_interp = np.linspace(0, 1, 100)
-    mean_precision = np.zeros_like(all_recall_interp)
-
-    for i, (true_labels, predicted_scores) in enumerate(fold_results):
-        precision, recall, _ = precision_recall_curve(true_labels, predicted_scores)
-        pr_auc = auc(recall, precision)
-        
-        # Interpolating precision at fixed recall values
-        precision_interp = np.interp(all_recall_interp, recall[::-1], precision[::-1])
-        mean_precision += precision_interp
-        
-        plt.plot(recall, precision, lw=2, alpha=0.3, label=f'PR fold {i + 1} (AUC = {pr_auc:.4f})')
-
-    mean_precision /= len(fold_results)
-    mean_pr_auc = auc(all_recall_interp, mean_precision)
-    
-    plt.plot(all_recall_interp, mean_precision, color='b', label=f'Mean PR (AUC = {mean_pr_auc:.4f})', lw=2, alpha=0.8)
-
-    plt.xlabel('Recall')
-    plt.ylabel('Precision')
-    plt.title('Precision vs Recall Curve')
-    plt.legend(loc="lower left")
-    plt.savefig(save_path)
-    plt.close()
-    
-def compute_loss(pos_score, neg_score):
-    scores = torch.cat([pos_score, neg_score])
-    labels = torch.cat([torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])])
-    return F.binary_cross_entropy_with_logits(scores, labels)
 
 def compute_auc(pos_score, neg_score):
-    scores = torch.cat([pos_score, neg_score]).numpy()
-    labels = torch.cat([torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])]).numpy()
-    return roc_auc_score(labels, scores)
+    return _auc(pos_score, neg_score)
 
-def compute_f1(pos_score, neg_score):
-    scores = torch.cat([pos_score, neg_score]).numpy()
-    pos_labels = np.ones(pos_score.shape[0])
-    neg_labels = np.zeros(neg_score.shape[0])
-    labels = np.concatenate([pos_labels, neg_labels])
-    threshold = 0.5  # Define threshold for binary classification
-    preds_binary = (scores > threshold).astype(int)
-    return f1_score(labels, preds_binary, zero_division=1) 
-
-def compute_accuracy(pos_score, neg_score):
-    scores = torch.cat([pos_score, neg_score]).numpy()
-    pos_labels = np.ones(pos_score.shape[0])
-    neg_labels = np.zeros(neg_score.shape[0])
-    labels = np.concatenate([pos_labels, neg_labels])
-    threshold = 0.5  # Define threshold for binary classification
-    preds_binary = (scores > threshold).astype(int)
-    return accuracy_score(labels, preds_binary)
-
-def compute_precision(pos_score, neg_score):
-    scores = torch.cat([pos_score, neg_score]).numpy()
-    pos_labels = np.ones(pos_score.shape[0])
-    neg_labels = np.zeros(neg_score.shape[0])
-    labels = np.concatenate([pos_labels, neg_labels])
-    threshold = 0.5  # Define threshold for binary classification
-    preds_binary = (scores > threshold).astype(int)
-    return precision_score(labels, preds_binary, zero_division=1) 
-
-def compute_recall(pos_score, neg_score):
-    scores = torch.cat([pos_score, neg_score]).numpy()
-    pos_labels = np.ones(pos_score.shape[0])
-    neg_labels = np.zeros(neg_score.shape[0])
-    labels = np.concatenate([pos_labels, neg_labels])
-    threshold = 0.5  # Define threshold for binary classification
-    preds_binary = (scores > threshold).astype(int)
-    return recall_score(labels, preds_binary, zero_division=1) 
-
-def compute_hits_k(pos_score, neg_score, k=10):
-    scores = torch.cat([pos_score, neg_score]).detach().numpy()
-    labels = torch.cat([torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])]).detach().numpy()
-    ranked_scores = np.argsort(-scores)  # Rank in descending order
-    top_k = ranked_scores[:k]
-    return np.mean(labels[top_k])
 
 def compute_map(pos_score, neg_score):
-    scores = torch.cat([pos_score, neg_score]).detach().numpy()
-    labels = torch.cat([torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])]).detach().numpy()
-    ranked_indices = np.argsort(-scores)  # Rank in descending order
-    sorted_labels = labels[ranked_indices]
+    return _ap(pos_score, neg_score)
 
-    precisions = []
-    relevant_docs = 0
-    for i, label in enumerate(sorted_labels):
-        if label == 1:
-            relevant_docs += 1
-            precisions.append(relevant_docs / (i + 1))
-    
-    if len(precisions) == 0:
-        return 0.0
-    
-    return np.mean(precisions)
 
-def compute_map_k(pos_score, neg_score, k=None):
-    scores = torch.cat([pos_score, neg_score]).detach().numpy()
-    labels = torch.cat([torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])]).detach().numpy()
-    ranked_indices = np.argsort(-scores)  # Rank in descending order
-    sorted_labels = labels[ranked_indices]
+def compute_f1(pos_score, neg_score, threshold=None):
+    return _thr(lambda y, h: f1_score(y, h, zero_division=0), pos_score, neg_score, threshold)
 
-    if k is not None:
-        sorted_labels = sorted_labels[:k]
 
-    precisions = []
-    relevant_docs = 0
-    for i, label in enumerate(sorted_labels):
-        if label == 1:
-            relevant_docs += 1
-            precisions.append(relevant_docs / (i + 1))
+def compute_accuracy(pos_score, neg_score, threshold=None):
+    return _thr(accuracy_score, pos_score, neg_score, threshold)
 
-    if len(precisions) == 0:
-        return 0.0
 
-    return np.mean(precisions)
+def compute_precision(pos_score, neg_score, threshold=None):
+    return _thr(lambda y, h: precision_score(y, h, zero_division=0), pos_score, neg_score, threshold)   # 0, not 1, if nothing predicted positive
 
-def compute_accuracy_with_symmetrical_confidence(pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95):
-    def compute_accuracy(pos_score, neg_score):
-        scores = torch.cat([pos_score, neg_score]).numpy()
-        pos_labels = np.ones(pos_score.shape[0])
-        neg_labels = np.zeros(neg_score.shape[0])
-        labels = np.concatenate([pos_labels, neg_labels])
-        threshold = 0.5
-        preds_binary = (scores > threshold).astype(int)
-        return accuracy_score(labels, preds_binary)
-    
-    initial_accuracy = compute_accuracy(pos_score, neg_score)
-    error_range = bootstrap_confidence_interval(compute_accuracy, pos_score, neg_score, n_bootstraps, confidence_level)
-    
-    return initial_accuracy, error_range
 
-def compute_precision_with_symmetrical_confidence(pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95):
-    def compute_precision(pos_score, neg_score):
-        scores = torch.cat([pos_score, neg_score]).numpy()
-        pos_labels = np.ones(pos_score.shape[0])
-        neg_labels = np.zeros(neg_score.shape[0])
-        labels = np.concatenate([pos_labels, neg_labels])
-        threshold = 0.5
-        preds_binary = (scores > threshold).astype(int)
-        return precision_score(labels, preds_binary, zero_division=1)
-    
-    initial_precision = compute_precision(pos_score, neg_score)
-    error_range = bootstrap_confidence_interval(compute_precision, pos_score, neg_score, n_bootstraps, confidence_level)
-    
-    return initial_precision, error_range
+def compute_recall(pos_score, neg_score, threshold=None):
+    return _thr(lambda y, h: recall_score(y, h, zero_division=0), pos_score, neg_score, threshold)
 
-def compute_f1_with_symmetrical_confidence(pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95):
-    def compute_f1(pos_score, neg_score):
-        scores = torch.cat([pos_score, neg_score]).numpy()
-        pos_labels = np.ones(pos_score.shape[0])
-        neg_labels = np.zeros(neg_score.shape[0])
-        labels = np.concatenate([pos_labels, neg_labels])
-        threshold = 0.5
-        preds_binary = (scores > threshold).astype(int)
-        return f1_score(labels, preds_binary, zero_division=1)
-    
-    initial_f1 = compute_f1(pos_score, neg_score)
-    error_range = bootstrap_confidence_interval(compute_f1, pos_score, neg_score, n_bootstraps, confidence_level)
-    
-    return initial_f1, error_range
+
+def compute_hits_k(pos_score, neg_score, k=10):
+    """OGB-style Hits@K: share of positives scored strictly above the K-th highest NEGATIVE.
+    (The old version returned the share of positives among the top-K of the pooled list, i.e. precision@K.)"""
+    pos, neg = _np(pos_score), _np(neg_score)
+    kth = np.sort(neg)[-min(k, len(neg))]
+    return float((pos > kth).mean())
+
+
+def compute_precision_at_k(pos_score, neg_score, k=100):
+    s = np.r_[_np(pos_score), _np(neg_score)]
+    y = _labels(pos_score, neg_score)
+    order = np.argsort(-s, kind="mergesort")[:k]
+    return float(y[order].mean())
+
 
 def compute_focalloss(pos_score, neg_score, alpha=1, gamma=2):
-    scores = torch.cat([pos_score, neg_score])
-    labels = torch.cat([torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])])
-    BCE_loss = F.binary_cross_entropy_with_logits(scores, labels, reduction='none')
-    pt = torch.exp(-BCE_loss)
-    F_loss = alpha * (1 - pt) ** gamma * BCE_loss
-    return F_loss.mean().item()
+    """Focal loss on LOGITS (numpy, stable BCE-with-logits)."""
+    x = np.r_[_np(pos_score), _np(neg_score)]
+    if not SCORES_ARE_LOGITS:                       # probabilities -> logits, so the loss is always computed on logits
+        pc = np.clip(x, 1e-7, 1 - 1e-7); x = np.log(pc / (1 - pc))
+    y = _labels(pos_score, neg_score)
+    bce = np.maximum(x, 0) - x * y + np.log1p(np.exp(-np.abs(x)))
+    pt = np.exp(-bce)
+    return float((alpha * (1 - pt) ** gamma * bce).mean())
+
+
+# --------------------------------------------------------------------------- bootstrap
+def bootstrap_confidence_interval(metric_func, pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95,
+                                  seed=BOOTSTRAP_SEED):
+    """Stratified bootstrap over test pairs; returns the half-width of the percentile interval. Seeded (old one was not)."""
+    pos, neg = _np(pos_score), _np(neg_score)
+    rng = np.random.default_rng(seed)
+    vals = []
+    for _ in range(n_bootstraps):
+        vals.append(metric_func(pos[rng.integers(0, len(pos), len(pos))], neg[rng.integers(0, len(neg), len(neg))]))
+    a = (1 - confidence_level) / 2 * 100
+    lo, hi = np.nanpercentile(vals, [a, 100 - a])
+    return float((hi - lo) / 2)
+
+
+def _with_ci(fn):
+    def wrapper(pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95):
+        return fn(pos_score, neg_score), bootstrap_confidence_interval(fn, pos_score, neg_score, n_bootstraps, confidence_level)
+    return wrapper
+
+
+compute_auc_with_symmetrical_confidence = _with_ci(compute_auc)
+compute_map_with_symmetrical_confidence = _with_ci(compute_map)
+compute_f1_with_symmetrical_confidence = _with_ci(compute_f1)
+compute_accuracy_with_symmetrical_confidence = _with_ci(compute_accuracy)
+compute_precision_with_symmetrical_confidence = _with_ci(compute_precision)
+compute_recall_with_symmetrical_confidence = _with_ci(compute_recall)
+
 
 def compute_focalloss_with_symmetrical_confidence(pos_score, neg_score, alpha=1, gamma=2, n_bootstraps=1000, confidence_level=0.95):
-    initial_focal_loss = compute_focalloss(pos_score, neg_score, alpha, gamma)
-    error_range = bootstrap_confidence_interval(
-        lambda pos, neg: compute_focalloss(pos, neg, alpha, gamma),
-        pos_score, neg_score, n_bootstraps, confidence_level
-    )
-    return initial_focal_loss, error_range
+    fn = lambda p, n: compute_focalloss(p, n, alpha, gamma)
+    return fn(pos_score, neg_score), bootstrap_confidence_interval(fn, pos_score, neg_score, n_bootstraps, confidence_level)
 
-def compute_loss_with_symmetrical_confidence(pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95):
-    def compute_loss(pos_score, neg_score):
-        scores = torch.cat([pos_score, neg_score]).numpy()
-        pos_labels = np.ones(pos_score.shape[0])
-        neg_labels = np.zeros(neg_score.shape[0])
-        labels = np.concatenate([pos_labels, neg_labels])
-        threshold = 0.5
-        preds_binary = (scores > threshold).astype(int)
-        return loss_score(labels, preds_binary)
-    
-    initial_f1 = compute_loss(pos_score, neg_score)
-    error_range = bootstrap_confidence_interval(compute_loss, pos_score, neg_score, n_bootstraps, confidence_level)
-    
-    return initial_f1, error_range
 
-def compute_loss(pos_score, neg_score):
-    scores = torch.cat([pos_score, neg_score])
-    labels = torch.cat([torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])])
-    return F.binary_cross_entropy_with_logits(scores, labels)
+# --------------------------------------------------------------------------- plots
+def _finish(path, show=False):
+    plt.savefig(path, dpi=200, bbox_inches="tight")
+    plt.show() if show else None
+    plt.close()
 
-def compute_auc_with_symmetrical_confidence(pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95):
-    def compute_auc(pos_score, neg_score):
-        scores = torch.cat([pos_score, neg_score]).numpy()
-        labels = torch.cat([torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])]).numpy()
-        return roc_auc_score(labels, scores)
-    
-    initial_auc = compute_auc(pos_score, neg_score)
-    error_range = bootstrap_confidence_interval(compute_auc, pos_score, neg_score, n_bootstraps, confidence_level)
-    
-    return initial_auc, error_range
 
-def compute_recall_with_symmetrical_confidence(pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95):
-    def compute_recall(pos_score, neg_score):
-        scores = torch.cat([pos_score, neg_score]).numpy()
-        pos_labels = np.ones(pos_score.shape[0])
-        neg_labels = np.zeros(neg_score.shape[0])
-        labels = np.concatenate([pos_labels, neg_labels])
-        threshold = 0.5
-        preds_binary = (scores > threshold).astype(int)
-        return recall_score(labels, preds_binary, zero_division=1)
-    
-    initial_recall = compute_recall(pos_score, neg_score)
-    error_range = bootstrap_confidence_interval(compute_recall, pos_score, neg_score, n_bootstraps, confidence_level)
-    
-    return initial_recall, error_range
+def plot_roc_curves(fold_results, output_path):
+    """Per-fold ROC with the TRUE AUC in the legend (the old legend printed tpr.mean(), which is not an AUC)."""
+    plt.figure(figsize=(8, 6))
+    aucs = []
+    for i, (y, s) in enumerate(fold_results):
+        fpr, tpr, _ = roc_curve(y, s); aucs.append(auc(fpr, tpr))
+        plt.plot(fpr, tpr, lw=1, label=f"Fold {i + 1} (AUC = {aucs[-1]:.4f})")
+    plt.plot([0, 1], [0, 1], "--", color="gray", lw=0.8, label="Chance")
+    plt.xlabel("False Positive Rate"); plt.ylabel("True Positive Rate")
+    plt.title(f"ROC (mean AUC = {np.mean(aucs):.4f} $\\pm$ {np.std(aucs, ddof=1):.4f} across folds)")
+    plt.legend(loc="lower right", fontsize="small"); _finish(output_path)
 
-def compute_map_with_symmetrical_confidence(pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95):
-    def compute_map(pos_score, neg_score):
-        scores = torch.cat([pos_score, neg_score]).detach().numpy()
-        labels = torch.cat([torch.ones(pos_score.shape[0]), torch.zeros(neg_score.shape[0])]).detach().numpy()
-        ranked_indices = np.argsort(-scores)
-        sorted_labels = labels[ranked_indices]
 
-        precisions = []
-        relevant_docs = 0
-        for i, label in enumerate(sorted_labels):
-            if label == 1:
-                relevant_docs += 1
-                precisions.append(relevant_docs / (i + 1))
+def plot_pr_curves(fold_results, output_path_cross_pr):
+    """Per-fold PR curves with average precision; the chance level is the positive rate (horizontal), not a diagonal."""
+    plt.figure(figsize=(8, 6)); aps, prev = [], []
+    for i, (y, s) in enumerate(fold_results):
+        p, r, _ = precision_recall_curve(y, s); aps.append(average_precision_score(y, s)); prev.append(np.mean(y))
+        plt.plot(r, p, lw=1, label=f"Fold {i + 1} (AP = {aps[-1]:.4f})")
+    plt.axhline(np.mean(prev), ls="--", color="gray", lw=0.8, label=f"Chance (positive rate = {np.mean(prev):.2f})")
+    plt.xlabel("Recall"); plt.ylabel("Precision")
+    plt.title(f"Precision-Recall (mean AP = {np.mean(aps):.4f} $\\pm$ {np.std(aps, ddof=1):.4f} across folds)")
+    plt.legend(loc="lower left", fontsize="small"); _finish(output_path_cross_pr)
+    print(f"Precision-Recall curves saved at: {output_path_cross_pr}")
 
-        if len(precisions) == 0:
-            return 0.0
 
-        return np.mean(precisions)
-    
-    initial_map = compute_map(pos_score, neg_score)
-    error_range = bootstrap_confidence_interval(compute_map, pos_score, neg_score, n_bootstraps, confidence_level)
-    
-    return initial_map, error_range
+def plot_roc_pr_curves(fold_results, output_path):
+    """Side-by-side ROC and PR with the mean curve (interpolated) and +/-1 SD band."""
+    fig, ax = plt.subplots(1, 2, figsize=(14, 5.5))
+    grid = np.linspace(0, 1, 201); tprs, precs, aucs, aps, prev = [], [], [], [], []
+    for i, (y, s) in enumerate(fold_results):
+        fpr, tpr, _ = roc_curve(y, s); aucs.append(auc(fpr, tpr))
+        t = np.interp(grid, fpr, tpr); t[0] = 0.0; tprs.append(t)
+        p, r, _ = precision_recall_curve(y, s); aps.append(average_precision_score(y, s)); prev.append(np.mean(y))
+        precs.append(np.interp(grid, r[::-1], p[::-1]))
+        ax[0].plot(fpr, tpr, lw=0.8, alpha=0.6, label=f"Fold {i + 1} (AUC = {aucs[-1]:.4f})")
+        ax[1].plot(r, p, lw=0.8, alpha=0.6, label=f"Fold {i + 1} (AP = {aps[-1]:.4f})")
+    for a, curves, lab in ((ax[0], tprs, f"Mean (AUC = {np.mean(aucs):.4f})"), (ax[1], precs, f"Mean (AP = {np.mean(aps):.4f})")):
+        m, sd = np.mean(curves, 0), np.std(curves, 0)
+        a.plot(grid, m, color="k", lw=1.5, label=lab); a.fill_between(grid, m - sd, m + sd, color="gray", alpha=0.2)
+    ax[0].plot([0, 1], [0, 1], "--", color="gray", lw=0.8)
+    ax[1].axhline(np.mean(prev), ls="--", color="gray", lw=0.8)
+    ax[0].set(xlabel="False Positive Rate", ylabel="True Positive Rate", title="ROC")
+    ax[1].set(xlabel="Recall", ylabel="Precision", title="Precision-Recall")
+    ax[0].legend(loc="lower right", fontsize="small"); ax[1].legend(loc="lower left", fontsize="small")
+    fig.tight_layout(); _finish(output_path)
 
-def bootstrap_confidence_interval(metric_func, pos_score, neg_score, n_bootstraps=1000, confidence_level=0.95):
-    metric_scores = []
-    for _ in range(n_bootstraps):
-        pos_sampled = resample(pos_score.numpy())
-        neg_sampled = resample(neg_score.numpy())
-        metric_scores.append(metric_func(torch.tensor(pos_sampled), torch.tensor(neg_sampled)))
-    
-    lower_bound = np.percentile(metric_scores, ((1 - confidence_level) / 2) * 100)
-    upper_bound = np.percentile(metric_scores, (confidence_level + (1 - confidence_level) / 2) * 100)
-    error_range = (upper_bound - lower_bound) / 2
-    
-    return error_range
-   
-def plot_scores(epochs, train_f1_scores, val_f1_scores, train_focal_loss_scores, val_focal_loss_scores, train_auc_scores, val_auc_scores, 
-                train_map_scores, val_map_scores, train_recall_scores, val_recall_scores,
-                train_acc_scores, val_acc_scores, train_precision_scores, val_precision_scores,
-                output_path, args):
 
-    # Ensure the output directory exists
+def plot_training_validation_metrics(train_accuracies, avg_train_accuracies, val_accuracies, avg_val_accuracies,
+                                     train_losses, avg_train_losses, val_losses, avg_val_losses, output_path, args):
+    fig, axes = plt.subplots(2, 2, figsize=(12, 8))
+    for ax, curves, avg, ttl, yl in ((axes[0, 0], train_accuracies, avg_train_accuracies, "Training Accuracy", "Accuracy"),
+                                     (axes[0, 1], val_accuracies, avg_val_accuracies, "Validation Accuracy", "Accuracy"),
+                                     (axes[1, 0], train_losses, avg_train_losses, "Training Loss", "Loss"),
+                                     (axes[1, 1], val_losses, avg_val_losses, "Validation Loss", "Loss")):
+        for i, c in enumerate(curves): ax.plot(c, lw=1, label=f"Fold {i + 1}")
+        ax.plot(avg, color="k", lw=1.5, label="Mean"); ax.set(xlabel="Epochs", ylabel=yl, title=ttl); ax.legend(fontsize="small")
+    fig.tight_layout()
+    _finish(os.path.join(output_path, f"train_val_metrics_lr{args.lr}_lay{args.num_layers}_input{args.input_size}_dim{args.out_feats}_epoch{args.epochs}.png"))
+
+
+def plot_scores(epochs, train_f1_scores, val_f1_scores, train_focal_loss_scores, val_focal_loss_scores, train_auc_scores,
+                val_auc_scores, train_map_scores, val_map_scores, train_recall_scores, val_recall_scores, train_acc_scores,
+                val_acc_scores, train_precision_scores, val_precision_scores, output_path, args):
     os.makedirs(output_path, exist_ok=True)
-
-    ##plt.figure(figsize=(15, 5))
-
-    ##plt.subplot(1, 2, 1)
-    plt.figure()
-    plt.plot(epochs, train_f1_scores, label='Training F1 Score')
-    plt.plot(epochs, val_f1_scores, label='Validation F1 Score')
-    plt.xlabel('Epochs')
-    plt.ylabel('F1 Score')
-    plt.title('Training and Validation F1 Scores over Epochs')
-    plt.legend()
-    ##plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
-    plt.savefig(os.path.join(output_path, f'f1_head{args.num_heads}_dim{args.out_feats}_lay{args.num_layers}_epo{args.epochs}.png'))
-
-    ##plt.figure(figsize=(15, 5))
-
-    ##plt.subplot(1, 2, 1)
-    plt.figure()
-    plt.plot(epochs, train_focal_loss_scores, label='Training FocalLoss Score')
-    plt.plot(epochs, val_focal_loss_scores, label='Validation FocalLoss Score')
-    plt.xlabel('Epochs')
-    plt.ylabel('FocalLoss Score')
-    plt.title('Training and Validation FocalLoss Scores over Epochs')
-    plt.legend()
-    ##plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
-    plt.savefig(os.path.join(output_path, f'loss_head{args.num_heads}_dim{args.out_feats}_lay{args.num_layers}_epo{args.epochs}.png'))
-    
-    ##plt.figure(figsize=(15, 5))
-
-    ##plt.subplot(1, 2, 1)
-    plt.figure()
-    plt.plot(epochs, train_auc_scores, label='Training AUC')
-    plt.plot(epochs, val_auc_scores, label='Validation AUC')
-    plt.xlabel('Epochs')
-    plt.ylabel('AUC')
-    plt.title('Training and Validation AUC over Epochs')
-    plt.legend()
-    ##plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
-    plt.savefig(os.path.join(output_path, f'auc_head{args.num_heads}_dim{args.out_feats}_lay{args.num_layers}_epo{args.epochs}.png'))
-
-    ##plt.figure(figsize=(15, 5))
-
-    ##plt.subplot(1, 2, 1)
-    plt.figure()
-    plt.plot(epochs, train_map_scores, label='Training mAP')
-    plt.plot(epochs, val_map_scores, label='Validation mAP')
-    plt.xlabel('Epochs')
-    plt.ylabel('mAP')
-    plt.title('Training and Validation mAP over Epochs')
-    plt.legend()
-    ##plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
-    plt.savefig(os.path.join(output_path, f'mAP_head{args.num_heads}_dim{args.out_feats}_lay{args.num_layers}_epo{args.epochs}.png'))
+    spec = [("f1", "F1 Score", train_f1_scores, val_f1_scores), ("loss", "FocalLoss", train_focal_loss_scores, val_focal_loss_scores),
+            ("auc", "AUC", train_auc_scores, val_auc_scores), ("mAP", "mAP", train_map_scores, val_map_scores),
+            ("recall", "Recall", train_recall_scores, val_recall_scores), ("acc", "Accuracy", train_acc_scores, val_acc_scores),
+            ("precision", "Precision", train_precision_scores, val_precision_scores)]
+    for tag, name, tr, va in spec:
+        plt.figure(); plt.plot(epochs, tr, label=f"Training {name}"); plt.plot(epochs, va, label=f"Validation {name}")
+        plt.xlabel("Epochs"); plt.ylabel(name); plt.title(f"Training and Validation {name} over Epochs"); plt.legend()
+        _finish(os.path.join(output_path, f"{tag}_head{args.num_heads}_dim{args.out_feats}_lay{args.num_layers}_epo{args.epochs}.png"))
 
 
-    ##plt.figure(figsize=(15, 5))
-
-    ##plt.subplot(1, 2, 1)
-    plt.figure()
-    plt.plot(epochs, train_recall_scores, label='Training Recall')
-    plt.plot(epochs, val_recall_scores, label='Validation Recall')
-    plt.xlabel('Epochs')
-    plt.ylabel('Recall')
-    plt.title('Training and Validation Recall over Epochs')
-    plt.legend()
-    ##plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
-    plt.savefig(os.path.join(output_path, f'recall_head{args.num_heads}_dim{args.out_feats}_lay{args.num_layers}_epo{args.epochs}.png'))
+def plot_validation_accuracy(accuracies, avg_accuracies, output_path, args):
+    plt.figure(figsize=(10, 6))
+    for i, a in enumerate(accuracies): plt.plot(a, label=f"Fold {i + 1}")
+    plt.plot(avg_accuracies, color="k", label="Mean"); plt.xlabel("Epochs"); plt.ylabel("Validation Accuracy"); plt.legend()
+    _finish(os.path.join(output_path, f"accuracy_lr{args.lr}_lay{args.num_layers}_input{args.input_size}_dim{args.out_feats}_epoch{args.epochs}.png"))
 
 
-    ##plt.figure(figsize=(15, 5))
+def plot_loss(losses, avg_losses, output_path, args):
+    plt.figure(figsize=(10, 6))
+    for i, l in enumerate(losses): plt.plot(l, label=f"Fold {i + 1}")
+    plt.plot(avg_losses, color="k", label="Mean"); plt.xlabel("Epochs"); plt.ylabel("Loss"); plt.legend()
+    _finish(os.path.join(output_path, f"loss_lr{args.lr}_lay{args.num_layers}_input{args.input_size}_dim{args.out_feats}_epoch{args.epochs}.png"))
 
-    ##plt.subplot(1, 2, 1)
-    plt.figure()
-    plt.plot(epochs, train_acc_scores, label='Training Accuracy')
-    plt.plot(epochs, val_acc_scores, label='Validation Accuracy')
-    plt.xlabel('Epochs')
-    plt.ylabel('Accuracy')
-    plt.title('Training and Validation Accuracy over Epochs')
-    plt.legend()
-    ##plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
-    plt.savefig(os.path.join(output_path, f'acc_head{args.num_heads}_dim{args.out_feats}_lay{args.num_layers}_epo{args.epochs}.png'))
-    ##plt.figure(figsize=(15, 5))
 
-    ##plt.subplot(1, 2, 1)
-    plt.figure()
-    plt.plot(epochs, train_precision_scores, label='Training Precision')
-    plt.plot(epochs, val_precision_scores, label='Validation Precision')
-    plt.xlabel('Epochs')
-    plt.ylabel('Precision')
-    plt.title('Training and Validation Precision over Epochs')
-    plt.legend()
-    ##plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
-    plt.savefig(os.path.join(output_path, f'precision_head{args.num_heads}_dim{args.out_feats}_lay{args.num_layers}_epo{args.epochs}.png'))
+plot_precision_recall_curves = plot_pr_curves          # old names kept as aliases
+plot_roc_curves_ = plot_roc_curves
 
-    plt.show()
 
+# --------------------------------------------------------------------------- literature evidence (vectorised)
+def find_evidence(row, df2):
+    """Single-row version kept for compatibility; prefer add_evidence(df, df2) for whole tables."""
+    for a, b in ((row["source"], row["destination"]), (row["destination"], row["source"])):
+        m = df2[(df2["miRNA"] == a) & (df2["disease"] == b)]
+        if not m.empty:
+            return m.iloc[0]["reference"]
+    return "Unconfirmed"
+
+
+def add_evidence(df, df2, src="source", dst="destination"):
+    """Vectorised: one merge per orientation instead of scanning df2 for every row."""
+    ref = df2.drop_duplicates(["miRNA", "disease"])[["miRNA", "disease", "reference"]]
+    a = df[[src, dst]].merge(ref, left_on=[src, dst], right_on=["miRNA", "disease"], how="left")["reference"]
+    b = df[[src, dst]].merge(ref, left_on=[dst, src], right_on=["miRNA", "disease"], how="left")["reference"]
+    out = df.copy(); out["reference"] = a.values; out["reference"] = out["reference"].fillna(pd_series(b.values)).fillna("Unconfirmed")
+    return out
+
+
+def pd_series(v):
+    import pandas as pd
+    return pd.Series(v)

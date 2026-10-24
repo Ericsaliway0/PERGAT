@@ -19,6 +19,8 @@ if __name__ == "__main__":
 
     ##G_dgl, node_features = load_graph_data('data/miRNA_disease_embeddings.json')
     G_dgl, node_features, node_id_to_name = load_graph_data('data/miRNA_disease_network.json')
+    # G_dgl, node_features, node_id_to_name = load_graph_data('data/miRNA_disease_embeddings_HMDD.json')
+    # G_dgl, node_features, node_id_to_name = load_graph_data('data/miRNA_disease_embeddings_hmdd_v3.json')
     ##print('node_features.shape============\n',node_features)
     train_and_evaluate(args, G_dgl, node_features, node_id_to_name)
 
